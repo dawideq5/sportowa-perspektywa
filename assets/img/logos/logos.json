@@ -1,0 +1,314 @@
+[
+ {
+  "id": "pec-tychy",
+  "name": "PEC Tychy",
+  "group": "sponsor",
+  "file": "assets/img/logos/pec-tychy.png",
+  "ratio": 2.168,
+  "source": "https://sportowaperspektywa.pl/wp-content/uploads/2026/05/pec_kolor_logo.jpg"
+ },
+ {
+  "id": "szromek",
+  "name": "Szromek — budownictwo przemysłowe",
+  "group": "sponsor",
+  "file": "assets/img/logos/szromek.png",
+  "ratio": 4.099,
+  "source": "https://sportowaperspektywa.pl/wp-content/uploads/2024/06/logo_szromek-2-1.pdf"
+ },
+ {
+  "id": "pracownicy24",
+  "name": "Pracownicy24",
+  "group": "sponsor",
+  "file": "assets/img/logos/pracownicy24.png",
+  "ratio": 14.029,
+  "source": "https://pracownicy24.pl/wp-content/uploads/2021/02/logo-pr24.png"
+ },
+ {
+  "id": "mb24",
+  "name": "MB24 Teleradiologia",
+  "group": "sponsor",
+  "file": "assets/img/logos/mb24.png",
+  "ratio": 0.637,
+  "source": "https://sportowaperspektywa.pl/wp-content/uploads/2026/05/7608bcbf-95f0-4a79-b0cb-04612aadff98.png"
+ },
+ {
+  "id": "atrion",
+  "name": "Atrion Centrum Biznesowe",
+  "group": "sponsor",
+  "file": "assets/img/logos/atrion.png",
+  "ratio": 3.022,
+  "source": "https://sportowaperspektywa.pl/wp-content/uploads/2025/10/Zrzut-ekranu-2024-07-2-o-14.37.41.jpg"
+ },
+ {
+  "id": "vimex",
+  "name": "Vimex design",
+  "group": "sponsor",
+  "file": "assets/img/logos/vimex.png",
+  "ratio": 3.3,
+  "source": "https://sportowaperspektywa.pl/wp-content/uploads/2023/11/vimex-design.jpg"
+ },
+ {
+  "id": "kulanska",
+  "name": "Kulańska Nieruchomości",
+  "group": "sponsor",
+  "file": "assets/img/logos/kulanska.png",
+  "ratio": 2.994,
+  "source": "https://sportowaperspektywa.pl/wp-content/uploads/2024/12/logo_kulanska_gotowe.jpg"
+ },
+ {
+  "id": "wszystko-jest-w-glowie",
+  "name": "Wszystko Jest w Głowie",
+  "group": "sponsor",
+  "file": "assets/img/logos/wszystko-jest-w-glowie.png",
+  "ratio": 5.36,
+  "source": "https://sportowaperspektywa.pl/wp-content/uploads/2026/05/90d30e10-a06f-47f4-9ae9-213ab3c4d53a.png"
+ },
+ {
+  "id": "alpinator",
+  "name": "Alpinator.pl",
+  "group": "partner",
+  "file": "assets/img/logos/alpinator.png",
+  "ratio": 2.818,
+  "source": "https://sportowaperspektywa.pl/wp-content/uploads/2022/05/logo_alpinator_bez_tla-1536x645-1.png"
+ },
+ {
+  "id": "azteq",
+  "name": "Azteq Design",
+  "group": "partner",
+  "file": "assets/img/logos/azteq.png",
+  "ratio": 2.798,
+  "source": "https://sportowaperspektywa.pl/wp-content/uploads/2022/03/azteq-black-logo-1.png"
+ },
+ {
+  "id": "adamed",
+  "name": "Adamed — pracownia rehabilitacji",
+  "group": "partner",
+  "file": "assets/img/logos/adamed.png",
+  "ratio": 2.568,
+  "source": "https://sportowaperspektywa.pl/wp-content/uploads/2016/11/adamed2-1.png"
+ },
+ {
+  "id": "evenement",
+  "name": "Evenement — biuro rachunkowe",
+  "group": "partner",
+  "file": "assets/img/logos/evenement.png",
+  "ratio": 3.615,
+  "source": "https://sportowaperspektywa.pl/wp-content/uploads/2023/01/eve3.jpg"
+ },
+ {
+  "id": "wingar",
+  "name": "WINGAR — ogrody zimowe",
+  "group": "partner",
+  "file": "assets/img/logos/wingar.png",
+  "ratio": 5.273,
+  "source": "https://sportowaperspektywa.pl/wp-content/uploads/2023/10/winngar2.jpg"
+ },
+ {
+  "id": "floating",
+  "name": "Floating & Ganbanyoku Tychy",
+  "group": "partner",
+  "file": "assets/img/logos/floating.png",
+  "ratio": 1.325,
+  "source": "https://sportowaperspektywa.pl/wp-content/uploads/2023/03/floattychy2.jpg"
+ },
+ {
+  "id": "oxy-rebab",
+  "name": "Oxy-Rebab — tlenoterapia hiperbaryczna",
+  "group": "partner",
+  "file": "assets/img/logos/oxy-rebab.png",
+  "ratio": 1.291,
+  "source": "https://sportowaperspektywa.pl/wp-content/uploads/2022/03/241145907_488225752519054_5448999581159469393_n.png"
+ },
+ {
+  "id": "salon-urody",
+  "name": "Salon Urody i Dietetyki",
+  "group": "partner",
+  "file": "assets/img/logos/salon-urody.png",
+  "ratio": 4.808,
+  "source": "https://sportowaperspektywa.pl/wp-content/uploads/2023/08/salon-urody.jpg"
+ },
+ {
+  "id": "akademia-biegania",
+  "name": "Akademia Biegania Szymona Wdowiaka",
+  "group": "partner",
+  "file": "assets/img/logos/akademia-biegania.png",
+  "ratio": 0.977,
+  "source": "https://sportowaperspektywa.pl/wp-content/uploads/2022/04/nowe-akademia-300x130.png"
+ },
+ {
+  "id": "pawel-olczyk",
+  "name": "Paweł Olczyk — trener",
+  "group": "partner",
+  "file": "assets/img/logos/pawel-olczyk.png",
+  "ratio": 1.603,
+  "source": "https://sportowaperspektywa.pl/wp-content/uploads/2022/04/nowe-olczyk-300x130.png"
+ },
+ {
+  "id": "swiatloczula",
+  "name": "Światłoczuła",
+  "group": "partner",
+  "file": "assets/img/logos/swiatloczula.png",
+  "ratio": 4.155,
+  "source": "https://sportowaperspektywa.pl/wp-content/uploads/2022/04/nowe-swiatloczula-300x130.png"
+ },
+ {
+  "id": "hardasuka",
+  "name": "HardaSuka Ultimate Triathlon",
+  "group": "event",
+  "file": "assets/img/logos/hardasuka.png",
+  "ratio": 1.81,
+  "source": "https://hardasuka.pl/assets/logo-edeec994f98bb5a507822df7616da5063c2223fb39c568b916f728fa6af2a35f.png"
+ },
+ {
+  "id": "iisa",
+  "name": "International Ice Swimming Association",
+  "group": "event",
+  "file": "assets/img/logos/iisa.png",
+  "ratio": 0.678,
+  "source": "https://internationaliceswimming.com/wp-content/uploads/2018/09/IISA-Final-logo-RGB.png"
+ },
+ {
+  "id": "ice-cup-poland",
+  "name": "Ice Cup Poland",
+  "group": "event",
+  "file": "assets/img/logos/ice-cup-poland.png",
+  "ratio": 0.99,
+  "source": "https://sportowaperspektywa.pl/wp-content/uploads/2022/05/ice-cup.jpg"
+ },
+ {
+  "id": "kgp",
+  "name": "Klub Zdobywców Korony Gór Polski",
+  "group": "event",
+  "file": "assets/img/logos/kgp.png",
+  "ratio": 1.023,
+  "source": "https://kgp.info.pl/wp-content/themes/korona/dist/images/logo_d3781823.png"
+ },
+ {
+  "id": "fkt",
+  "name": "Fastest Known Time",
+  "group": "event",
+  "file": "assets/img/logos/fkt.png",
+  "ratio": 2.231,
+  "source": "https://fastestknowntime.com/themes/custom/fkt_bootstrap/images/logo/fkt-logo.png"
+ },
+ {
+  "id": "nash-festival",
+  "name": "NASH Festival",
+  "group": "event",
+  "file": "assets/img/logos/nash-festival.png",
+  "ratio": 1.235,
+  "source": "https://nashfestival.pl/wp-content/uploads/2024/10/logo.png"
+ },
+ {
+  "id": "swietlikowo",
+  "name": "Fundacja Śląskie Hospicjum dla Dzieci Świetlikowo",
+  "group": "foundation",
+  "file": "assets/img/logos/swietlikowo.png",
+  "ratio": 1.519,
+  "source": "https://www.shd.org.pl/wp-content/uploads/2019/10/logo.png"
+ },
+ {
+  "id": "slonie-na-balkonie",
+  "name": "Fundacja Słonie na Balkonie",
+  "group": "foundation",
+  "file": "assets/img/logos/slonie-na-balkonie.svg",
+  "ratio": 3.856,
+  "source": "https://slonienabalkonie.pl/wp-content/themes/wp_slonie/images/Group-733.svg"
+ },
+ {
+  "id": "szerpowie-nadziei",
+  "name": "Fundacja Szerpowie Nadziei",
+  "group": "foundation",
+  "file": "assets/img/logos/szerpowie-nadziei.png",
+  "ratio": 1.086,
+  "source": "https://szerpowienadziei.org/wp-content/uploads/uploads/2023/12/cropped-387488912_1419630122269434_274383415152565445_n.png"
+ },
+ {
+  "id": "szlachetna-paczka",
+  "name": "Szlachetna Paczka",
+  "group": "foundation",
+  "file": "assets/img/logos/szlachetna-paczka.png",
+  "ratio": 1.0,
+  "source": "https://www.szlachetnapaczka.pl/wp-content/uploads/2022/11/logo-szlachetna-paczka-2022-1.png"
+ },
+ {
+  "id": "siepomaga",
+  "name": "siepomaga.pl",
+  "group": "foundation",
+  "file": "assets/img/logos/siepomaga.png",
+  "ratio": 3.88,
+  "source": "https://sportowaperspektywa.pl/wp-content/uploads/2022/12/siepomaga.webp"
+ },
+ {
+  "id": "tvp3-katowice",
+  "name": "TVP3 Katowice",
+  "group": "media",
+  "file": "assets/img/logos/tvp3-katowice.svg",
+  "ratio": 1.684,
+  "source": "https://commons.wikimedia.org/wiki/File:TVP3_Katowice_2016.svg"
+ },
+ {
+  "id": "teleexpress",
+  "name": "Teleexpress",
+  "group": "media",
+  "file": "assets/img/logos/teleexpress.png",
+  "ratio": 6.095,
+  "source": "https://commons.wikimedia.org/wiki/File:Teleexpress_TVP1.png"
+ },
+ {
+  "id": "polsat",
+  "name": "Polsat",
+  "group": "media",
+  "file": "assets/img/logos/polsat.svg",
+  "ratio": 0.984,
+  "source": "https://commons.wikimedia.org/wiki/File:Logo_Polsat.svg"
+ },
+ {
+  "id": "canal-plus-sport",
+  "name": "Canal+ Sport",
+  "group": "media",
+  "file": "assets/img/logos/canal-plus-sport.svg",
+  "ratio": 2.157,
+  "source": "https://commons.wikimedia.org/wiki/File:Logo_Canal+_Sport_2013.svg"
+ },
+ {
+  "id": "rmf-maxx",
+  "name": "RMF Maxx",
+  "group": "media",
+  "file": "assets/img/logos/rmf-maxx.png",
+  "ratio": 2.184,
+  "source": "https://commons.wikimedia.org/wiki/File:Logo_RMF_MAXX.png"
+ },
+ {
+  "id": "radio-357",
+  "name": "Radio 357",
+  "group": "media",
+  "file": "assets/img/logos/radio-357.svg",
+  "ratio": 3.089,
+  "source": "https://radio357.pl"
+ },
+ {
+  "id": "radio-eska",
+  "name": "Radio Eska",
+  "group": "media",
+  "file": "assets/img/logos/radio-eska.svg",
+  "ratio": 3.014,
+  "source": "https://commons.wikimedia.org/wiki/File:Logo_Radia_Eska.svg"
+ },
+ {
+  "id": "vox-fm",
+  "name": "Vox FM",
+  "group": "media",
+  "file": "assets/img/logos/vox-fm.png",
+  "ratio": 1.876,
+  "source": "https://commons.wikimedia.org/wiki/File:VOX_FM_2024.jpg"
+ },
+ {
+  "id": "wysokie-obcasy",
+  "name": "Wysokie Obcasy",
+  "group": "media",
+  "file": "assets/img/logos/wysokie-obcasy.svg",
+  "ratio": 7.971,
+  "source": "https://static.im-g.pl/im/7/31740/m31740767,LOGO-WO-WINIETA.svg"
+ }
+]

@@ -1,0 +1,2165 @@
+{
+"assets/img/hero-noc.jpg": {
+"mt": 1789770501,
+"w": 1600,
+"h": 1066,
+"v": [
+[
+480,
+"assets/img/_v/hero-noc-480.webp"
+],
+[
+800,
+"assets/img/_v/hero-noc-800.webp"
+],
+[
+1200,
+"assets/img/_v/hero-noc-1200.webp"
+],
+[
+1600,
+"assets/img/_v/hero-noc-1600.webp"
+]
+]
+},
+"assets/img/wulkan.jpg": {
+"mt": 1789770502,
+"w": 719,
+"h": 720,
+"v": [
+[
+480,
+"assets/img/_v/wulkan-480.webp"
+],
+[
+719,
+"assets/img/_v/wulkan-719.webp"
+]
+]
+},
+"assets/img/czek.jpg": {
+"mt": 1789770501,
+"w": 1440,
+"h": 1547,
+"v": [
+[
+480,
+"assets/img/_v/czek-480.webp"
+],
+[
+800,
+"assets/img/_v/czek-800.webp"
+],
+[
+1200,
+"assets/img/_v/czek-1200.webp"
+],
+[
+1440,
+"assets/img/_v/czek-1440.webp"
+]
+]
+},
+"assets/img/warsztat.jpg": {
+"mt": 1789770502,
+"w": 1600,
+"h": 1068,
+"v": [
+[
+480,
+"assets/img/_v/warsztat-480.webp"
+],
+[
+800,
+"assets/img/_v/warsztat-800.webp"
+],
+[
+1200,
+"assets/img/_v/warsztat-1200.webp"
+],
+[
+1600,
+"assets/img/_v/warsztat-1600.webp"
+]
+]
+},
+"assets/img/scena.jpg": {
+"mt": 1789770502,
+"w": 1600,
+"h": 1067,
+"v": [
+[
+480,
+"assets/img/_v/scena-480.webp"
+],
+[
+800,
+"assets/img/_v/scena-800.webp"
+],
+[
+1200,
+"assets/img/_v/scena-1200.webp"
+],
+[
+1600,
+"assets/img/_v/scena-1600.webp"
+]
+]
+},
+"assets/img/przeszlosc.jpg": {
+"mt": 1789770502,
+"w": 1600,
+"h": 592,
+"v": [
+[
+480,
+"assets/img/_v/przeszlosc-480.webp"
+],
+[
+800,
+"assets/img/_v/przeszlosc-800.webp"
+],
+[
+1200,
+"assets/img/_v/przeszlosc-1200.webp"
+],
+[
+1600,
+"assets/img/_v/przeszlosc-1600.webp"
+]
+]
+},
+"assets/img/logos/hardasuka.png": {
+"mt": 1789770490,
+"w": 326,
+"h": 180,
+"v": [
+[
+326,
+"assets/img/_v/logos__hardasuka-326.webp"
+]
+]
+},
+"assets/img/logos/fkt.png": {
+"mt": 1789770491,
+"w": 261,
+"h": 117,
+"v": [
+[
+261,
+"assets/img/_v/logos__fkt-261.webp"
+]
+]
+},
+"assets/img/logos/kgp.png": {
+"mt": 1789770491,
+"w": 184,
+"h": 180,
+"v": [
+[
+184,
+"assets/img/_v/logos__kgp-184.webp"
+]
+]
+},
+"assets/img/logos/iisa.png": {
+"mt": 1789770490,
+"w": 122,
+"h": 180,
+"v": [
+[
+122,
+"assets/img/_v/logos__iisa-122.webp"
+]
+]
+},
+"assets/img/logos/siepomaga.png": {
+"mt": 1789770491,
+"w": 480,
+"h": 124,
+"v": [
+[
+480,
+"assets/img/_v/logos__siepomaga-480.webp"
+]
+]
+},
+"assets/img/logos/swietlikowo.png": {
+"mt": 1789770491,
+"w": 123,
+"h": 81,
+"v": [
+[
+123,
+"assets/img/_v/logos__swietlikowo-123.webp"
+]
+]
+},
+"assets/img/logos/szerpowie-nadziei.png": {
+"mt": 1789770491,
+"w": 195,
+"h": 180,
+"v": [
+[
+195,
+"assets/img/_v/logos__szerpowie-nadziei-195.webp"
+]
+]
+},
+"assets/img/logos/szlachetna-paczka.png": {
+"mt": 1789770491,
+"w": 180,
+"h": 180,
+"v": [
+[
+180,
+"assets/img/_v/logos__szlachetna-paczka-180.webp"
+]
+]
+},
+"assets/img/potega-pasji.jpg": {
+"mt": 1789770502,
+"w": 1600,
+"h": 1067,
+"v": [
+[
+480,
+"assets/img/_v/potega-pasji-480.webp"
+],
+[
+800,
+"assets/img/_v/potega-pasji-800.webp"
+],
+[
+1200,
+"assets/img/_v/potega-pasji-1200.webp"
+],
+[
+1600,
+"assets/img/_v/potega-pasji-1600.webp"
+]
+]
+},
+"assets/img/szkola.jpg": {
+"mt": 1789770502,
+"w": 1600,
+"h": 1067,
+"v": [
+[
+480,
+"assets/img/_v/szkola-480.webp"
+],
+[
+800,
+"assets/img/_v/szkola-800.webp"
+],
+[
+1200,
+"assets/img/_v/szkola-1200.webp"
+],
+[
+1600,
+"assets/img/_v/szkola-1600.webp"
+]
+]
+},
+"assets/img/sala-dzieci.jpg": {
+"mt": 1789770502,
+"w": 1600,
+"h": 1101,
+"v": [
+[
+480,
+"assets/img/_v/sala-dzieci-480.webp"
+],
+[
+800,
+"assets/img/_v/sala-dzieci-800.webp"
+],
+[
+1200,
+"assets/img/_v/sala-dzieci-1200.webp"
+],
+[
+1600,
+"assets/img/_v/sala-dzieci-1600.webp"
+]
+]
+},
+"assets/img/mikrofon.jpg": {
+"mt": 1789770502,
+"w": 1600,
+"h": 1067,
+"v": [
+[
+480,
+"assets/img/_v/mikrofon-480.webp"
+],
+[
+800,
+"assets/img/_v/mikrofon-800.webp"
+],
+[
+1200,
+"assets/img/_v/mikrofon-1200.webp"
+],
+[
+1600,
+"assets/img/_v/mikrofon-1600.webp"
+]
+]
+},
+"assets/img/ekran.jpg": {
+"mt": 1789770501,
+"w": 1600,
+"h": 1202,
+"v": [
+[
+480,
+"assets/img/_v/ekran-480.webp"
+],
+[
+800,
+"assets/img/_v/ekran-800.webp"
+],
+[
+1200,
+"assets/img/_v/ekran-1200.webp"
+],
+[
+1600,
+"assets/img/_v/ekran-1600.webp"
+]
+]
+},
+"assets/img/logos/pec-tychy.png": {
+"mt": 1789770490,
+"w": 390,
+"h": 180,
+"v": [
+[
+390,
+"assets/img/_v/logos__pec-tychy-390.webp"
+]
+]
+},
+"assets/img/logos/szromek.png": {
+"mt": 1789770490,
+"w": 480,
+"h": 117,
+"v": [
+[
+480,
+"assets/img/_v/logos__szromek-480.webp"
+]
+]
+},
+"assets/img/logos/pracownicy24.png": {
+"mt": 1789770490,
+"w": 480,
+"h": 34,
+"v": [
+[
+480,
+"assets/img/_v/logos__pracownicy24-480.webp"
+]
+]
+},
+"assets/img/logos/mb24.png": {
+"mt": 1789770490,
+"w": 115,
+"h": 180,
+"v": [
+[
+115,
+"assets/img/_v/logos__mb24-115.webp"
+]
+]
+},
+"assets/img/logos/atrion.png": {
+"mt": 1789770490,
+"w": 480,
+"h": 159,
+"v": [
+[
+480,
+"assets/img/_v/logos__atrion-480.webp"
+]
+]
+},
+"assets/img/logos/vimex.png": {
+"mt": 1789770490,
+"w": 480,
+"h": 145,
+"v": [
+[
+480,
+"assets/img/_v/logos__vimex-480.webp"
+]
+]
+},
+"assets/img/logos/kulanska.png": {
+"mt": 1789770490,
+"w": 480,
+"h": 160,
+"v": [
+[
+480,
+"assets/img/_v/logos__kulanska-480.webp"
+]
+]
+},
+"assets/img/logos/wszystko-jest-w-glowie.png": {
+"mt": 1789770490,
+"w": 480,
+"h": 90,
+"v": [
+[
+480,
+"assets/img/_v/logos__wszystko-jest-w-glowie-480.webp"
+]
+]
+},
+"assets/img/logos/alpinator.png": {
+"mt": 1789770490,
+"w": 480,
+"h": 170,
+"v": [
+[
+480,
+"assets/img/_v/logos__alpinator-480.webp"
+]
+]
+},
+"assets/img/logos/azteq.png": {
+"mt": 1789770490,
+"w": 235,
+"h": 84,
+"v": [
+[
+235,
+"assets/img/_v/logos__azteq-235.webp"
+]
+]
+},
+"assets/img/logos/adamed.png": {
+"mt": 1789770490,
+"w": 208,
+"h": 81,
+"v": [
+[
+208,
+"assets/img/_v/logos__adamed-208.webp"
+]
+]
+},
+"assets/img/logos/evenement.png": {
+"mt": 1789770490,
+"w": 480,
+"h": 133,
+"v": [
+[
+480,
+"assets/img/_v/logos__evenement-480.webp"
+]
+]
+},
+"assets/img/logos/wingar.png": {
+"mt": 1789770490,
+"w": 464,
+"h": 88,
+"v": [
+[
+464,
+"assets/img/_v/logos__wingar-464.webp"
+]
+]
+},
+"assets/img/logos/floating.png": {
+"mt": 1789770490,
+"w": 239,
+"h": 180,
+"v": [
+[
+239,
+"assets/img/_v/logos__floating-239.webp"
+]
+]
+},
+"assets/img/logos/oxy-rebab.png": {
+"mt": 1789770490,
+"w": 222,
+"h": 172,
+"v": [
+[
+222,
+"assets/img/_v/logos__oxy-rebab-222.webp"
+]
+]
+},
+"assets/img/logos/akademia-biegania.png": {
+"mt": 1789770490,
+"w": 126,
+"h": 129,
+"v": [
+[
+126,
+"assets/img/_v/logos__akademia-biegania-126.webp"
+]
+]
+},
+"assets/img/logos/pawel-olczyk.png": {
+"mt": 1789770490,
+"w": 202,
+"h": 126,
+"v": [
+[
+202,
+"assets/img/_v/logos__pawel-olczyk-202.webp"
+]
+]
+},
+"assets/img/logos/swiatloczula.png": {
+"mt": 1789770490,
+"w": 241,
+"h": 58,
+"v": [
+[
+241,
+"assets/img/_v/logos__swiatloczula-241.webp"
+]
+]
+},
+"assets/img/logos/salon-urody.png": {
+"mt": 1789770490,
+"w": 480,
+"h": 100,
+"v": [
+[
+480,
+"assets/img/_v/logos__salon-urody-480.webp"
+]
+]
+},
+"assets/img/logos/teleexpress.png": {
+"mt": 1789770491,
+"w": 384,
+"h": 63,
+"v": [
+[
+384,
+"assets/img/_v/logos__teleexpress-384.webp"
+]
+]
+},
+"assets/img/logos/rmf-maxx.png": {
+"mt": 1789770491,
+"w": 393,
+"h": 180,
+"v": [
+[
+393,
+"assets/img/_v/logos__rmf-maxx-393.webp"
+]
+]
+},
+"assets/img/logos/vox-fm.png": {
+"mt": 1789770491,
+"w": 338,
+"h": 180,
+"v": [
+[
+338,
+"assets/img/_v/logos__vox-fm-338.webp"
+]
+]
+},
+"assets/img/yt-2hard.jpg": {
+"mt": 1789823991,
+"w": 1280,
+"h": 720,
+"v": [
+[
+480,
+"assets/img/_v/yt-2hard-480.webp"
+],
+[
+800,
+"assets/img/_v/yt-2hard-800.webp"
+],
+[
+1200,
+"assets/img/_v/yt-2hard-1200.webp"
+],
+[
+1280,
+"assets/img/_v/yt-2hard-1280.webp"
+]
+]
+},
+"assets/img/yt-loop.jpg": {
+"mt": 1789823991,
+"w": 1280,
+"h": 720,
+"v": [
+[
+480,
+"assets/img/_v/yt-loop-480.webp"
+],
+[
+800,
+"assets/img/_v/yt-loop-800.webp"
+],
+[
+1200,
+"assets/img/_v/yt-loop-1200.webp"
+],
+[
+1280,
+"assets/img/_v/yt-loop-1280.webp"
+]
+]
+},
+"assets/img/yt-racepace.jpg": {
+"mt": 1789767322,
+"w": 960,
+"h": 540,
+"v": [
+[
+480,
+"assets/img/_v/yt-racepace-480.webp"
+],
+[
+800,
+"assets/img/_v/yt-racepace-800.webp"
+],
+[
+960,
+"assets/img/_v/yt-racepace-960.webp"
+]
+]
+},
+"assets/img/yt-tychy.jpg": {
+"mt": 1789767322,
+"w": 960,
+"h": 540,
+"v": [
+[
+480,
+"assets/img/_v/yt-tychy-480.webp"
+],
+[
+800,
+"assets/img/_v/yt-tychy-800.webp"
+],
+[
+960,
+"assets/img/_v/yt-tychy-960.webp"
+]
+]
+},
+"assets/img/yt-sponsoring.jpg": {
+"mt": 1789767322,
+"w": 480,
+"h": 360,
+"v": [
+[
+480,
+"assets/img/_v/yt-sponsoring-480.webp"
+]
+]
+},
+"assets/img/szlak-noc.jpg": {
+"mt": 1789770502,
+"w": 1172,
+"h": 1600,
+"v": [
+[
+480,
+"assets/img/_v/szlak-noc-480.webp"
+],
+[
+800,
+"assets/img/_v/szlak-noc-800.webp"
+],
+[
+1172,
+"assets/img/_v/szlak-noc-1172.webp"
+]
+]
+},
+"assets/img/noc-drogowskaz.jpg": {
+"mt": 1789770502,
+"w": 900,
+"h": 1600,
+"v": [
+[
+480,
+"assets/img/_v/noc-drogowskaz-480.webp"
+],
+[
+800,
+"assets/img/_v/noc-drogowskaz-800.webp"
+],
+[
+900,
+"assets/img/_v/noc-drogowskaz-900.webp"
+]
+]
+},
+"assets/img/gory-selfie.jpg": {
+"mt": 1789770501,
+"w": 1440,
+"h": 1085,
+"v": [
+[
+480,
+"assets/img/_v/gory-selfie-480.webp"
+],
+[
+800,
+"assets/img/_v/gory-selfie-800.webp"
+],
+[
+1200,
+"assets/img/_v/gory-selfie-1200.webp"
+],
+[
+1440,
+"assets/img/_v/gory-selfie-1440.webp"
+]
+]
+},
+"assets/img/blog/gsb-podziekowanie.jpg": {
+"mt": 1789771647,
+"w": 1200,
+"h": 1600,
+"v": [
+[
+480,
+"assets/img/_v/blog__gsb-podziekowanie-480.webp"
+],
+[
+800,
+"assets/img/_v/blog__gsb-podziekowanie-800.webp"
+],
+[
+1200,
+"assets/img/_v/blog__gsb-podziekowanie-1200.webp"
+]
+]
+},
+"assets/img/blog/gsb-baner.jpg": {
+"mt": 1789771647,
+"w": 1600,
+"h": 356,
+"v": [
+[
+480,
+"assets/img/_v/blog__gsb-baner-480.webp"
+],
+[
+800,
+"assets/img/_v/blog__gsb-baner-800.webp"
+],
+[
+1200,
+"assets/img/_v/blog__gsb-baner-1200.webp"
+],
+[
+1600,
+"assets/img/_v/blog__gsb-baner-1600.webp"
+]
+]
+},
+"assets/img/blog/gsb-licytacje.jpg": {
+"mt": 1789771647,
+"w": 1600,
+"h": 1600,
+"v": [
+[
+480,
+"assets/img/_v/blog__gsb-licytacje-480.webp"
+],
+[
+800,
+"assets/img/_v/blog__gsb-licytacje-800.webp"
+],
+[
+1200,
+"assets/img/_v/blog__gsb-licytacje-1200.webp"
+],
+[
+1600,
+"assets/img/_v/blog__gsb-licytacje-1600.webp"
+]
+]
+},
+"assets/img/las.jpg": {
+"mt": 1789770502,
+"w": 1277,
+"h": 1600,
+"v": [
+[
+480,
+"assets/img/_v/las-480.webp"
+],
+[
+800,
+"assets/img/_v/las-800.webp"
+],
+[
+1200,
+"assets/img/_v/las-1200.webp"
+],
+[
+1277,
+"assets/img/_v/las-1277.webp"
+]
+]
+},
+"assets/img/blog/gsb-kamper.jpg": {
+"mt": 1789771647,
+"w": 1600,
+"h": 1200,
+"v": [
+[
+480,
+"assets/img/_v/blog__gsb-kamper-480.webp"
+],
+[
+800,
+"assets/img/_v/blog__gsb-kamper-800.webp"
+],
+[
+1200,
+"assets/img/_v/blog__gsb-kamper-1200.webp"
+],
+[
+1600,
+"assets/img/_v/blog__gsb-kamper-1600.webp"
+]
+]
+},
+"assets/img/swit.jpg": {
+"mt": 1789770502,
+"w": 1600,
+"h": 900,
+"v": [
+[
+480,
+"assets/img/_v/swit-480.webp"
+],
+[
+800,
+"assets/img/_v/swit-800.webp"
+],
+[
+1200,
+"assets/img/_v/swit-1200.webp"
+],
+[
+1600,
+"assets/img/_v/swit-1600.webp"
+]
+]
+},
+"assets/img/superman.jpg": {
+"mt": 1789770502,
+"w": 1140,
+"h": 1600,
+"v": [
+[
+480,
+"assets/img/_v/superman-480.webp"
+],
+[
+800,
+"assets/img/_v/superman-800.webp"
+],
+[
+1140,
+"assets/img/_v/superman-1140.webp"
+]
+]
+},
+"assets/img/lod.jpg": {
+"mt": 1789770502,
+"w": 500,
+"h": 367,
+"v": [
+[
+480,
+"assets/img/_v/lod-480.webp"
+],
+[
+500,
+"assets/img/_v/lod-500.webp"
+]
+]
+},
+"assets/img/basen.jpg": {
+"mt": 1789770501,
+"w": 1066,
+"h": 1600,
+"v": [
+[
+480,
+"assets/img/_v/basen-480.webp"
+],
+[
+800,
+"assets/img/_v/basen-800.webp"
+],
+[
+1066,
+"assets/img/_v/basen-1066.webp"
+]
+]
+},
+"assets/img/kalistenika.jpg": {
+"mt": 1789770501,
+"w": 1600,
+"h": 900,
+"v": [
+[
+480,
+"assets/img/_v/kalistenika-480.webp"
+],
+[
+800,
+"assets/img/_v/kalistenika-800.webp"
+],
+[
+1200,
+"assets/img/_v/kalistenika-1200.webp"
+],
+[
+1600,
+"assets/img/_v/kalistenika-1600.webp"
+]
+]
+},
+"assets/img/plakat-2hard.jpg": {
+"mt": 1789770502,
+"w": 1131,
+"h": 1600,
+"v": [
+[
+480,
+"assets/img/_v/plakat-2hard-480.webp"
+],
+[
+800,
+"assets/img/_v/plakat-2hard-800.webp"
+],
+[
+1131,
+"assets/img/_v/plakat-2hard-1131.webp"
+]
+]
+},
+"assets/img/teraz.jpg": {
+"mt": 1789770502,
+"w": 1600,
+"h": 800,
+"v": [
+[
+480,
+"assets/img/_v/teraz-480.webp"
+],
+[
+800,
+"assets/img/_v/teraz-800.webp"
+],
+[
+1200,
+"assets/img/_v/teraz-1200.webp"
+],
+[
+1600,
+"assets/img/_v/teraz-1600.webp"
+]
+]
+},
+"assets/img/pomaganie/plakat-szlachetna-paczka.jpg": {
+"mt": 1789771808,
+"w": 539,
+"h": 758,
+"v": [
+[
+480,
+"assets/img/_v/pomaganie__plakat-szlachetna-paczka-480.webp"
+],
+[
+539,
+"assets/img/_v/pomaganie__plakat-szlachetna-paczka-539.webp"
+]
+]
+},
+"assets/img/pomaganie/plakat-tatry-2020.jpg": {
+"mt": 1789771808,
+"w": 900,
+"h": 1265,
+"v": [
+[
+480,
+"assets/img/_v/pomaganie__plakat-tatry-2020-480.webp"
+],
+[
+800,
+"assets/img/_v/pomaganie__plakat-tatry-2020-800.webp"
+],
+[
+900,
+"assets/img/_v/pomaganie__plakat-tatry-2020-900.webp"
+]
+]
+},
+"assets/img/pomaganie/plakat-gsb-2022.jpg": {
+"mt": 1789771807,
+"w": 900,
+"h": 1265,
+"v": [
+[
+480,
+"assets/img/_v/pomaganie__plakat-gsb-2022-480.webp"
+],
+[
+800,
+"assets/img/_v/pomaganie__plakat-gsb-2022-800.webp"
+],
+[
+900,
+"assets/img/_v/pomaganie__plakat-gsb-2022-900.webp"
+]
+]
+},
+"assets/img/pomaganie/plakat-natalka.jpg": {
+"mt": 1789771807,
+"w": 900,
+"h": 1273,
+"v": [
+[
+480,
+"assets/img/_v/pomaganie__plakat-natalka-480.webp"
+],
+[
+800,
+"assets/img/_v/pomaganie__plakat-natalka-800.webp"
+],
+[
+900,
+"assets/img/_v/pomaganie__plakat-natalka-900.webp"
+]
+]
+},
+"assets/img/pomaganie/plakat-plywanie-2024.jpg": {
+"mt": 1789771807,
+"w": 900,
+"h": 1265,
+"v": [
+[
+480,
+"assets/img/_v/pomaganie__plakat-plywanie-2024-480.webp"
+],
+[
+800,
+"assets/img/_v/pomaganie__plakat-plywanie-2024-800.webp"
+],
+[
+900,
+"assets/img/_v/pomaganie__plakat-plywanie-2024-900.webp"
+]
+]
+},
+"assets/img/pomaganie/plakat-nikusia.jpg": {
+"mt": 1789771807,
+"w": 900,
+"h": 1274,
+"v": [
+[
+480,
+"assets/img/_v/pomaganie__plakat-nikusia-480.webp"
+],
+[
+800,
+"assets/img/_v/pomaganie__plakat-nikusia-800.webp"
+],
+[
+900,
+"assets/img/_v/pomaganie__plakat-nikusia-900.webp"
+]
+]
+},
+"assets/img/pomaganie/plakat-kwadrat.jpg": {
+"mt": 1789771807,
+"w": 900,
+"h": 1273,
+"v": [
+[
+480,
+"assets/img/_v/pomaganie__plakat-kwadrat-480.webp"
+],
+[
+800,
+"assets/img/_v/pomaganie__plakat-kwadrat-800.webp"
+],
+[
+900,
+"assets/img/_v/pomaganie__plakat-kwadrat-900.webp"
+]
+]
+},
+"assets/img/prelekcje/ref-01-t.jpg": {
+"mt": 1789824008,
+"w": 540,
+"h": 770,
+"v": [
+[
+480,
+"assets/img/_v/prelekcje__ref-01-t-480.webp"
+],
+[
+540,
+"assets/img/_v/prelekcje__ref-01-t-540.webp"
+]
+]
+},
+"assets/img/prelekcje/ref-18-t.jpg": {
+"mt": 1789824009,
+"w": 540,
+"h": 763,
+"v": [
+[
+480,
+"assets/img/_v/prelekcje__ref-18-t-480.webp"
+],
+[
+540,
+"assets/img/_v/prelekcje__ref-18-t-540.webp"
+]
+]
+},
+"assets/img/prelekcje/ref-20-t.jpg": {
+"mt": 1789824009,
+"w": 540,
+"h": 770,
+"v": [
+[
+480,
+"assets/img/_v/prelekcje__ref-20-t-480.webp"
+],
+[
+540,
+"assets/img/_v/prelekcje__ref-20-t-540.webp"
+]
+]
+},
+"assets/img/prelekcje/ref-19-t.jpg": {
+"mt": 1789824009,
+"w": 540,
+"h": 763,
+"v": [
+[
+480,
+"assets/img/_v/prelekcje__ref-19-t-480.webp"
+],
+[
+540,
+"assets/img/_v/prelekcje__ref-19-t-540.webp"
+]
+]
+},
+"assets/img/prelekcje/ref-21-t.jpg": {
+"mt": 1789824009,
+"w": 540,
+"h": 764,
+"v": [
+[
+480,
+"assets/img/_v/prelekcje__ref-21-t-480.webp"
+],
+[
+540,
+"assets/img/_v/prelekcje__ref-21-t-540.webp"
+]
+]
+},
+"assets/img/prelekcje/ref-22-t.jpg": {
+"mt": 1789824009,
+"w": 540,
+"h": 764,
+"v": [
+[
+480,
+"assets/img/_v/prelekcje__ref-22-t-480.webp"
+],
+[
+540,
+"assets/img/_v/prelekcje__ref-22-t-540.webp"
+]
+]
+},
+"assets/img/prelekcje/ref-08-t.jpg": {
+"mt": 1789824009,
+"w": 540,
+"h": 763,
+"v": [
+[
+480,
+"assets/img/_v/prelekcje__ref-08-t-480.webp"
+],
+[
+540,
+"assets/img/_v/prelekcje__ref-08-t-540.webp"
+]
+]
+},
+"assets/img/prelekcje/ref-16-t.jpg": {
+"mt": 1789824009,
+"w": 540,
+"h": 771,
+"v": [
+[
+480,
+"assets/img/_v/prelekcje__ref-16-t-480.webp"
+],
+[
+540,
+"assets/img/_v/prelekcje__ref-16-t-540.webp"
+]
+]
+},
+"assets/img/prelekcje/ref-14-t.jpg": {
+"mt": 1789824009,
+"w": 540,
+"h": 774,
+"v": [
+[
+480,
+"assets/img/_v/prelekcje__ref-14-t-480.webp"
+],
+[
+540,
+"assets/img/_v/prelekcje__ref-14-t-540.webp"
+]
+]
+},
+"assets/img/prelekcje/ref-13-t.jpg": {
+"mt": 1789824009,
+"w": 540,
+"h": 764,
+"v": [
+[
+480,
+"assets/img/_v/prelekcje__ref-13-t-480.webp"
+],
+[
+540,
+"assets/img/_v/prelekcje__ref-13-t-540.webp"
+]
+]
+},
+"assets/img/prelekcje/ref-11-t.jpg": {
+"mt": 1789824009,
+"w": 540,
+"h": 699,
+"v": [
+[
+480,
+"assets/img/_v/prelekcje__ref-11-t-480.webp"
+],
+[
+540,
+"assets/img/_v/prelekcje__ref-11-t-540.webp"
+]
+]
+},
+"assets/img/prelekcje/ref-05-t.jpg": {
+"mt": 1789824008,
+"w": 540,
+"h": 800,
+"v": [
+[
+480,
+"assets/img/_v/prelekcje__ref-05-t-480.webp"
+],
+[
+540,
+"assets/img/_v/prelekcje__ref-05-t-540.webp"
+]
+]
+},
+"assets/img/prelekcje/ref-24-t.jpg": {
+"mt": 1789824009,
+"w": 540,
+"h": 769,
+"v": [
+[
+480,
+"assets/img/_v/prelekcje__ref-24-t-480.webp"
+],
+[
+540,
+"assets/img/_v/prelekcje__ref-24-t-540.webp"
+]
+]
+},
+"assets/img/prelekcje/ref-15-t.jpg": {
+"mt": 1789824009,
+"w": 540,
+"h": 764,
+"v": [
+[
+480,
+"assets/img/_v/prelekcje__ref-15-t-480.webp"
+],
+[
+540,
+"assets/img/_v/prelekcje__ref-15-t-540.webp"
+]
+]
+},
+"assets/img/prelekcje/ref-12-t.jpg": {
+"mt": 1789824009,
+"w": 540,
+"h": 764,
+"v": [
+[
+480,
+"assets/img/_v/prelekcje__ref-12-t-480.webp"
+],
+[
+540,
+"assets/img/_v/prelekcje__ref-12-t-540.webp"
+]
+]
+},
+"assets/img/prelekcje/ref-03-t.jpg": {
+"mt": 1789824008,
+"w": 540,
+"h": 769,
+"v": [
+[
+480,
+"assets/img/_v/prelekcje__ref-03-t-480.webp"
+],
+[
+540,
+"assets/img/_v/prelekcje__ref-03-t-540.webp"
+]
+]
+},
+"assets/img/prelekcje/ref-07-t.jpg": {
+"mt": 1789824009,
+"w": 540,
+"h": 755,
+"v": [
+[
+480,
+"assets/img/_v/prelekcje__ref-07-t-480.webp"
+],
+[
+540,
+"assets/img/_v/prelekcje__ref-07-t-540.webp"
+]
+]
+},
+"assets/img/prelekcje/ref-06-t.jpg": {
+"mt": 1789824008,
+"w": 540,
+"h": 764,
+"v": [
+[
+480,
+"assets/img/_v/prelekcje__ref-06-t-480.webp"
+],
+[
+540,
+"assets/img/_v/prelekcje__ref-06-t-540.webp"
+]
+]
+},
+"assets/img/prelekcje/ref-23-t.jpg": {
+"mt": 1789824009,
+"w": 540,
+"h": 770,
+"v": [
+[
+480,
+"assets/img/_v/prelekcje__ref-23-t-480.webp"
+],
+[
+540,
+"assets/img/_v/prelekcje__ref-23-t-540.webp"
+]
+]
+},
+"assets/img/prelekcje/ref-09-t.jpg": {
+"mt": 1789824009,
+"w": 540,
+"h": 768,
+"v": [
+[
+480,
+"assets/img/_v/prelekcje__ref-09-t-480.webp"
+],
+[
+540,
+"assets/img/_v/prelekcje__ref-09-t-540.webp"
+]
+]
+},
+"assets/img/prelekcje/ref-17-t.jpg": {
+"mt": 1789824009,
+"w": 540,
+"h": 764,
+"v": [
+[
+480,
+"assets/img/_v/prelekcje__ref-17-t-480.webp"
+],
+[
+540,
+"assets/img/_v/prelekcje__ref-17-t-540.webp"
+]
+]
+},
+"assets/img/prelekcje/ref-10-t.jpg": {
+"mt": 1789824009,
+"w": 540,
+"h": 762,
+"v": [
+[
+480,
+"assets/img/_v/prelekcje__ref-10-t-480.webp"
+],
+[
+540,
+"assets/img/_v/prelekcje__ref-10-t-540.webp"
+]
+]
+},
+"assets/img/prelekcje/ref-04-t.jpg": {
+"mt": 1789824008,
+"w": 540,
+"h": 767,
+"v": [
+[
+480,
+"assets/img/_v/prelekcje__ref-04-t-480.webp"
+],
+[
+540,
+"assets/img/_v/prelekcje__ref-04-t-540.webp"
+]
+]
+},
+"assets/img/wspolpraca/portret-attiq.jpg": {
+"mt": 1789771915,
+"w": 2400,
+"h": 1600,
+"v": [
+[
+480,
+"assets/img/_v/wspolpraca__portret-attiq-480.webp"
+],
+[
+800,
+"assets/img/_v/wspolpraca__portret-attiq-800.webp"
+],
+[
+1200,
+"assets/img/_v/wspolpraca__portret-attiq-1200.webp"
+],
+[
+1600,
+"assets/img/_v/wspolpraca__portret-attiq-1600.webp"
+]
+]
+},
+"assets/img/wspolpraca/start-koszulka.jpg": {
+"mt": 1789771915,
+"w": 1800,
+"h": 1200,
+"v": [
+[
+480,
+"assets/img/_v/wspolpraca__start-koszulka-480.webp"
+],
+[
+800,
+"assets/img/_v/wspolpraca__start-koszulka-800.webp"
+],
+[
+1200,
+"assets/img/_v/wspolpraca__start-koszulka-1200.webp"
+],
+[
+1600,
+"assets/img/_v/wspolpraca__start-koszulka-1600.webp"
+]
+]
+},
+"assets/img/wspolpraca/bluza-partnerzy.jpg": {
+"mt": 1789771915,
+"w": 1202,
+"h": 1800,
+"v": [
+[
+480,
+"assets/img/_v/wspolpraca__bluza-partnerzy-480.webp"
+],
+[
+800,
+"assets/img/_v/wspolpraca__bluza-partnerzy-800.webp"
+],
+[
+1200,
+"assets/img/_v/wspolpraca__bluza-partnerzy-1200.webp"
+],
+[
+1202,
+"assets/img/_v/wspolpraca__bluza-partnerzy-1202.webp"
+]
+]
+},
+"assets/img/wspolpraca/szlak-kijki.jpg": {
+"mt": 1789771915,
+"w": 2200,
+"h": 1467,
+"v": [
+[
+480,
+"assets/img/_v/wspolpraca__szlak-kijki-480.webp"
+],
+[
+800,
+"assets/img/_v/wspolpraca__szlak-kijki-800.webp"
+],
+[
+1200,
+"assets/img/_v/wspolpraca__szlak-kijki-1200.webp"
+],
+[
+1600,
+"assets/img/_v/wspolpraca__szlak-kijki-1600.webp"
+]
+]
+},
+"assets/img/wyzwania/gory-bieg.jpg": {
+"mt": 1789772224,
+"w": 478,
+"h": 422,
+"v": [
+[
+478,
+"assets/img/_v/wyzwania__gory-bieg-478.webp"
+]
+]
+},
+"assets/img/wyzwania/plakat-gss.jpg": {
+"mt": 1789822071,
+"w": 720,
+"h": 1019,
+"v": [
+[
+480,
+"assets/img/_v/wyzwania__plakat-gss-480.webp"
+],
+[
+720,
+"assets/img/_v/wyzwania__plakat-gss-720.webp"
+]
+]
+},
+"assets/img/wyzwania/plakat-natalka.jpg": {
+"mt": 1789771622,
+"w": 720,
+"h": 1019,
+"v": [
+[
+480,
+"assets/img/_v/wyzwania__plakat-natalka-480.webp"
+],
+[
+720,
+"assets/img/_v/wyzwania__plakat-natalka-720.webp"
+]
+]
+},
+"assets/img/wyzwania/plakat-gsb2022.jpg": {
+"mt": 1789771622,
+"w": 720,
+"h": 1012,
+"v": [
+[
+480,
+"assets/img/_v/wyzwania__plakat-gsb2022-480.webp"
+],
+[
+720,
+"assets/img/_v/wyzwania__plakat-gsb2022-720.webp"
+]
+]
+},
+"assets/img/wyzwania/plakat-24h.jpg": {
+"mt": 1789771622,
+"w": 720,
+"h": 1012,
+"v": [
+[
+480,
+"assets/img/_v/wyzwania__plakat-24h-480.webp"
+],
+[
+720,
+"assets/img/_v/wyzwania__plakat-24h-720.webp"
+]
+]
+},
+"assets/img/logos/ice-cup-poland.png": {
+"mt": 1789770491,
+"w": 178,
+"h": 180,
+"v": [
+[
+178,
+"assets/img/_v/logos__ice-cup-poland-178.webp"
+]
+]
+},
+"assets/img/medale/tatra-fest-2026-meta-450.jpg": {
+"mt": 1789779169,
+"w": 674,
+"h": 450,
+"v": [
+[
+480,
+"assets/img/_v/medale__tatra-fest-2026-meta-450-480.webp"
+],
+[
+674,
+"assets/img/_v/medale__tatra-fest-2026-meta-450-674.webp"
+]
+]
+},
+"assets/img/medale/tatra-fest-2026-medal-450.jpg": {
+"mt": 1789779169,
+"w": 254,
+"h": 450,
+"v": [
+[
+254,
+"assets/img/_v/medale__tatra-fest-2026-medal-450-254.webp"
+]
+]
+},
+"assets/img/medale/lemkowyna-2025-450.jpg": {
+"mt": 1789779169,
+"w": 338,
+"h": 450,
+"v": [
+[
+338,
+"assets/img/_v/medale__lemkowyna-2025-450-338.webp"
+]
+]
+},
+"assets/img/medale/bieg-zboja-2025-450.jpg": {
+"mt": 1789779170,
+"w": 675,
+"h": 450,
+"v": [
+[
+480,
+"assets/img/_v/medale__bieg-zboja-2025-450-480.webp"
+],
+[
+675,
+"assets/img/_v/medale__bieg-zboja-2025-450-675.webp"
+]
+]
+},
+"assets/img/medale/pieniny-2025-450.jpg": {
+"mt": 1789779170,
+"w": 407,
+"h": 450,
+"v": [
+[
+407,
+"assets/img/_v/medale__pieniny-2025-450-407.webp"
+]
+]
+},
+"assets/img/medale/plywanie-24h-2024-450.jpg": {
+"mt": 1789779171,
+"w": 675,
+"h": 450,
+"v": [
+[
+480,
+"assets/img/_v/medale__plywanie-24h-2024-450-480.webp"
+],
+[
+675,
+"assets/img/_v/medale__plywanie-24h-2024-450-675.webp"
+]
+]
+},
+"assets/img/medale/hrobacza-laka-2024-450.jpg": {
+"mt": 1789779171,
+"w": 456,
+"h": 450,
+"v": [
+[
+456,
+"assets/img/_v/medale__hrobacza-laka-2024-450-456.webp"
+]
+]
+},
+"assets/img/medale/nagroda-prezydenta-2024-450.jpg": {
+"mt": 1789779172,
+"w": 506,
+"h": 450,
+"v": [
+[
+480,
+"assets/img/_v/medale__nagroda-prezydenta-2024-450-480.webp"
+],
+[
+506,
+"assets/img/_v/medale__nagroda-prezydenta-2024-450-506.webp"
+]
+]
+},
+"assets/img/medale/gala-sportu-2024-450.jpg": {
+"mt": 1789779172,
+"w": 300,
+"h": 450,
+"v": [
+[
+300,
+"assets/img/_v/medale__gala-sportu-2024-450-300.webp"
+]
+]
+},
+"assets/img/medale/maraton-atenski-2023-450.jpg": {
+"mt": 1789779172,
+"w": 360,
+"h": 450,
+"v": [
+[
+360,
+"assets/img/_v/medale__maraton-atenski-2023-450-360.webp"
+]
+]
+},
+"assets/img/medale/wyroznienie-prezydenta-2023-450.jpg": {
+"mt": 1789779173,
+"w": 675,
+"h": 450,
+"v": [
+[
+480,
+"assets/img/_v/medale__wyroznienie-prezydenta-2023-450-480.webp"
+],
+[
+675,
+"assets/img/_v/medale__wyroznienie-prezydenta-2023-450-675.webp"
+]
+]
+},
+"assets/img/medale/gala-sportu-2023-450.jpg": {
+"mt": 1789779173,
+"w": 676,
+"h": 450,
+"v": [
+[
+480,
+"assets/img/_v/medale__gala-sportu-2023-450-480.webp"
+],
+[
+676,
+"assets/img/_v/medale__gala-sportu-2023-450-676.webp"
+]
+]
+},
+"assets/img/medale/iisa-glogow-2022-podium-450.jpg": {
+"mt": 1789779173,
+"w": 376,
+"h": 450,
+"v": [
+[
+376,
+"assets/img/_v/medale__iisa-glogow-2022-podium-450-376.webp"
+]
+]
+},
+"assets/img/medale/iisa-glogow-2022-flaga-450.jpg": {
+"mt": 1789779174,
+"w": 370,
+"h": 450,
+"v": [
+[
+370,
+"assets/img/_v/medale__iisa-glogow-2022-flaga-450-370.webp"
+]
+]
+},
+"assets/img/medale/gdynia-winter-swimming-2022-450.jpg": {
+"mt": 1789779174,
+"w": 360,
+"h": 450,
+"v": [
+[
+360,
+"assets/img/_v/medale__gdynia-winter-swimming-2022-450-360.webp"
+]
+]
+},
+"assets/img/medale/vistula-winter-swimming-2022-450.jpg": {
+"mt": 1789779175,
+"w": 363,
+"h": 450,
+"v": [
+[
+363,
+"assets/img/_v/medale__vistula-winter-swimming-2022-450-363.webp"
+]
+]
+},
+"assets/img/medale/plywanie-zimowe-2022-450.jpg": {
+"mt": 1789779176,
+"w": 671,
+"h": 450,
+"v": [
+[
+480,
+"assets/img/_v/medale__plywanie-zimowe-2022-450-480.webp"
+],
+[
+671,
+"assets/img/_v/medale__plywanie-zimowe-2022-450-671.webp"
+]
+]
+},
+"assets/img/medale/iron-run-2021-450.jpg": {
+"mt": 1789779176,
+"w": 360,
+"h": 450,
+"v": [
+[
+360,
+"assets/img/_v/medale__iron-run-2021-450-360.webp"
+]
+]
+},
+"assets/img/medale/lodowy-koziol-2021-450.jpg": {
+"mt": 1789779177,
+"w": 532,
+"h": 450,
+"v": [
+[
+480,
+"assets/img/_v/medale__lodowy-koziol-2021-450-480.webp"
+],
+[
+532,
+"assets/img/_v/medale__lodowy-koziol-2021-450-532.webp"
+]
+]
+},
+"assets/img/wspolpraca/film-sponsoring.jpg": {
+"mt": 1789822942,
+"w": 1600,
+"h": 900,
+"v": [
+[
+480,
+"assets/img/_v/wspolpraca__film-sponsoring-480.webp"
+],
+[
+800,
+"assets/img/_v/wspolpraca__film-sponsoring-800.webp"
+],
+[
+1200,
+"assets/img/_v/wspolpraca__film-sponsoring-1200.webp"
+],
+[
+1600,
+"assets/img/_v/wspolpraca__film-sponsoring-1600.webp"
+]
+]
+},
+"assets/img/sportowiec-gory.jpg": {
+"mt": 1789824076,
+"w": 2400,
+"h": 1800,
+"v": [
+[
+480,
+"assets/img/_v/sportowiec-gory-480.webp"
+],
+[
+800,
+"assets/img/_v/sportowiec-gory-800.webp"
+],
+[
+1200,
+"assets/img/_v/sportowiec-gory-1200.webp"
+],
+[
+1600,
+"assets/img/_v/sportowiec-gory-1600.webp"
+]
+]
+},
+"assets/img/social/ig-Ddbo73uMb7V.jpg": {
+"mt": 1789823435,
+"w": 544,
+"h": 640,
+"v": [
+[
+480,
+"assets/img/_v/social__ig-Ddbo73uMb7V-480.webp"
+],
+[
+544,
+"assets/img/_v/social__ig-Ddbo73uMb7V-544.webp"
+]
+]
+},
+"assets/img/social/ig-DdWt8Z9jJjZ.jpg": {
+"mt": 1789823435,
+"w": 480,
+"h": 640,
+"v": [
+[
+480,
+"assets/img/_v/social__ig-DdWt8Z9jJjZ-480.webp"
+]
+]
+},
+"assets/img/social/ig-DdO_mPCsFif.jpg": {
+"mt": 1789823435,
+"w": 360,
+"h": 640,
+"v": [
+[
+360,
+"assets/img/_v/social__ig-DdO_mPCsFif-360.webp"
+]
+]
+},
+"assets/img/social/ig-DdGIuXFDG_o.jpg": {
+"mt": 1789823436,
+"w": 509,
+"h": 640,
+"v": [
+[
+480,
+"assets/img/_v/social__ig-DdGIuXFDG_o-480.webp"
+],
+[
+509,
+"assets/img/_v/social__ig-DdGIuXFDG_o-509.webp"
+]
+]
+},
+"assets/img/social/ig-Dc8RR0eEZge.jpg": {
+"mt": 1789823436,
+"w": 640,
+"h": 426,
+"v": [
+[
+480,
+"assets/img/_v/social__ig-Dc8RR0eEZge-480.webp"
+],
+[
+640,
+"assets/img/_v/social__ig-Dc8RR0eEZge-640.webp"
+]
+]
+},
+"assets/img/social/ig-Dc6FO8rMSSm.jpg": {
+"mt": 1789823436,
+"w": 512,
+"h": 640,
+"v": [
+[
+480,
+"assets/img/_v/social__ig-Dc6FO8rMSSm-480.webp"
+],
+[
+512,
+"assets/img/_v/social__ig-Dc6FO8rMSSm-512.webp"
+]
+]
+},
+"assets/img/social/ig-DcyZvLFstXE.jpg": {
+"mt": 1789823436,
+"w": 360,
+"h": 640,
+"v": [
+[
+360,
+"assets/img/_v/social__ig-DcyZvLFstXE-360.webp"
+]
+]
+},
+"assets/img/social/ig-DcgvXYSjMvw.jpg": {
+"mt": 1789823437,
+"w": 512,
+"h": 640,
+"v": [
+[
+480,
+"assets/img/_v/social__ig-DcgvXYSjMvw-480.webp"
+],
+[
+512,
+"assets/img/_v/social__ig-DcgvXYSjMvw-512.webp"
+]
+]
+},
+"assets/img/social/ig-Dcd8Hx9s9Pd.jpg": {
+"mt": 1789823437,
+"w": 512,
+"h": 640,
+"v": [
+[
+480,
+"assets/img/_v/social__ig-Dcd8Hx9s9Pd-480.webp"
+],
+[
+512,
+"assets/img/_v/social__ig-Dcd8Hx9s9Pd-512.webp"
+]
+]
+},
+"assets/img/social/ig-DcbdUtYsnt2.jpg": {
+"mt": 1789823437,
+"w": 360,
+"h": 640,
+"v": [
+[
+360,
+"assets/img/_v/social__ig-DcbdUtYsnt2-360.webp"
+]
+]
+},
+"assets/img/social/yt-hrpV-cw8S2o.jpg": {
+"mt": 1789823455,
+"w": 1280,
+"h": 720,
+"v": [
+[
+480,
+"assets/img/_v/social__yt-hrpV-cw8S2o-480.webp"
+],
+[
+800,
+"assets/img/_v/social__yt-hrpV-cw8S2o-800.webp"
+],
+[
+1200,
+"assets/img/_v/social__yt-hrpV-cw8S2o-1200.webp"
+],
+[
+1280,
+"assets/img/_v/social__yt-hrpV-cw8S2o-1280.webp"
+]
+]
+},
+"assets/img/social/yt-y-C2f083Wz8.jpg": {
+"mt": 1789823456,
+"w": 1280,
+"h": 720,
+"v": [
+[
+480,
+"assets/img/_v/social__yt-y-C2f083Wz8-480.webp"
+],
+[
+800,
+"assets/img/_v/social__yt-y-C2f083Wz8-800.webp"
+],
+[
+1200,
+"assets/img/_v/social__yt-y-C2f083Wz8-1200.webp"
+],
+[
+1280,
+"assets/img/_v/social__yt-y-C2f083Wz8-1280.webp"
+]
+]
+},
+"assets/img/social/yt-VI_L8HVQrOc.jpg": {
+"mt": 1789824052,
+"w": 1280,
+"h": 608,
+"v": [
+[
+480,
+"assets/img/_v/social__yt-VI_L8HVQrOc-480.webp"
+],
+[
+800,
+"assets/img/_v/social__yt-VI_L8HVQrOc-800.webp"
+],
+[
+1200,
+"assets/img/_v/social__yt-VI_L8HVQrOc-1200.webp"
+],
+[
+1280,
+"assets/img/_v/social__yt-VI_L8HVQrOc-1280.webp"
+]
+]
+},
+"assets/img/lod-medal.jpg": {
+"mt": 1789823944,
+"w": 1600,
+"h": 1073,
+"v": [
+[
+480,
+"assets/img/_v/lod-medal-480.webp"
+],
+[
+800,
+"assets/img/_v/lod-medal-800.webp"
+],
+[
+1200,
+"assets/img/_v/lod-medal-1200.webp"
+],
+[
+1600,
+"assets/img/_v/lod-medal-1600.webp"
+]
+]
+},
+"assets/img/wyzwania/gory-bieg-hd.jpg": {
+"mt": 1789823944,
+"w": 1100,
+"h": 971,
+"v": [
+[
+480,
+"assets/img/_v/wyzwania__gory-bieg-hd-480.webp"
+],
+[
+800,
+"assets/img/_v/wyzwania__gory-bieg-hd-800.webp"
+],
+[
+1100,
+"assets/img/_v/wyzwania__gory-bieg-hd-1100.webp"
+]
+]
+}
+}
