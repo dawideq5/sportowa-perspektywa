@@ -10,14 +10,10 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,100..125,300..600;1,100,400..600&family=Barlow+Condensed:wght@500;600&family=Oswald:wght@600&family=Newsreader:ital,wght@1,300;1,400&display=swap">
 <link rel="preload" as="image" imagesrcset="assets/img/_v/hero-noc-480.webp 480w, assets/img/_v/hero-noc-640.webp 640w, assets/img/_v/hero-noc-800.webp 800w, assets/img/_v/hero-noc-1200.webp 1200w, assets/img/_v/hero-noc-1600.webp 1600w" imagesizes="(max-aspect-ratio: 1600/1066) calc(100svh * 1.501), 100vw" fetchpriority="high">
-<link rel="stylesheet" href="assets/css/style.css?v=1789826147">
+<link rel="stylesheet" href="assets/css/style.css?v=1793197964">
 <a class="skip" href="#main">Przejdź do treści</a>
 
 <header class="hdr m-over" id="hdr">
-  <a class="hdr-strip" href="backyard.html">
-    <span class="hdr-strip-t">Backyard na Dziko<span class="hdr-strip-more"> — 1 października, Jezioro Paprocany</span></span>
-    <span class="hdr-strip-cd tnum" id="hdrCd"></span>
-  </a>
   <nav class="hdr-nav" aria-label="Główna nawigacja">
     <a class="hdr-brand" href="index.html" aria-current="page">
       <img class="hdr-logo" src="assets/img/logo-sportowa-perspektywa.svg" alt="" width="54" height="33" decoding="async">
@@ -26,7 +22,6 @@
     <ul class="hdr-links">
       <li><a href="historia.html">Historia</a></li>
       <li><a href="wyzwania.html">Wyzwania</a></li>
-      <li><a href="#medale">Starty i medale</a></li>
       <li><a href="pomaganie.html">Pomaganie</a></li>
       <li><a href="prelekcje.html">Prelekcje</a></li>
       <li><a href="wspolpraca.html">Współpraca</a></li>
@@ -47,7 +42,6 @@
     <li><a href="index.html" aria-current="page">Start</a></li>
     <li><a href="historia.html">Historia</a></li>
     <li><a href="wyzwania.html">Wyzwania</a></li>
-    <li><a href="#medale">Starty i medale</a></li>
     <li><a href="backyard.html">Backyard na Dziko</a></li>
     <li><a href="pomaganie.html">Pomaganie</a></li>
     <li><a href="prelekcje.html">Prelekcje</a></li>
@@ -71,892 +65,168 @@
     <div class="hero-shade" aria-hidden="true"></div>
   </div>
   <div class="wrap hero-in">
-    <p class="eyebrow">Andrzej Kowalczyk, sportowiec ultraekstremalny</p>
-    <h1 class="h1 hero-h">Niemożliwe nie istnieje.</h1>
-    <p class="lede hero-lede">Biegam setki kilometrów po górach, pływam w <span data-fx="mroz">lodowatej wodzie</span> i każdy kilometr zamieniam w pomoc dla tych, którzy nie mogą iść sami.</p>
+    <p class="eyebrow">Andrzej Kowalczyk, sportowiec ultraekstremalny i prelegent</p>
+    <h1 class="h1 hero-h">Podejmuję wyzwania. Łączę ludzi. Pomagam zmieniać życie.</h1>
+    <p class="lede hero-lede">Pokonuję setki kilometrów, podejmuję pionierskie próby i łączę sport z pomocą innym. Z markami tworzę angażujące projekty, a podczas prelekcji dzielę się doświadczeniem wytrwałości i życiowej przemiany.</p>
     <div class="hero-cta">
-      <a class="btn" href="#historia">Poznaj historię</a>
-      <a class="btn btn-2" href="#prelekcje">Zaproś na prelekcję</a>
+      <a class="btn" href="#wspolpraca">Porozmawiajmy o współpracy</a>
+      <a class="btn btn-2" href="#prelekcje">Zaproś mnie na prelekcję</a>
     </div>
   </div>
+</section>
+
+<section class="sec" id="ultra" aria-labelledby="ul-h">
   <div class="wrap">
-    <dl class="hero-stats">
-      <div><dt data-src="https://www.tychy.pl/2025/06/16/andrzej-kowalczyk-jako-pierwszy-ukonczyl-podwojny-najtrudniejszy-triathlon-w-europie/" data-src-fx="gory" data-src-label="tychy.pl, 2×Harda">2×Harda, pierwszy w historii</dt><dd class="tnum"><span data-count="604">604</span><small>km</small></dd></div>
-      <div><dt data-src="https://www.tychy.info/sport/25535-tyszanin-andrzej-kowalczyk-pokonal-glowny-szlak-sudecki-zrobil-to-dla-nikusi-tychy" data-src-fx="czas" data-src-label="tychy.info, Główny Szlak Sudecki">Główny Szlak Sudecki</dt><dd class="tnum">86:51</dd></div>
-      <div><dt data-src="https://www.tgs.tychy.pl/index.php?mod=slawy&amp;act=show&amp;id=208" data-src-fx="mroz" data-src-label="Tyska Galeria Sportu">Medale MŚ w pływaniu lodowym</dt><dd class="tnum"><span data-count="6">6</span></dd></div>
-    </dl>
-  </div>
-</section>
-
-<!-- ============ GŁOS: intro + cytaty ============ -->
-<script>
-  /* intro od pierwszej klatki; zostaje, dopóki użytkownik nie przewinie. Bezpiecznik: zdejmij, jeśli skrypt się nie uruchomił */
-  (function () {
-    try {
-      var rm = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-      if (!location.hash && !rm) {
-        var d = document.documentElement;
-        d.classList.add('gi-on');
-        setTimeout(function () { if (!window.__glosOK) d.classList.remove('gi-on'); }, 8000);
-      }
-    } catch (e) {}
-  })();
-</script>
-<div class="gi" id="glosIntro" aria-hidden="true">
-  <div class="gi-stage" id="glosIntroStage"></div>
-  <i class="gi-bar"></i>
-</div>
-
-<section class="gl" id="glos" aria-labelledby="glosH">
-  <h2 class="sr-only" id="glosH">Moimi słowami</h2>
-  <div class="gl-stage" id="glosStage">
-    <noscript>
-      <div class="gl-art" data-theme="przemiana">
-        <div class="wrap gl-in">
-          <p class="eyebrow">Moimi słowami</p>
-          <blockquote class="gl-q"><p>Zmiana, której szukasz, jest w pracy, której unikasz.</p></blockquote>
-        </div>
-      </div>
-    </noscript>
-  </div>
-  <div class="wrap gl-ui">
-    <div class="gl-ctrl" role="group" aria-label="Cytaty">
-      <button type="button" class="gl-b" id="glosPrev" aria-label="Poprzedni cytat"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M12.5 4.5 7 10l5.5 5.5"/></svg></button>
-      <button type="button" class="gl-b" id="glosPause" aria-label="Wstrzymaj zmianę cytatów" aria-pressed="false"><svg viewBox="0 0 20 20" aria-hidden="true"><path class="i-pause" d="M7.5 5v10M12.5 5v10"/><path class="i-play" d="M7 4.8v10.4L15.5 10z"/></svg></button>
-      <button type="button" class="gl-b" id="glosNext" aria-label="Następny cytat"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M7.5 4.5 13 10l-5.5 5.5"/></svg></button>
-    </div>
-    <i class="gl-bar" id="glosBar" aria-hidden="true"></i>
-  </div>
-  <p class="sr-only" id="glosLive" aria-live="polite"></p>
-</section>
-
-<section class="kim sec" id="kim">
-  <div class="wrap">
-    <header class="sec-head">
-      <p class="eyebrow">Kim jestem</p>
-      <h2 class="h2">Ma być albo <span class="nowrap" style="white-space:nowrap"><span class="kim-ultra" id="kimUltra">ultra</span>,</span> albo ekstremalnie.</h2>
-    </header>
-    <div class="kim-tabs" role="tablist" aria-label="Role">
-      <button class="kim-tab" type="button" role="tab" id="kimTab0" aria-controls="kimPanel" aria-selected="true" data-text="Pierwszy w historii pokonałem podwójną wersję najtrudniejszego triathlonu w Europie. Mam sześć medali Mistrzostw Świata w pływaniu lodowym i rekordy górskich szlaków długodystansowych. Biegam w drużynie ATTIQ.">Sportowiec<span class="kim-bar" aria-hidden="true"><i></i></span></button>
-      <button class="kim-tab" type="button" role="tab" id="kimTab1" aria-controls="kimPanel" aria-selected="false" tabindex="-1" data-text="Sport to siła, która zmienia nie tylko moje życie, ale też życie ludzi, których spotykam. Od 2017 roku łączę wyzwania ze zbiórkami dla tych, którzy znaleźli się na życiowym zakręcie.">Wolontariusz<span class="kim-bar" aria-hidden="true"><i></i></span></button>
-      <button class="kim-tab" type="button" role="tab" id="kimTab2" aria-controls="kimPanel" aria-selected="false" tabindex="-1" data-text="Uczę, jak łączyć ambitne życie z dbałością o zdrowie. Jestem instruktorem biegania i pływania, trenerem personalnym i dietetykiem, a przede wszystkim praktykiem snu, ruchu, odżywiania, nawodnienia i regeneracji.">Edukator<span class="kim-bar" aria-hidden="true"><i></i></span></button>
-      <button class="kim-tab" type="button" role="tab" id="kimTab3" aria-controls="kimPanel" aria-selected="false" tabindex="-1" data-text="Najpiękniejsze uczucie to bycie wartością dla innych. Opowiadam o drodze od uzależnień do sportu, żeby dodać ludziom odwagi, pogody ducha i wiary we własne możliwości.">Prelegent<span class="kim-bar" aria-hidden="true"><i></i></span></button>
-    </div>
-    <div class="kim-panel" id="kimPanel" role="tabpanel" aria-labelledby="kimTab0">
-      <figure class="kim-fig">
-        <img sizes="(max-width: 900px) 94vw, (max-width: 1440px) 48vw, 700px" class="on" src="assets/img/sportowiec-gory.jpg" alt="Andrzej biegnie skalistym grzbietem górskim o wschodzie słońca" srcset="assets/img/_v/sportowiec-gory-480.webp 480w, assets/img/_v/sportowiec-gory-640.webp 640w, assets/img/_v/sportowiec-gory-800.webp 800w, assets/img/_v/sportowiec-gory-1200.webp 1200w, assets/img/_v/sportowiec-gory-1600.webp 1600w, assets/img/_v/sportowiec-gory-2400.webp 2400w" width="2400" height="1800" decoding="async" loading="lazy">
-        <img sizes="(max-width: 900px) 94vw, (max-width: 1440px) 48vw, 700px" src="assets/img/czek.jpg" alt="Przekazanie czeku Fundacji Słonie na Balkonie" loading="lazy" srcset="assets/img/_v/czek-480.webp 480w, assets/img/_v/czek-640.webp 640w, assets/img/_v/czek-800.webp 800w, assets/img/_v/czek-1200.webp 1200w, assets/img/_v/czek-1440.webp 1440w" width="1440" height="1547" decoding="async">
-        <img sizes="(max-width: 900px) 94vw, (max-width: 1440px) 48vw, 700px" src="assets/img/warsztat.jpg" alt="Szkolenie wellbeingowe dla firmy" loading="lazy" srcset="assets/img/_v/warsztat-480.webp 480w, assets/img/_v/warsztat-640.webp 640w, assets/img/_v/warsztat-800.webp 800w, assets/img/_v/warsztat-1200.webp 1200w, assets/img/_v/warsztat-1600.webp 1600w" width="1600" height="1068" decoding="async">
-        <img sizes="(max-width: 900px) 94vw, (max-width: 1440px) 48vw, 700px" src="assets/img/scena.jpg" alt="Andrzej na scenie NASH Festival" loading="lazy" srcset="assets/img/_v/scena-480.webp 480w, assets/img/_v/scena-640.webp 640w, assets/img/_v/scena-800.webp 800w, assets/img/_v/scena-1200.webp 1200w, assets/img/_v/scena-1600.webp 1600w" width="1600" height="1067" decoding="async">
-      </figure>
-      <p class="kim-text" id="kimText">Pierwszy w historii pokonałem podwójną wersję najtrudniejszego triathlonu w Europie. Mam sześć medali Mistrzostw Świata w pływaniu lodowym i rekordy górskich szlaków długodystansowych. Biegam w drużynie ATTIQ.</p>
-    </div>
-    <p class="kim-foot quote rv">Nade wszystko jednak szczęśliwy mąż, tata, wizjoner, życiowy optymista.</p>
-  </div>
-</section>
-
-<section class="story dark" id="historia" aria-label="Poznaj moją historię">
-  <div class="story-stage" id="storyStage">
-    <div class="story-bg" aria-hidden="true"><div class="story-dawn"></div><div class="story-photo"></div></div>
-    <div class="story-steps">
-      <div class="story-st">
-        <h2 class="h2 story-h">Moja opowieść zaczyna się inaczej.</h2>
-      </div>
-      <div class="story-st">
-        <ol class="story-ages">
-          <li><b>10 lat</b><span>pierwsze papierosy</span></li>
-          <li><b>13 lat</b><span>alkohol</span></li>
-          <li><b>16 lat</b><span>twarde narkotyki</span></li>
-        </ol>
-      </div>
-      <div class="story-st">
-        <div class="story-grid" id="storyGrid" aria-hidden="true"></div>
-        <p class="story-p" data-src="historia.html#hs-c2" data-src-label="Historia: lata, o których mówię otwarcie"><b>95%</b> moich dni przez naście lat wypełniała mieszanka alkoholu, narkotyków, papierosów, śmieciowego jedzenia i niekończących się imprez.</p>
-      </div>
-      <div class="story-st">
-        <figure class="story-past" data-smoke=".4556,.2914" data-smoke-ext>
-          <img src="assets/img/przeszlosc.jpg" alt="Andrzej przed 2017 rokiem: przy stole z alkoholem, z papierosem, w żółtej koszulce z piwem" loading="lazy" srcset="assets/img/_v/przeszlosc-480.webp 480w, assets/img/_v/przeszlosc-640.webp 640w, assets/img/_v/przeszlosc-800.webp 800w, assets/img/_v/przeszlosc-1200.webp 1200w, assets/img/_v/przeszlosc-1600.webp 1600w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="1600" height="592" decoding="async">
-          <figcaption class="quote" data-src="https://www.facebook.com/2142357622660365_1466877622103463" data-src-fx="slonce" data-src-label="Facebook, 9. rocznica trzeźwości">„Ten pogubiony chłopak w żółtej koszulce ostatnie, w co by uwierzył, to że zwiąże się ze sportem i zbuduje wokół niego życie.”</figcaption>
-        </figure>
-      </div>
-      <div class="story-st" data-fx-gate="on">
-        <p class="story-date tnum"><span data-fx="slonce">10.09.2017</span></p>
-        <p class="story-p" data-src="https://www.facebook.com/2142357622660365_1466877622103463" data-src-fx="slonce" data-src-label="Facebook, 9. rocznica trzeźwości">Pierwszy dzień mojego drugiego, trzeźwego życia.</p>
-      </div>
-      <div class="story-st">
-        <p class="eyebrow">Trzeźwość</p>
-        <p class="story-days"><span class="tnum" id="soberDays">3296</span> dni</p>
-        <p class="story-hms tnum" id="soberHms" aria-hidden="true"></p>
-      </div>
-      <div class="story-st">
-        <h2 class="h2 story-motto">Zmiana, której szukasz, jest w pracy, której unikasz.</h2>
-        <a class="more" href="historia.html">Cała historia</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ============ REKORDY ============ -->
-<section class="sec" id="rekordy">
-  <div class="wrap">
-    <header class="sec-head rv">
-      <p class="eyebrow">Rekordy i wyprawy</p>
-      <h2 class="h2">Zapraszam do świata poszukiwań granic ludzkiej wytrzymałości.</h2>
-    </header>
-    <ul class="rk-grid">
-      <li class="rk rk-harda rv">
-        <span class="rk-v" aria-hidden="true">2HARD</span>
-        <p class="rk-meta">2025, Orawa i Tatry</p>
-        <h3 class="h3">2×Harda</h3>
-        <p class="rk-num"><span data-count="604">604</span><small>km</small></p>
-        <p class="rk-cap" data-src="https://www.tychy.pl/2025/06/16/andrzej-kowalczyk-jako-pierwszy-ukonczyl-podwojny-najtrudniejszy-triathlon-w-europie/" data-src-fx="gory" data-src-label="tychy.pl, 2×Harda">Pierwszy w historii podwójny HardaSuka Ultimate Triathlon: 10 km pływania, 480 km roweru i 110 km biegu przez Tatry.</p>
-        <a class="more" href="https://www.youtube.com/watch?v=hrpV-cw8S2o" target="_blank" rel="noopener">2 Hard Road 2 Walk Alone</a>
-        <p class="rk-logo"><img class="lg" src="assets/img/logos/hardasuka.png" alt="HardaSuka Ultimate Triathlon" style="--h:29px" loading="lazy" srcset="assets/img/_v/logos__hardasuka-326.webp 326w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="326" height="180" decoding="async"></p>
-      </li>
-      <li class="rk rk-trail rv" style="--d:.06s">
-        <p class="rk-meta"><span class="pttk" aria-hidden="true"></span>2025, Sudety</p>
-        <h3 class="h3">Główny Szlak Sudecki</h3>
-        <p class="rk-num">86:51</p>
-        <p class="rk-cap" data-src="https://www.tychy.info/sport/25535-tyszanin-andrzej-kowalczyk-pokonal-glowny-szlak-sudecki-zrobil-to-dla-nikusi-tychy" data-src-fx="gory" data-src-label="tychy.info, Główny Szlak Sudecki">445 km z Prudnika do Świeradowa-Zdroju. Trzeci czas w historii szlaku.</p>
-      </li>
-      <li class="rk rk-loop rv" style="--d:.12s">
-        <p class="rk-meta">2024, Beskidy</p>
-        <h3 class="h3">The Loop</h3>
-        <p class="rk-num"><span class="ring" data-fx="czas">42:53:24</span></p>
-        <p class="rk-cap" data-src="https://fastestknowntime.com/fkt/andrzej-kowalczyk-loop-2024-10-13" data-src-fx="petla" data-src-label="Fastest Known Time, The Loop">Rekord FKT Wielkiej Pętli Beskidzkiej: 235 km z Bielska-Białej i z powrotem.</p>
-        <a class="more" href="https://www.youtube.com/watch?v=oM6EwmRmXV8" target="_blank" rel="noopener">The Loop</a>
-        <p class="rk-logo"><img class="lg" src="assets/img/logos/fkt.png" alt="Fastest Known Time" style="--h:26px" loading="lazy" srcset="assets/img/_v/logos__fkt-261.webp 261w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="261" height="117" decoding="async"></p>
-      </li>
-      <li class="rk rk-trail rv" style="--d:.18s">
-        <p class="rk-meta"><span class="pttk" aria-hidden="true"></span>2024, Beskid Mały</p>
-        <h3 class="h3">Mały Szlak Beskidzki</h3>
-        <p class="rk-num">20:45:56</p>
-        <p class="rk-cap" data-src="https://fastestknowntime.com/fkt/andrzej-kowalczyk-maly-szlak-beskidzki-poland-2024-08-07" data-src-fx="gory" data-src-label="Fastest Known Time, Mały Szlak Beskidzki">137 km bez wsparcia, z Bielska-Białej na Luboń Wielki.</p>
-        <p class="rk-logo"><img class="lg" src="assets/img/logos/fkt.png" alt="Fastest Known Time" style="--h:26px" loading="lazy" srcset="assets/img/_v/logos__fkt-261.webp 261w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="261" height="117" decoding="async"></p>
-      </li>
-      <li class="rk rk-trail rv">
-        <p class="rk-meta"><span class="pttk" aria-hidden="true"></span>2023, cała Polska</p>
-        <h3 class="h3">Korona Gór Polski</h3>
-        <p class="rk-num">99:36</p>
-        <p class="rk-cap" data-src="https://www.tychy.pl/2023/09/05/korona-andrzeja-kowalczyka/" data-src-fx="gory" data-src-label="tychy.pl, Korona Gór Polski">28 najwyższych szczytów polskich pasm górskich, zdobytych biegiem.</p>
-        <p class="rk-logo"><img class="lg" src="assets/img/logos/kgp.png" alt="Klub Zdobywców Korony Gór Polski" style="--h:38px" loading="lazy" srcset="assets/img/_v/logos__kgp-184.webp 184w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="184" height="180" decoding="async"></p>
-      </li>
-      <li class="rk rk-trail rv" style="--d:.06s">
-        <p class="rk-meta"><span class="pttk" aria-hidden="true"></span>2023, dla Natalki</p>
-        <h3 class="h3">Główny Szlak Beskidzki</h3>
-        <p class="rk-num"><span data-count="500">500</span><small>km</small></p>
-        <p class="rk-cap" data-src="https://www.tychy.pl/2023/10/11/andrzej-kowalczyk-biegiem-przez-beskidy/" data-src-fx="gory" data-src-label="tychy.pl, Główny Szlak Beskidzki">Najdłuższy szlak w polskich górach, z Wołosatego do Ustronia.</p>
-      </li>
-      <li class="rk rk-swim rv" style="--d:.12s">
-        <p class="rk-meta">2024, Wodny Park Tychy</p>
-        <h3 class="h3">24 h pływania</h3>
-        <p class="rk-num"><span data-count="2046">2046</span><small>długości</small></p>
-        <p class="rk-rope" aria-hidden="true"></p>
-        <p class="rk-cap" data-src="https://www.tychy.pl/wp-content/uploads/2024/02/tt849egazeta-1.pdf" data-src-fx="woda" data-src-label="Twoje Tychy nr 849">Doba w basenie dla Hospicjum Świetlikowo, razem 51,15 km.</p>
-      </li>
-      <li class="rk rk-ice rv" style="--d:.18s">
-        <p class="rk-meta">2022–2023, IISA</p>
-        <h3 class="h3" data-fx="mroz">Pływanie lodowe</h3>
-        <p class="rk-num"><span data-count="6">6</span><small>medali MŚ</small></p>
-        <p class="rk-cap" data-src="https://www.tgs.tychy.pl/index.php?mod=slawy&amp;act=show&amp;id=208" data-src-fx="mroz" data-src-label="Tyska Galeria Sportu">Mistrzostwa Świata w Głogowie i Samoëns, gdzie woda miała 3,7 °C. Kategoria wiekowa.</p>
-        <p class="rk-logo"><img class="lg" src="assets/img/logos/iisa.png" alt="International Ice Swimming Association" style="--h:38px" loading="lazy" srcset="assets/img/_v/logos__iisa-122.webp 122w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="122" height="180" decoding="async"></p>
-      </li>
-    </ul>
-    <p class="rv" style="margin:clamp(40px,5vw,64px) 0 0"><a class="more" href="wyzwania.html">Wszystkie wyzwania</a></p>
-  </div>
-</section>
-
-<!-- ============ PRZEBITKA: 2×Harda nocą (wideo z filmu „2 Hard Road 2 Walk Alone”) ============ -->
-<section class="przebitka" id="przebitka" data-hdr="dark" aria-label="2×Harda nocą">
-  <div class="pb-band" data-broll="pasmo" data-pos="45% 38%" data-caption="2×Harda, czerwiec 2025. 604 km, jako pierwszy w historii."></div>
-</section>
-
-<!-- ============ MAPA ============ -->
-<section class="sec alt" id="mapa">
-  <div class="wrap">
-    <header class="sec-head rv">
-      <p class="eyebrow">Mapa wyzwań</p>
-      <h2 class="h2">Całe pasma gór, od Świeradowa po Wołosate.</h2>
-    </header>
-    <div class="chips mp-chips" id="mpChips" role="group" aria-label="Warstwy mapy"></div>
-    <div class="mp-grid rv">
-      <div class="mp-wrap" tabindex="0" role="group" aria-label="Mapa wyzwań">
-        <svg id="mpSvg" viewBox="0 0 1000 940.9" role="img" aria-label="Mapa Polski: Główny Szlak Sudecki, Główny Szlak Beskidzki, Mały Szlak Beskidzki, The Loop i 28 szczytów Korony Gór Polski"></svg>
-        <p class="mp-credit">© OpenStreetMap · Natural Earth</p>
-      </div>
-      <aside class="mp-info" id="mpInfo" aria-live="polite"></aside>
-    </div>
-  </div>
-</section>
-
-<!-- ============ TRASY: teren 3D (three.js ładowany leniwie w 57-trasy.js) ============ -->
-<section class="ts" id="trasy" aria-labelledby="ts-h">
-  <div class="wrap ts-head">
-    <header class="sec-head rv">
-      <p class="eyebrow">Trasy</p>
-      <h2 class="h2" id="ts-h"><span data-fx="gory">Góry</span> z bliska.</h2>
-    </header>
-  </div>
-  <div class="ts-stage" id="tsStage">
-    <div class="ts-view" id="tsView">
-      <img class="ts-fallback" id="tsFallback" src="assets/img/trasy/gss-poster.webp" width="1600" height="900" alt="" aria-hidden="true" loading="lazy" decoding="async">
-      <div class="ts-labels" id="tsLabels" aria-hidden="true"></div>
-      <p class="ts-credit">© OpenStreetMap · Mapzen Terrain</p>
-    </div>
-    <div class="wrap ts-ui">
-      <div class="chips ts-chips" id="tsChips" role="group" aria-label="Trasy">
-        <button class="chip" type="button" data-k="gss" aria-pressed="true">GSS</button>
-        <button class="chip" type="button" data-k="gsb" aria-pressed="false">GSB</button>
-        <button class="chip" type="button" data-k="loop" aria-pressed="false">The Loop</button>
-        <button class="chip" type="button" data-k="msb" aria-pressed="false">MSB</button>
-        <button class="chip" type="button" data-k="tatry" aria-pressed="false">2×Harda</button>
-      </div>
-      <div class="ts-info" id="tsInfo" aria-live="polite"></div>
-      <figure class="ts-prof" id="tsProf">
-        <svg class="ts-svg" id="tsSvg" role="img" aria-label="Profil wysokości trasy"></svg>
-        <div class="ts-axis" id="tsAxis" aria-hidden="true"></div>
-        <div class="ts-tip tnum" id="tsTip" aria-hidden="true"></div>
-        <div class="ts-split" id="tsSplit" hidden>
-          <span class="sw" style="--w:10"><i>pływanie 10 km</i></span>
-          <span class="bk" style="--w:480"><i>rower 480 km</i></span>
-          <span class="rn" style="--w:110"><i>bieg 110 km</i></span>
-        </div>
-      </figure>
-    </div>
-  </div>
-</section>
-
-<!-- ============ STARTY I MEDALE: przebitki zdjęć + minimalne CV ============ -->
-<section class="sec md" id="medale" aria-labelledby="md-h">
-  <span class="md-anchor" id="cv" aria-hidden="true"></span>
-  <div class="wrap">
-    <header class="sec-head md-head rv">
-      <p class="eyebrow">Starty i medale 2016–2026</p>
-      <h2 class="h2" id="md-h">Czego dokonałem? Dokąd zmierzam?</h2>
-    </header>
-    <dl class="md-stats rv" id="mdStats"></dl>
-  </div>
-  <div class="md-reel" id="mdReel" tabindex="0" role="region" aria-label="Zdjęcia z podiów, medali i wyróżnień">
-    <ul class="md-track" id="mdTrack">
-      <li class="md-shot">
-        <figure>
-          <picture>
-            <source type="image/webp" srcset="assets/img/medale/tatra-fest-2026-meta-450.webp 1x, assets/img/medale/tatra-fest-2026-meta-900.webp 2x">
-            <img src="assets/img/medale/tatra-fest-2026-meta-450.jpg" srcset="assets/img/medale/tatra-fest-2026-meta-900.jpg 2x" width="1078" height="720" alt="Andrzej na mecie Tatra Fest w Zakopanem" loading="eager" decoding="async" draggable="false" data-nopan>
-          </picture>
-          <figcaption data-src="https://ratemytrail.com/event/tatra-fest-bieg-2026" data-src-fx="gory" data-src-label="Źródło"><b>Tatra Fest</b> <span class="md-yr tnum">2026</span><span class="md-r">2. miejsce open</span></figcaption>
-        </figure>
-      </li>
-      <li class="md-shot">
-        <figure>
-          <picture>
-            <source type="image/webp" srcset="assets/img/medale/tatra-fest-2026-medal-450.webp 1x, assets/img/medale/tatra-fest-2026-medal-900.webp 2x">
-            <img src="assets/img/medale/tatra-fest-2026-medal-450.jpg" srcset="assets/img/medale/tatra-fest-2026-medal-900.jpg 2x" width="507" height="900" alt="Andrzej z medalem Tatra Fest" loading="eager" decoding="async" draggable="false" data-nopan>
-          </picture>
-          <figcaption data-src="https://ratemytrail.com/event/tatra-fest-bieg-2026" data-src-fx="gory" data-src-label="Rate My Trail, Tatra Fest 2026"><b>Tatra Fest</b> <span class="md-yr tnum">2026</span><span class="md-r">21,5 km w 1:41:59</span></figcaption>
-        </figure>
-      </li>
-      <li class="md-shot">
-        <figure>
-          <picture>
-            <source type="image/webp" srcset="assets/img/medale/lemkowyna-2025-450.webp 1x, assets/img/medale/lemkowyna-2025-900.webp 2x">
-            <img src="assets/img/medale/lemkowyna-2025-450.jpg" srcset="assets/img/medale/lemkowyna-2025-900.jpg 2x" width="675" height="900" alt="Andrzej z medalem po Łemkowyna Ultra Trail" loading="eager" decoding="async" draggable="false" data-nopan>
-          </picture>
-          <figcaption data-src="https://wyniki.b4sport.pl/lemko-trail-30/e6946.html" data-src-fx="gory" data-src-label="Wyniki Łemko Trail 30 (B4SPORT)"><b>Łemkowyna Ultra Trail</b> <span class="md-yr tnum">2025</span><span class="md-r">3. miejsce</span></figcaption>
-        </figure>
-      </li>
-      <li class="md-shot">
-        <figure>
-          <picture>
-            <source type="image/webp" srcset="assets/img/medale/bieg-zboja-2025-450.webp 1x, assets/img/medale/bieg-zboja-2025-900.webp 2x">
-            <img src="assets/img/medale/bieg-zboja-2025-450.jpg" srcset="assets/img/medale/bieg-zboja-2025-900.jpg 2x" width="1080" height="720" alt="Podium Biegu Zbója w Bielsku-Białej" loading="lazy" decoding="async" draggable="false" data-nopan>
-          </picture>
-          <figcaption data-src="https://results.timekeeper.pl/letni-bieg-zboja" data-src-fx="gory" data-src-label="Wyniki Letniego Biegu Zbója (Timekeeper)"><b>Bieg Zbója</b> <span class="md-yr tnum">2025</span><span class="md-r">1. miejsce</span></figcaption>
-        </figure>
-      </li>
-      <li class="md-shot">
-        <figure>
-          <picture>
-            <source type="image/webp" srcset="assets/img/medale/pieniny-2025-450.webp 1x, assets/img/medale/pieniny-2025-900.webp 2x">
-            <img src="assets/img/medale/pieniny-2025-450.jpg" srcset="assets/img/medale/pieniny-2025-900.jpg 2x" width="720" height="797" alt="Andrzej z medalem Pieniny Ultra Trail" loading="lazy" decoding="async" draggable="false" data-nopan>
-          </picture>
-          <figcaption data-src="https://wyniki.b4sport.pl/dziki-gron-65-km/e7224.html" data-src-fx="gory" data-src-label="Wyniki Dziki Groń 65 km (B4SPORT)"><b>Pieniny Ultra Trail</b> <span class="md-yr tnum">2025</span><span class="md-r">3. miejsce w kategorii, 65 km</span></figcaption>
-        </figure>
-      </li>
-      <li class="md-shot">
-        <figure>
-          <picture>
-            <source type="image/webp" srcset="assets/img/medale/plywanie-24h-2024-450.webp 1x, assets/img/medale/plywanie-24h-2024-900.webp 2x">
-            <img src="assets/img/medale/plywanie-24h-2024-450.jpg" srcset="assets/img/medale/plywanie-24h-2024-900.jpg 2x" width="1351" height="900" alt="Andrzej w basenie z tablicą długości po 24 godzinach pływania" loading="lazy" decoding="async" draggable="false" data-nopan>
-          </picture>
-          <figcaption data-src="https://www.tychy.pl/2024/02/26/pomoc-ma-moc/" data-src-fx="woda" data-src-label="Źródło"><b>24 h pływania</b> <span class="md-yr tnum">2024</span><span class="md-r">2046 długości</span></figcaption>
-        </figure>
-      </li>
-      <li class="md-shot">
-        <figure>
-          <picture>
-            <source type="image/webp" srcset="assets/img/medale/hrobacza-laka-2024-450.webp 1x, assets/img/medale/hrobacza-laka-2024-900.webp 2x">
-            <img src="assets/img/medale/hrobacza-laka-2024-450.jpg" srcset="assets/img/medale/hrobacza-laka-2024-900.jpg 2x" width="912" height="900" alt="Podium Biegu na Hrobaczą Łąkę w Kozach" loading="lazy" decoding="async" draggable="false" data-nopan>
-          </picture>
-          <figcaption data-src="https://ratemytrail.com/event/bieg-na-hrobacza-lake-2024" data-src-fx="gory" data-src-label="Rate My Trail, Bieg na Hrobaczą Łąkę 2024"><b>Bieg na Hrobaczą Łąkę</b> <span class="md-yr tnum">2024</span><span class="md-r">3. miejsce</span></figcaption>
-        </figure>
-      </li>
-      <li class="md-shot">
-        <figure>
-          <picture>
-            <source type="image/webp" srcset="assets/img/medale/nagroda-prezydenta-2024-450.webp 1x, assets/img/medale/nagroda-prezydenta-2024-900.webp 2x">
-            <img src="assets/img/medale/nagroda-prezydenta-2024-450.jpg" srcset="assets/img/medale/nagroda-prezydenta-2024-900.jpg 2x" width="1012" height="900" alt="Andrzej odbiera nagrodę Prezydenta Miasta Tychy" loading="lazy" decoding="async" draggable="false" data-nopan>
-          </picture>
-          <figcaption data-src="https://www.tychy.pl/2024/04/05/nagrody-prezydenta-miasta-tychy-w-dziedzinie-sportu-przyznane/" data-src-fx="medal" data-src-label="Źródło"><b>Nagroda Prezydenta Miasta Tychy</b> <span class="md-yr tnum">2024</span></figcaption>
-        </figure>
-      </li>
-      <li class="md-shot">
-        <figure>
-          <picture>
-            <source type="image/webp" srcset="assets/img/medale/gala-sportu-2024-450.webp 1x, assets/img/medale/gala-sportu-2024-900.webp 2x">
-            <img src="assets/img/medale/gala-sportu-2024-450.jpg" srcset="assets/img/medale/gala-sportu-2024-900.jpg 2x" width="600" height="900" alt="Andrzej na scenie Tyskiej Gali Sportu" loading="lazy" decoding="async" draggable="false" data-nopan>
-          </picture>
-          <figcaption data-src="https://www.tychy.pl/wp-content/uploads/2024/04/tt855egazeta.pdf" data-src-fx="medal" data-src-label="Twoje Tychy: Sport na galowo"><b>Tyska Gala Sportu</b> <span class="md-yr tnum">2024</span><span class="md-r">5. miejsce w plebiscycie</span></figcaption>
-        </figure>
-      </li>
-      <li class="md-shot">
-        <figure>
-          <picture>
-            <source type="image/webp" srcset="assets/img/medale/maraton-atenski-2023-450.webp 1x, assets/img/medale/maraton-atenski-2023-900.webp 2x">
-            <img src="assets/img/medale/maraton-atenski-2023-450.jpg" srcset="assets/img/medale/maraton-atenski-2023-900.jpg 2x" width="720" height="900" alt="Andrzej z medalem Maratonu Ateńskiego na stadionie Panathinaiko" loading="lazy" decoding="async" draggable="false" data-nopan>
-          </picture>
-          <figcaption data-src="https://www.myrace.gr/en/race/7075/results.html" data-src-fx="medal" data-src-label="Wyniki Athens Marathon 2023 (MyRace)"><b>Maraton Ateński</b> <span class="md-yr tnum">2023</span><span class="md-r">42,2 km</span></figcaption>
-        </figure>
-      </li>
-      <li class="md-shot">
-        <figure>
-          <picture>
-            <source type="image/webp" srcset="assets/img/medale/wyroznienie-prezydenta-2023-450.webp 1x, assets/img/medale/wyroznienie-prezydenta-2023-900.webp 2x">
-            <img src="assets/img/medale/wyroznienie-prezydenta-2023-450.jpg" srcset="assets/img/medale/wyroznienie-prezydenta-2023-900.jpg 2x" width="1351" height="900" alt="Wręczenie wyróżnienia Prezydenta Miasta Tychy w dziedzinie sportu" loading="lazy" decoding="async" draggable="false" data-nopan>
-          </picture>
-          <figcaption data-src="https://www.tychy.info/21229-zdjecia-nagrody-prezydenta-miasta-tychy-w-dziedzinie-sportu-przyznane-tychy" data-src-fx="medal" data-src-label="tychy.info: Nagrody prezydenta miasta"><b>Wyróżnienie Prezydenta Miasta Tychy</b> <span class="md-yr tnum">2023</span></figcaption>
-        </figure>
-      </li>
-      <li class="md-shot">
-        <figure>
-          <picture>
-            <source type="image/webp" srcset="assets/img/medale/gala-sportu-2023-450.webp 1x, assets/img/medale/gala-sportu-2023-900.webp 2x">
-            <img src="assets/img/medale/gala-sportu-2023-450.jpg" srcset="assets/img/medale/gala-sportu-2023-900.jpg 2x" width="1200" height="799" alt="Laureaci na scenie Tyskiej Gali Sportu" loading="lazy" decoding="async" draggable="false" data-nopan>
-          </picture>
-          <figcaption data-src="https://www.tychy.pl/wp-content/uploads/2024/02/tt846egazeta.pdf" data-src-fx="medal" data-src-label="Twoje Tychy: Czyj to był sportowy rok?"><b>Tyska Gala Sportu</b> <span class="md-yr tnum">2023</span></figcaption>
-        </figure>
-      </li>
-      <li class="md-shot">
-        <figure>
-          <picture>
-            <source type="image/webp" srcset="assets/img/medale/iisa-glogow-2022-podium-450.webp 1x, assets/img/medale/iisa-glogow-2022-podium-900.webp 2x">
-            <img src="assets/img/medale/iisa-glogow-2022-podium-450.jpg" srcset="assets/img/medale/iisa-glogow-2022-podium-900.jpg 2x" width="752" height="900" alt="Podium Mistrzostw Świata IISA w Głogowie" loading="lazy" decoding="async" draggable="false" data-nopan>
-          </picture>
-          <figcaption data-src="https://www.tgs.tychy.pl/index.php?mod=slawy&amp;act=show&amp;id=208" data-src-fx="mroz" data-src-label="Źródło"><b>Mistrzostwa Świata IISA</b> <span class="md-yr tnum">2022</span><span class="md-r">Głogów</span></figcaption>
-        </figure>
-      </li>
-      <li class="md-shot">
-        <figure>
-          <picture>
-            <source type="image/webp" srcset="assets/img/medale/iisa-glogow-2022-flaga-450.webp 1x, assets/img/medale/iisa-glogow-2022-flaga-900.webp 2x">
-            <img src="assets/img/medale/iisa-glogow-2022-flaga-450.jpg" srcset="assets/img/medale/iisa-glogow-2022-flaga-900.jpg 2x" width="740" height="900" alt="Podium Mistrzostw Świata IISA z polską flagą" loading="lazy" decoding="async" draggable="false" data-nopan>
-          </picture>
-          <figcaption data-src="https://katowice.tvp.pl/58396938/aktualnosci-sportowe-8022022-godz-2140" data-src-fx="mroz" data-src-label="TVP3 Katowice: z MŚ z 4 medalami"><b>Mistrzostwa Świata IISA</b> <span class="md-yr tnum">2022</span><span class="md-r">3 × srebro i brąz</span></figcaption>
-        </figure>
-      </li>
-      <li class="md-shot">
-        <figure>
-          <picture>
-            <source type="image/webp" srcset="assets/img/medale/gdynia-winter-swimming-2022-450.webp 1x, assets/img/medale/gdynia-winter-swimming-2022-900.webp 2x">
-            <img src="assets/img/medale/gdynia-winter-swimming-2022-450.jpg" srcset="assets/img/medale/gdynia-winter-swimming-2022-900.jpg 2x" width="721" height="900" alt="Andrzej na ściance Gdynia Winter Swimming" loading="lazy" decoding="async" draggable="false" data-nopan>
-          </picture>
-          <figcaption data-src="https://www.icp.org.pl/" data-src-fx="mroz" data-src-label="Ice Cup Poland"><b>Gdynia Winter Swimming</b> <span class="md-yr tnum">2022</span><span class="md-r">złoto, srebro i brąz</span></figcaption>
-        </figure>
-      </li>
-      <li class="md-shot">
-        <figure>
-          <picture>
-            <source type="image/webp" srcset="assets/img/medale/vistula-winter-swimming-2022-450.webp 1x, assets/img/medale/vistula-winter-swimming-2022-900.webp 2x">
-            <img src="assets/img/medale/vistula-winter-swimming-2022-450.jpg" srcset="assets/img/medale/vistula-winter-swimming-2022-900.jpg 2x" width="725" height="900" alt="Podium Vistula Winter Swimming" loading="lazy" decoding="async" draggable="false" data-nopan>
-          </picture>
-          <figcaption data-src="https://www.icp.org.pl/" data-src-fx="mroz" data-src-label="Ice Cup Poland"><b>Vistula Winter Swimming</b> <span class="md-yr tnum">2022</span><span class="md-r">2 × złoto</span></figcaption>
-        </figure>
-      </li>
-      <li class="md-shot">
-        <figure>
-          <picture>
-            <source type="image/webp" srcset="assets/img/medale/plywanie-zimowe-2022-450.webp 1x, assets/img/medale/plywanie-zimowe-2022-900.webp 2x">
-            <img src="assets/img/medale/plywanie-zimowe-2022-450.jpg" srcset="assets/img/medale/plywanie-zimowe-2022-900.jpg 2x" width="1342" height="900" alt="Andrzej z medalem po wyjściu z lodowatej wody" loading="lazy" decoding="async" draggable="false" data-nopan>
-          </picture>
-          <figcaption data-src="https://www.icp.org.pl/" data-src-fx="mroz" data-src-label="Ice Cup Poland"><b>Pływanie zimowe</b> <span class="md-yr tnum">2022</span></figcaption>
-        </figure>
-      </li>
-      <li class="md-shot">
-        <figure>
-          <picture>
-            <source type="image/webp" srcset="assets/img/medale/iron-run-2021-450.webp 1x, assets/img/medale/iron-run-2021-900.webp 2x">
-            <img src="assets/img/medale/iron-run-2021-450.jpg" srcset="assets/img/medale/iron-run-2021-900.jpg 2x" width="720" height="900" alt="Andrzej z nagrodą za 3. miejsce w Iron Run" loading="lazy" decoding="async" draggable="false" data-nopan>
-          </picture>
-          <figcaption data-src="https://rejestracja-festiwalbiegowy.pl/wyniki/web/site/impreza?nr=4" data-src-fx="gory" data-src-label="Wyniki Festiwalu Biegowego 2021"><b>Iron Run</b> <span class="md-yr tnum">2021</span><span class="md-r">3. miejsce</span></figcaption>
-        </figure>
-      </li>
-      <li class="md-shot">
-        <figure>
-          <picture>
-            <source type="image/webp" srcset="assets/img/medale/lodowy-koziol-2021-450.webp 1x, assets/img/medale/lodowy-koziol-2021-900.webp 2x">
-            <img src="assets/img/medale/lodowy-koziol-2021-450.jpg" srcset="assets/img/medale/lodowy-koziol-2021-900.jpg 2x" width="1063" height="900" alt="Podium Lodowego Kozła w Kędzierzynie-Koźlu" loading="lazy" decoding="async" draggable="false" data-nopan>
-          </picture>
-          <figcaption data-src="https://www.lokalna24.pl/artykul/9816,lodowy-koziol-2021-w-kedzierzynie-kozlu-poznalismy-zwyciezcow-zimowego-plywania-w-odrze-zdjecia" data-src-fx="mroz" data-src-label="lokalna24.pl: Lodowy Kozioł 2021"><b>Lodowy Kozioł</b> <span class="md-yr tnum">2021</span><span class="md-r">3. miejsce</span></figcaption>
-        </figure>
-      </li>
-    </ul>
-  </div>
-  <div class="wrap">
-    <div class="md-bar rv">
-      <div class="chips md-filters" id="mdFilters" role="group" aria-label="Filtr startów"></div>
-      <ul class="md-legend" aria-label="Legenda">
-        <li><span class="md-dot md-g">1</span>1. miejsce</li>
-        <li><span class="md-dot md-s">2</span>2. miejsce</li>
-        <li><span class="md-dot md-b">3</span>3. miejsce</li>
-        <li><svg class="md-heart" viewBox="0 0 12 11" aria-hidden="true"><path d="M6 10.2 1.6 5.9A2.6 2.6 0 0 1 6 2.4a2.6 2.6 0 0 1 4.4 3.5Z"/></svg>charytatywnie</li>
-      </ul>
-    </div>
-    <div class="md-cv" id="mdCv"></div>
-    <details class="md-table">
-      <summary>Wszystkie starty w tabeli</summary>
-      <div class="md-tw">
-        <table>
-          <thead><tr><th scope="col">Rok</th><th scope="col">Start</th><th scope="col">Miejsce i dystans</th><th scope="col">Wynik</th></tr></thead>
-          <tbody id="mdBody"></tbody>
-        </table>
-      </div>
-    </details>
-  </div>
-</section>
-
-<!-- ============ POMAGANIE ============ -->
-<section class="sec alt" id="pomaganie">
-  <div class="wrap">
-    <header class="sec-head rv">
-      <p class="eyebrow">Więcej niż sport</p>
-      <h2 class="h2">Moja misja wykracza poza standardowe ramy sportu.</h2>
-      <p class="lede">Od 2017 roku łączę sportowe wyzwania ze zbiórkami dla ludzi i miejsc, które potrzebują pomocy. Odważne projekty przyciągają uwagę, a tę uwagę warto zamienić w coś dobrego.</p>
-    </header>
-
-    <div class="ph-top">
-      <div class="ph-total rv">
-        <p class="ph-sum tnum" data-src="pomaganie.html#pom-start" data-src-fx="puls" data-src-label="Zestawienie zbiórek (siepomaga.pl, zrzutka.pl)"><span data-count="250">250</span> tys.&nbsp;zł+</p>
-        <p class="small ph-cap">zebrane w zbiórkach z lat 2022–2026 <img class="lg" src="assets/img/logos/siepomaga.png" alt="siepomaga.pl" style="--h:18px" loading="lazy" srcset="assets/img/_v/logos__siepomaga-480.webp 480w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="480" height="124" decoding="async"></p>
-      </div>
-      <blockquote class="ph-quote quote rv" style="--d:.1s" data-src="pomaganie.html#pom-start" data-src-fx="puls" data-src-label="Sportowa Perspektywa, Wolontariat">„Takie wydarzenia to serce mojej sportowej drogi.”</blockquote>
-    </div>
-
-    <ol class="ph-list">
+    <h2 class="h2 rv" id="ul-h">Ma być albo ultra, albo ekstremalnie.</h2>
+    <ol class="ul-list">
       <li class="rv">
-        <span class="ph-y tnum">2026</span>
-        <span class="ph-t"><span class="ev ev-by">Backyard na Dziko</span><small>„Tu Się Tuli”, Fundacja Śląskie Hospicjum dla Dzieci Świetlikowo</small></span>
-        <span class="ph-l"><img class="lg" src="assets/img/logos/swietlikowo.png" alt="Fundacja Śląskie Hospicjum dla Dzieci Świetlikowo" style="--h:29px" loading="lazy" srcset="assets/img/_v/logos__swietlikowo-123.webp 123w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="123" height="81" decoding="async"></span>
-        <span class="ph-a"><a class="more" href="#backyard">1–4 października</a></span>
+        <p class="ul-n tnum">65 h <span>600 km</span></p>
+        <p class="ul-t">Pierwszy w historii pokonałem podwójną wersję najtrudniejszego triathlonu w Europie.</p>
       </li>
-      <li class="rv">
-        <span class="ph-y tnum">2026</span>
-        <span class="ph-t"><span class="ev ev-by">W kółko dla Kwadratu</span><small>wakacje dla dzieci z Placówki Pieczy Zastępczej Kwadrat w Tychach</small></span>
-        <span class="ph-l"></span>
-        <span class="ph-a tnum" data-src="https://www.siepomaga.pl/kwadrat" data-src-fx="puls" data-src-label="siepomaga.pl, W kółko dla Kwadratu">80 985 zł</span>
+      <li class="rv" style="--d:.06s">
+        <p class="ul-n tnum">86 h <span>450 km</span></p>
+        <p class="ul-t">Przebiegłem Główny Szlak Sudecki z trzecim najlepszym czasem w historii.</p>
       </li>
-      <li class="rv">
-        <span class="ph-y tnum">2025</span>
-        <span class="ph-t"><span class="ev ev-trail"><i class="pttk" aria-hidden="true"></i>Główny Szlak Sudecki</span><small>445 km dla dwuletniej Nikusi</small></span>
-        <span class="ph-l"></span>
-        <span class="ph-a tnum" data-src="https://www.siepomaga.pl/przebiec-gory-dla-nikusi" data-src-fx="puls" data-src-label="siepomaga.pl, Przebiec góry dla Nikusi">35 231 zł</span>
-      </li>
-      <li class="rv">
-        <span class="ph-y tnum">2025</span>
-        <span class="ph-t"><span class="ev ev-harda">2×Harda</span><small>Fundacja Szerpowie Nadziei</small></span>
-        <span class="ph-l"><img class="lg" src="assets/img/logos/szerpowie-nadziei.png" alt="Fundacja Szerpowie Nadziei" style="--h:34px" loading="lazy" srcset="assets/img/_v/logos__szerpowie-nadziei-195.webp 195w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="195" height="180" decoding="async"></span>
-        <span class="ph-a tnum" data-src="https://www.siepomaga.pl/2hard" data-src-fx="puls" data-src-label="siepomaga.pl, 2Hard">93 160 zł</span>
-      </li>
-      <li class="rv">
-        <span class="ph-y tnum">2024</span>
-        <span class="ph-t"><span class="ev ev-swim">24 godziny pływania</span><small>2046 długości basenu dla Fundacji Śląskie Hospicjum dla Dzieci Świetlikowo</small></span>
-        <span class="ph-l"><img class="lg" src="assets/img/logos/swietlikowo.png" alt="Fundacja Śląskie Hospicjum dla Dzieci Świetlikowo" style="--h:29px" loading="lazy" srcset="assets/img/_v/logos__swietlikowo-123.webp 123w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="123" height="81" decoding="async"></span>
-        <span class="ph-a tnum" data-src="https://www.tychy.pl/wp-content/uploads/2024/02/tt849egazeta-1.pdf" data-src-fx="woda" data-src-label="Twoje Tychy nr 849">10 000+ zł</span>
-      </li>
-      <li class="rv">
-        <span class="ph-y tnum">2023</span>
-        <span class="ph-t"><span class="ev ev-trail"><i class="pttk" aria-hidden="true"></i>Główny Szlak Beskidzki</span><small>500 km dla trzynastomiesięcznej Natalki</small></span>
-        <span class="ph-l"></span>
-        <span class="ph-a" data-src="https://www.tychy.pl/2023/10/11/andrzej-kowalczyk-biegiem-przez-beskidy/" data-src-fx="gory" data-src-label="tychy.pl, Biegiem przez Beskidy">100% celu</span>
-      </li>
-      <li class="rv">
-        <span class="ph-y tnum">2022</span>
-        <span class="ph-t"><span class="ev ev-trail"><i class="pttk" aria-hidden="true"></i>Główny Szlak Beskidzki</span><small>z Krzysztofem Kościelnikiem dla Fundacji Słonie na Balkonie</small></span>
-        <span class="ph-l"><img class="lg" src="assets/img/logos/slonie-na-balkonie.svg" alt="Fundacja Słonie na Balkonie" style="--h:18px" loading="lazy" width="172" height="45" decoding="async"></span>
-        <span class="ph-a tnum" data-src="https://www.siepomaga.pl/bieg-500km" data-src-fx="puls" data-src-label="siepomaga.pl, Bieg 500 km">35 301 zł</span>
-      </li>
-      <li class="rv">
-        <span class="ph-y tnum">2020</span>
-        <span class="ph-t"><span class="ev">72 km biegu po Tatrach</span><small>projekt charytatywny</small></span>
-        <span class="ph-l"></span>
-        <span class="ph-a ph-none">—</span>
-      </li>
-      <li class="rv">
-        <span class="ph-y tnum">2018</span>
-        <span class="ph-t"><span class="ev">Szlachetna Paczka</span><small>dla samotnej mamy</small></span>
-        <span class="ph-l"><img class="lg" src="assets/img/logos/szlachetna-paczka.png" alt="Szlachetna Paczka" style="--h:34px" loading="lazy" srcset="assets/img/_v/logos__szlachetna-paczka-180.webp 180w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="180" height="180" decoding="async"></span>
-        <span class="ph-a ph-none">—</span>
-      </li>
-      <li class="rv">
-        <span class="ph-y tnum">2017</span>
-        <span class="ph-t"><span class="ev">Maraton Warszawski w stroju Supermana</span><small data-src="blog.html#pgb-gsb-h" data-src-label="Sportowa Perspektywa">dla wcześniaków</small></span>
-        <span class="ph-l"></span>
-        <span class="ph-a ph-none">—</span>
+      <li class="rv" style="--d:.12s">
+        <p class="ul-n tnum">72 h <span>482 km</span></p>
+        <p class="ul-t">72 pętle biegiem wokół jeziora, w ramach Backyard Challenge dla hospicjum.</p>
       </li>
     </ol>
+    <p class="ul-more rv">Sześciokrotny medalista Mistrzostw Świata w ekstremalnym lodowym pływaniu. Członek kadry narodowej. Zwycięzca dwunasto- i dwudziestoczterogodzinnych maratonów pływackich. Medalista etapowych górskich biegów. Rekordzista górskich szlaków długodystansowych. Elitarny biegacz górski.</p>
   </div>
 </section>
 
-<!-- ============ BACKYARD NA DZIKO ============ -->
-<section class="sec dark by" id="backyard">
-  <div class="wrap by-grid">
-    <div class="by-copy rv">
-      <p class="eyebrow">1–4 października 2026</p>
-      <h2 class="h2 by-h"><span data-src="https://www.siepomaga.pl/backyard-na-dziko" data-src-fx="petla" data-src-label="siepomaga.pl: Backyard na Dziko">Backyard na Dziko</span></h2>
-      <p class="lede">72 godziny wokół Jeziora Paprocany. Co pełną godzinę pętla <span data-src="https://www.siepomaga.pl/backyard-na-dziko" data-src-fx="petla" data-src-label="siepomaga.pl: Backyard na Dziko">6,7 km</span>, przez cały czas transmisja na żywo. Każdy kilometr to cegiełka do „Tu Się Tuli”, stacjonarnego hospicjum dla dzieci.</p>
-      <div class="by-cd" id="byCd" aria-live="off">
-        <span class="g"><b id="byD">12</b><i>dni</i></span><span class="c" aria-hidden="true">:</span>
-        <span class="g"><b id="byH">00</b><i>godz.</i></span><span class="c" aria-hidden="true">:</span>
-        <span class="g"><b id="byM">00</b><i>min</i></span><span class="c" aria-hidden="true">:</span>
-        <span class="g"><b id="byS">00</b><i>sek.</i></span>
-      </div>
-      <p class="by-state" id="byState">do startu</p>
-    </div>
-
-    <figure class="by-map rv" id="byMap" style="--d:.08s">
-      <img class="by-base" src="assets/img/paprocany-map.svg" alt="" width="2675" height="1967" loading="lazy" decoding="async">
-      <svg class="by-ov" viewBox="-1456 -986 2675 1967" preserveAspectRatio="xMidYMid meet" aria-hidden="true" focusable="false">
-        <path class="by-lp" id="byLp" d="M979.1 -305.9L982.5 -240.7L982.1 -228.9L991.6 -169.8L995.9 -158.2L999.5 -139.9L998.9 -134.4L989.3 -107.4L962.9 -73.0L927.6 -54.1L878.2 -31.8L869.0 -25.0L861.5 -11.8L859.0 14.6L851.5 28.3L840.4 39.6L812.5 60.0L785.3 92.0L765.0 102.8L754.0 114.4L686.2 226.4L683.1 241.1L669.9 271.2L669.4 276.4L665.4 284.8L662.5 305.1L661.6 323.5L667.1 355.8L671.5 368.2L677.8 379.8L678.8 384.1L678.4 392.9L676.4 401.3L672.5 410.2L664.7 448.8L659.1 468.0L647.5 487.4L637.5 501.2L625.6 508.9L609.2 512.0L588.1 507.7L569.7 499.8L553.3 494.4L540.8 495.9L453.6 522.7L431.0 526.7L415.7 527.8L402.2 531.1L366.8 546.8L325.9 556.8L228.5 603.2L214.5 606.8L203.9 606.0L160.8 588.9L144.6 581.1L118.9 576.2L107.8 578.1L93.2 584.0L75.8 595.2L44.0 624.1L-1.6 646.4L-56.1 665.6L-103.8 662.2L-126.5 661.6L-139.3 663.1L-145.9 659.9L-159.5 645.6L-200.1 625.1L-210.2 622.0L-225.1 621.1L-242.4 624.2L-253.2 629.5L-277.3 652.5L-288.2 656.9L-307.8 654.8L-321.6 656.3L-486.1 719.7L-511.6 728.4L-539.0 733.7L-562.6 733.4L-595.5 730.3L-613.0 726.8L-647.6 718.5L-651.8 716.5L-655.5 713.5L-661.8 698.8L-677.3 691.7L-716.1 684.8L-738.2 687.2L-760.3 692.7L-772.2 697.6L-798.3 713.7L-825.4 735.7L-846.5 737.9L-901.4 761.5L-921.4 760.6L-955.0 750.4L-986.3 745.9L-1002.8 741.8L-1010.1 695.6L-1012.0 670.5L-1015.9 655.6L-1028.5 649.2L-1096.0 646.9L-1117.4 643.8L-1200.2 623.7L-1228.9 615.3L-1232.4 618.2L-1232.7 591.4L-1231.1 565.9L-1235.1 426.9L-1229.8 426.4L-1202.8 412.9L-1196.9 411.9L-1078.9 429.5L-1066.7 426.5L-990.3 401.5L-873.7 366.6L-782.9 335.4L-735.8 321.3L-564.9 238.8L-523.6 222.6L-498.6 217.5L-425.6 224.8L-390.3 223.4L-358.7 214.3L-249.5 130.9L-72.9 -53.5L11.2 -130.9L77.5 -200.0L155.1 -288.1L234.1 -370.3L263.2 -385.9L271.3 -388.9L327.6 -421.2L345.1 -437.9L387.8 -542.5L401.0 -563.1L445.2 -595.4L477.0 -614.7L496.3 -630.1L516.0 -655.1L540.4 -707.8L558.1 -736.5L566.2 -744.5L595.7 -759.5L605.8 -762.1L638.5 -765.4L653.4 -762.9L668.1 -755.4L705.5 -723.7L739.9 -708.0L767.9 -697.4L810.3 -692.0L823.1 -688.8L902.2 -626.4L940.0 -589.9L946.9 -575.7L955.3 -523.5L954.0 -487.2L954.9 -479.0L957.6 -471.7L979.5 -440.5L977.7 -413.9L979.1 -305.9Z"/>
-        <g class="by-ticks"><path d="M668.3 483.7L694.1 499.1"/><path d="M-202.7 641.7L-216.2 668.5"/><path d="M-1027.2 682.8L-1057.1 685.1"/><path d="M-769.7 314.8L-778.3 286.0"/><path d="M-5.4 -137.4L-25.7 -159.5"/><path d="M636.6 -781.3L633.6 -811.2"/></g>
-      </svg>
-      <span class="by-stm" style="left:91.03%;top:34.58%" aria-hidden="true"></span>
-      <span class="by-lbl by-lbl-st" style="left:91.03%;top:34.58%" aria-hidden="true">Start i meta</span>
-      <span class="by-lbl by-lbl-lake" style="left:77.05%;top:43.77%" aria-hidden="true">Jezioro Paprocany</span>
-      <span class="by-km" style="left:81.85%;top:76.70%">1</span><span class="by-km" style="left:45.57%;top:86.20%">2</span><span class="by-km" style="left:13.20%;top:85.13%">3</span><span class="by-km" style="left:24.84%;top:62.43%">4</span><span class="by-km" style="left:52.30%;top:40.30%">5</span><span class="by-km" style="left:77.94%;top:6.56%">6</span>
-      <span class="by-dot" id="byDot" style="left:91.03%;top:34.58%" aria-hidden="true"></span>
-      <figcaption class="sr-only">Mapa konturowa Jeziora Paprocany w Tychach z pętlą po ścieżkach wokół jeziora, punktem startu i mety przy plaży oraz znacznikami kolejnych kilometrów.</figcaption>
-      <a class="by-osm" href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">© OpenStreetMap</a>
-    </figure>
-  </div>
-
-  <div class="wrap by-time" id="byTime">
-    <div class="by-hud">
-      <p class="by-hn">Pętla <span id="byNum">1</span><i>/72</i></p>
-      <p class="by-hc"><span class="by-live" id="byLive" hidden></span><span id="byClock">czw 10:00</span><span class="by-hk" id="byKm">0 → 6,7 km</span></p>
-    </div>
-    <div class="by-track">
-      <div class="by-days" id="byDays" aria-hidden="true"></div>
-      <div class="by-strip" id="byStrip" aria-hidden="true"></div>
-      <input class="by-slider" type="range" id="byRange" min="1" max="72" step="1" value="1" aria-label="Pętla">
-    </div>
-    <a class="more by-cal" id="byCal" href="https://calendar.google.com/calendar/render?action=TEMPLATE" target="_blank" rel="noopener">Dodaj do kalendarza</a>
-  </div>
-
-  <div class="wrap by-foot rv">
-    <dl class="by-facts">
-      <div><dt>Start</dt><dd>czwartek, 1 października, 10:00</dd></div>
-      <div><dt>Miejsce</dt><dd><span data-src="https://www.openstreetmap.org/relation/3799670" data-src-fx="woda" data-src-label="OpenStreetMap: Jezioro Paprocańskie">Jezioro Paprocany</span>, Tychy</dd></div>
-      <div><dt>Pętla</dt><dd>6,7 km co pełną godzinę</dd></div>
-      <div><dt>Tempo</dt><dd class="tnum">6:00–6:20 min/km</dd></div>
-      <div><dt>Cel</dt><dd>„Tu Się Tuli”, Fundacja Śląskie Hospicjum dla Dzieci Świetlikowo</dd></div>
-    </dl>
-    <div class="by-cta">
-      <a class="btn" href="https://www.siepomaga.pl/backyard-na-dziko" target="_blank" rel="noopener">Wesprzyj zbiórkę</a>
-      <a class="btn btn-2" href="https://www.facebook.com/ultraekstremalny" target="_blank" rel="noopener">Transmisja</a>
-    </div>
-  </div>
-</section>
-
-<section class="sec" id="prelekcje" aria-labelledby="pr-h">
+<section class="sec alt" id="zasieg" aria-label="Zasięg i pomaganie">
   <div class="wrap">
-    <header class="sec-head">
-      <p class="eyebrow">Prelekcje i szkolenia</p>
-      <h2 class="h2 rv" id="pr-h">Najpiękniejsze uczucie to bycie wartością <span data-fx="puls">dla innych</span>.</h2>
-      <p class="lede rv">Opowiadam o drodze od uzależnień do sportu zawodowego i uczę, jak łączyć ambitne życie z dbałością o zdrowie. W szkołach, firmach, na festiwalach i wszędzie tam, gdzie mogę być wartością dla odbiorców.</p>
-    </header>
-  </div>
-
-  <div class="pr-row" id="prRow" tabindex="0" aria-label="Zdjęcia z prelekcji">
-    <img src="assets/img/scena.jpg" alt="Andrzej na scenie NASH Festival w Szklarskiej Porębie" loading="lazy" srcset="assets/img/_v/scena-480.webp 480w, assets/img/_v/scena-640.webp 640w, assets/img/_v/scena-800.webp 800w, assets/img/_v/scena-1200.webp 1200w, assets/img/_v/scena-1600.webp 1600w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="1600" height="1067" decoding="async">
-    <img src="assets/img/potega-pasji.jpg" alt="Prelekcja „Potęga Pasji”" loading="lazy" srcset="assets/img/_v/potega-pasji-480.webp 480w, assets/img/_v/potega-pasji-640.webp 640w, assets/img/_v/potega-pasji-800.webp 800w, assets/img/_v/potega-pasji-1200.webp 1200w, assets/img/_v/potega-pasji-1600.webp 1600w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="1600" height="1067" decoding="async">
-    <img src="assets/img/szkola.jpg" alt="Spotkanie z młodzieżą w szkolnej sali gimnastycznej" loading="lazy" srcset="assets/img/_v/szkola-480.webp 480w, assets/img/_v/szkola-640.webp 640w, assets/img/_v/szkola-800.webp 800w, assets/img/_v/szkola-1200.webp 1200w, assets/img/_v/szkola-1600.webp 1600w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="1600" height="1067" decoding="async">
-    <img src="assets/img/sala-dzieci.jpg" alt="Spotkanie z dziećmi w szkole" loading="lazy" srcset="assets/img/_v/sala-dzieci-480.webp 480w, assets/img/_v/sala-dzieci-640.webp 640w, assets/img/_v/sala-dzieci-800.webp 800w, assets/img/_v/sala-dzieci-1200.webp 1200w, assets/img/_v/sala-dzieci-1600.webp 1600w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="1600" height="1101" decoding="async">
-    <img src="assets/img/mikrofon.jpg" alt="Andrzej z mikrofonem podczas wystąpienia" loading="lazy" srcset="assets/img/_v/mikrofon-480.webp 480w, assets/img/_v/mikrofon-640.webp 640w, assets/img/_v/mikrofon-800.webp 800w, assets/img/_v/mikrofon-1200.webp 1200w, assets/img/_v/mikrofon-1600.webp 1600w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="1600" height="1067" decoding="async">
-    <img src="assets/img/ekran.jpg" alt="Prelekcja dla młodzieży przed ekranem" loading="lazy" srcset="assets/img/_v/ekran-480.webp 480w, assets/img/_v/ekran-640.webp 640w, assets/img/_v/ekran-800.webp 800w, assets/img/_v/ekran-1200.webp 1200w, assets/img/_v/ekran-1600.webp 1600w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="1600" height="1202" decoding="async">
-    <img src="assets/img/warsztat.jpg" alt="Szkolenie wellbeingowe dla firmy" loading="lazy" srcset="assets/img/_v/warsztat-480.webp 480w, assets/img/_v/warsztat-640.webp 640w, assets/img/_v/warsztat-800.webp 800w, assets/img/_v/warsztat-1200.webp 1200w, assets/img/_v/warsztat-1600.webp 1600w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="1600" height="1068" decoding="async">
-  </div>
-  <div class="wrap pr-nav">
-    <button type="button" class="pr-arrow" id="prPrev" aria-label="Poprzednie zdjęcia">‹</button>
-    <button type="button" class="pr-arrow" id="prNext" aria-label="Następne zdjęcia">›</button>
-  </div>
-
-  <div class="wrap">
-    <div class="pr-offers">
-      <article class="pr-offer rv">
-        <p class="eyebrow">Prelekcja motywacyjna</p>
-        <h3 class="h3">Potęga Pasji</h3>
-        <p class="pr-sub quote" data-src="prelekcje.html#pp-talk-h" data-src-label="Sportowa Perspektywa, Prelekcje">Od autodestrukcji metodą uzależnień do sportu zawodowego.</p>
-        <p>Opowieść o całkowitej przemianie, która pokazuje, że można odwrócić bieg dowolnej historii, niezależnie od punktu wyjścia. Szczerze o karkołomnych próbach sportowych, a przede wszystkim o drodze, która zaprowadziła mnie na sportowe i trzeźwe ścieżki.</p>
-        <ul class="pr-tags" aria-label="Dla kogo">
-          <li>Szkoły</li><li>Festiwale podróżnicze</li><li>Kongresy biznesowe</li><li>Gminy i domy kultury</li><li>Rekolekcje</li><li>Kluby sportowe</li>
-        </ul>
-      </article>
-      <article class="pr-offer rv" style="--d:.1s">
-        <p class="eyebrow">Program wellbeingowy dla firm</p>
-        <h3 class="h3">Jak poprawić kondycję Twojej firmy?</h3>
-        <p>Esencja dziesięciu lat praktyki: pięć nierozerwalnych narzędzi odpowiedzialnych za zdrowie, sylwetkę i samopoczucie. Kilkugodzinne spotkanie w grupie, po którym zespół pomaga sobie nawzajem we wdrażaniu zmian.</p>
-        <div class="pr-pl" role="tablist" aria-label="Pięć filarów" id="prPl">
-          <button type="button" role="tab" aria-selected="true" aria-controls="prPlTxt" data-t="Fundament regeneracji. Od jego jakości zależą energia, koncentracja i apetyt następnego dnia.">Sen</button>
-          <button type="button" role="tab" aria-selected="false" aria-controls="prPlTxt" tabindex="-1" data-t="Ruch na co dzień, nie tylko trening. Kroki, przerwy od siedzenia i nawyki, które da się utrzymać latami.">Aktywność</button>
-          <button type="button" role="tab" aria-selected="false" aria-controls="prPlTxt" tabindex="-1" data-t="Posiłki, które sycą i smakują. Świadomy wybór i kompozycja zamiast restrykcyjnych diet.">Odżywianie</button>
-          <button type="button" role="tab" aria-selected="false" aria-controls="prPlTxt" tabindex="-1" data-t="Najprostsze narzędzie i najczęściej pomijane. Ile, kiedy i jak pić w pracy oraz podczas wysiłku.">Nawodnienie</button>
-          <button type="button" role="tab" aria-selected="false" aria-controls="prPlTxt" tabindex="-1" data-t="Tylko celowana, uzupełniająca realne niedobory, a nie półka pełna obietnic.">Suplementacja</button>
-        </div>
-        <p class="pr-pl-txt" id="prPlTxt" role="tabpanel" aria-live="polite">Fundament regeneracji. Od jego jakości zależą energia, koncentracja i apetyt następnego dnia.</p>
-      </article>
-    </div>
-
-    <div class="pr-foot">
-      <div class="pr-ref rv">
-        <p class="num" data-count="23" data-src="prelekcje.html#referencje" data-src-fx="medal" data-src-label="Skany listów referencyjnych">23</p>
-        <p class="small" data-src="prelekcje.html#referencje" data-src-fx="medal" data-src-label="Sportowa Perspektywa, referencje">listy referencyjne i podziękowania ze szkół, ośrodków i festiwali, 2024–2026</p>
-      </div>
-      <div class="pr-visits rv" style="--d:.1s">
-        <h3 class="h3">Odwiedzam</h3>
-        <ul>
-          <li>Szkoły, w których staję przed młodzieżą z własnymi sukcesami i porażkami.</li>
-          <li>Ludzi, którzy zmagają się z uzależnieniami.</li>
-          <li>Domy dziecka i miejsca, w których potrzeba dowodów, że można.</li>
-          <li>Organizacje pomagające potrzebującym. Dla nich prelekcje prowadzę nieodpłatnie.</li>
-        </ul>
-      </div>
-      <div class="pr-cta rv" style="--d:.2s">
-        <a class="btn" href="#kontakt" data-topic="Prelekcja">Zapytaj o termin</a>
-        <a class="more" href="prelekcje.html">Szczegóły i referencje</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="sec alt" id="wspolpraca" aria-labelledby="ws-h">
-  <div class="wrap">
-    <header class="sec-head">
-      <p class="eyebrow">Współpraca</p>
-      <h2 class="h2 rv" id="ws-h">Współpraca z wartościami.</h2>
-      <p class="lede rv">Od 2020 roku udowadniam, że jestem dobrą inwestycją. Jeśli szukasz sportowca, który z pasją, autentycznością i zaangażowaniem pokaże wartości Twojej marki, porozmawiajmy.</p>
-    </header>
-
-    <dl class="ws-reach">
-      <div class="rv"><dt data-src="https://www.facebook.com/ultraekstremalny" data-src-label="facebook.com/ultraekstremalny">obserwujących na Facebooku, Instagramie, TikToku i YouTube</dt><dd><span class="num" data-count="20">20</span><span class="ws-u">tys.</span></dd></div>
-      <div class="rv" style="--d:.08s"><dt data-src="media.html" data-src-label="Sportowa Perspektywa, Media">publikacji i audycji w mediach</dt><dd><span class="num" data-count="156">156</span></dd></div>
-      <div class="rv" style="--d:.16s"><dt data-src="wspolpraca.html#partnerzy" data-src-label="Partnerzy i ich strony">firm, które wspierają mnie od lat</dt><dd><span class="num" data-count="8">8</span></dd></div>
+    <dl class="zs-stats">
+      <div class="rv"><dt>wyświetleń treści rocznie w mediach społecznościowych</dt><dd class="num tnum"><span data-count="6.7" data-dec="1">6,7</span> mln+</dd></div>
+      <div class="rv" style="--d:.06s"><dt>unikalnych odbiorców rocznie</dt><dd class="num tnum"><span data-count="1.3" data-dec="1">1,3</span> mln+</dd></div>
+      <div class="rv" style="--d:.12s"><dt>zebrane wspólnie z darczyńcami w latach 2025–2026</dt><dd class="num tnum"><span data-count="492">492</span> tys. zł</dd></div>
     </dl>
 
-    <div class="ws-grid">
-      <h3 class="h3 ws-sub">Partner zyskuje</h3>
-      <dl class="ws-ben">
-        <div><dt>Marketing</dt><dd>Marka obecna przy wyzwaniach, które śledzą tysiące osób.</dd></div>
-        <div><dt>Reklama</dt><dd>Logo na stroju, sprzęcie, plakatach i w relacjach na żywo.</dd></div>
-        <div><dt>Wizerunek</dt><dd>Skojarzenie z odwagą, autentycznością i pomaganiem.</dd></div>
-        <div><dt>Wydarzenia</dt><dd>Spotkania, prelekcje i wspólne treningi dla zespołu.</dd></div>
-        <div><dt>Networking</dt><dd>Społeczność partnerów, która wspiera się od lat.</dd></div>
-        <div><dt>Zdrowie</dt><dd>Szkolenia wellbeingowe dla pracowników.</dd></div>
-      </dl>
-    </div>
-
-    <div class="ws-grid">
-      <h3 class="h3 ws-sub">Uwierzyli w moją drogę</h3>
-      <ul class="ws-sp">
-        <li><a href="https://www.pec.tychy.pl" target="_blank" rel="noopener"><img class="lg" src="assets/img/logos/pec-tychy.png" alt="PEC Tychy" style="--h:45px" loading="lazy" srcset="assets/img/_v/logos__pec-tychy-390.webp 390w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="390" height="180" decoding="async"></a></li>
-        <li><a href="https://szromek.pl" target="_blank" rel="noopener"><img class="lg" src="assets/img/logos/szromek.png" alt="Szromek — budownictwo przemysłowe" style="--h:33px" loading="lazy" srcset="assets/img/_v/logos__szromek-480.webp 480w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="480" height="117" decoding="async"></a></li>
-        <li><a href="https://www.pracownicy24.pl" target="_blank" rel="noopener"><img class="lg" src="assets/img/logos/pracownicy24.png" alt="Pracownicy24" style="--h:13px" loading="lazy" srcset="assets/img/_v/logos__pracownicy24-480.webp 480w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="480" height="34" decoding="async"></a></li>
-        <li><a href="https://www.mb24-teleradiologia.pl" target="_blank" rel="noopener"><img class="lg" src="assets/img/logos/mb24.png" alt="MB24 Teleradiologia" style="--h:64px" loading="lazy" srcset="assets/img/_v/logos__mb24-115.webp 115w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="115" height="180" decoding="async"></a></li>
-        <li><a href="https://www.atriontychy.pl" target="_blank" rel="noopener"><img class="lg" src="assets/img/logos/atrion.png" alt="Atrion Centrum Biznesowe" style="--h:38px" loading="lazy" srcset="assets/img/_v/logos__atrion-480.webp 480w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="480" height="159" decoding="async"></a></li>
-        <li><a href="https://www.vimexmeble.pl" target="_blank" rel="noopener"><img class="lg" src="assets/img/logos/vimex.png" alt="Vimex design" style="--h:37px" loading="lazy" srcset="assets/img/_v/logos__vimex-480.webp 480w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="480" height="145" decoding="async"></a></li>
-        <li><a href="https://www.kulanskanieruchomosci.pl" target="_blank" rel="noopener"><img class="lg" src="assets/img/logos/kulanska.png" alt="Kulańska Nieruchomości" style="--h:38px" loading="lazy" srcset="assets/img/_v/logos__kulanska-480.webp 480w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="480" height="160" decoding="async"></a></li>
-        <li><a href="https://www.wszystkojestwglowie.pl" target="_blank" rel="noopener"><img class="lg" src="assets/img/logos/wszystko-jest-w-glowie.png" alt="Wszystko Jest w Głowie" style="--h:29px" loading="lazy" srcset="assets/img/_v/logos__wszystko-jest-w-glowie-480.webp 480w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="480" height="90" decoding="async"></a></li>
-      </ul>
-    </div>
-
-    <div class="ws-grid ws-prev">
-      <h3 class="h3 ws-sub">Wcześniej wspierali</h3>
-      <ul class="ws-pt">
-        <li><a href="https://alpinator.pl/" target="_blank" rel="noopener"><img class="lg" src="assets/img/logos/alpinator.png" alt="Alpinator.pl" style="--h:25px" loading="lazy" srcset="assets/img/_v/logos__alpinator-480.webp 480w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="480" height="170" decoding="async"></a></li>
-        <li><a href="https://www.facebook.com/azteqdesign/" target="_blank" rel="noopener"><img class="lg" src="assets/img/logos/azteq.png" alt="Azteq Design" style="--h:25px" loading="lazy" srcset="assets/img/_v/logos__azteq-235.webp 235w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="235" height="84" decoding="async"></a></li>
-        <li><a href="https://adamed.tychy.pl/" target="_blank" rel="noopener"><img class="lg" src="assets/img/logos/adamed.png" alt="Adamed — pracownia rehabilitacji" style="--h:26px" loading="lazy" srcset="assets/img/_v/logos__adamed-208.webp 208w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="208" height="81" decoding="async"></a></li>
-        <li><a href="https://www.evenement-tychy.pl/" target="_blank" rel="noopener"><img class="lg" src="assets/img/logos/evenement.png" alt="Evenement — biuro rachunkowe" style="--h:22px" loading="lazy" srcset="assets/img/_v/logos__evenement-480.webp 480w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="480" height="133" decoding="async"></a></li>
-        <li><a href="https://www.wingar.pl/" target="_blank" rel="noopener"><img class="lg" src="assets/img/logos/wingar.png" alt="WINGAR — ogrody zimowe" style="--h:18px" loading="lazy" srcset="assets/img/_v/logos__wingar-464.webp 464w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="464" height="88" decoding="async"></a></li>
-        <li><a href="https://float.tychy.pl/" target="_blank" rel="noopener"><img class="lg" src="assets/img/logos/floating.png" alt="Floating & Ganbanyoku Tychy" style="--h:36px" loading="lazy" srcset="assets/img/_v/logos__floating-239.webp 239w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="239" height="180" decoding="async"></a></li>
-        <li><a href="https://www.facebook.com/Tlenoterapiabierun/" target="_blank" rel="noopener"><img class="lg" src="assets/img/logos/oxy-rebab.png" alt="Oxy-Rebab — tlenoterapia hiperbaryczna" style="--h:36px" loading="lazy" srcset="assets/img/_v/logos__oxy-rebab-222.webp 222w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="222" height="172" decoding="async"></a></li>
-        <li><a href="https://www.42k.com.pl/" target="_blank" rel="noopener"><img class="lg" src="assets/img/logos/akademia-biegania.png" alt="Akademia Biegania Szymona Wdowiaka" style="--h:40px" loading="lazy" srcset="assets/img/_v/logos__akademia-biegania-126.webp 126w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="126" height="129" decoding="async"></a></li>
-        <li><a href="https://www.instagram.com/pawelolczyktrener/" target="_blank" rel="noopener"><img class="lg" src="assets/img/logos/pawel-olczyk.png" alt="Paweł Olczyk — trener" style="--h:33px" loading="lazy" srcset="assets/img/_v/logos__pawel-olczyk-202.webp 202w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="202" height="126" decoding="async"></a></li>
-        <li><img class="lg" src="assets/img/logos/swiatloczula.png" alt="Światłoczuła" style="--h:20px" loading="lazy" srcset="assets/img/_v/logos__swiatloczula-241.webp 241w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="241" height="58" decoding="async"></li>
-        <li><a href="https://www.facebook.com/salonurodyidietetyki/" target="_blank" rel="noopener"><img class="lg" src="assets/img/logos/salon-urody.png" alt="Salon Urody i Dietetyki" style="--h:19px" loading="lazy" srcset="assets/img/_v/logos__salon-urody-480.webp 480w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="480" height="100" decoding="async"></a></li>
-      </ul>
-    </div>
-
-    <div class="ws-q">
-      <div class="ws-q-track" id="wsQ" tabindex="0" aria-label="Opinie partnerów">
-        <figure><blockquote class="quote" data-src="https://www.facebook.com/azteqdesign/" data-src-label="Azteq Design, Facebook">„Kiedy my rano logujemy się do życia, on jest już po dwóch treningach. Kiedy narzekamy, że wieje nam w twarz, on sprawia, że to wiatr narzeka na Andrzeja.”</blockquote><figcaption><a class="src-name" style="color:inherit;text-decoration:none" href="https://www.facebook.com/azteqdesign/" target="_blank" rel="noopener">Azteq</a></figcaption></figure>
-        <figure><blockquote class="quote" data-src="https://alpinator.pl/" data-src-label="Alpinator">„Pamiętam, jak wstawał o 3:45 w zimie na biegowy trening, o 6:00 miał drugi, a na 8:00 dojeżdżał rowerem do pracy. Po drodze jeszcze morsowanie w jeziorze.”</blockquote><figcaption><a class="src-name" style="color:inherit;text-decoration:none" href="https://alpinator.pl/" target="_blank" rel="noopener">Alpinator, partner od 2020 roku</a></figcaption></figure>
-        <figure><blockquote class="quote" data-src="https://www.wingar.pl/" data-src-label="WINGAR, ogrody zimowe">„Dla Andrzeja nie istnieje zdanie »nie da się«. Skupia się na możliwościach, nie na przeszkodach.”</blockquote><figcaption><a class="src-name" style="color:inherit;text-decoration:none" href="https://www.wingar.pl/" target="_blank" rel="noopener">WINGAR, ogrody zimowe</a></figcaption></figure>
-        <figure><blockquote class="quote" data-src="https://www.42k.com.pl/" data-src-label="Akademia Biegania 42k, Szymon Wdowiak">„Zawsze gotowy, by trenować na 110%. Nakręca się każdym treningiem i nie boi się ciężkiej pracy.”</blockquote><figcaption><a class="src-name" style="color:inherit;text-decoration:none" href="https://www.42k.com.pl/" target="_blank" rel="noopener">Szymon Wdowiak, trener</a></figcaption></figure>
-        <figure><blockquote class="quote" data-src="https://www.instagram.com/pawelolczyktrener/" data-src-label="Paweł Olczyk, Instagram">„Przez półtora roku współpracy Andrzej nie odwołał żadnego treningu.”</blockquote><figcaption><a class="src-name" style="color:inherit;text-decoration:none" href="https://www.instagram.com/pawelolczyktrener/" target="_blank" rel="noopener">Paweł Olczyk, trener</a></figcaption></figure>
-      </div>
-      <div class="ws-q-nav">
-        <button type="button" id="wsPrev" aria-label="Poprzednia opinia">‹</button>
-        <button type="button" id="wsNext" aria-label="Następna opinia">›</button>
-      </div>
-    </div>
-
-    <div class="ws-cta">
-      <a class="btn" href="#kontakt" data-topic="Sponsoring">Porozmawiajmy</a>
-      <a class="btn btn-2" href="https://patronite.pl/ultraekstremalny" target="_blank" rel="noopener">Patronite</a>
-      <a class="more" href="wspolpraca.html">Pakiety partnerskie</a>
-    </div>
-  </div>
-</section>
-
-<section class="sec" id="media" aria-labelledby="md-h">
-  <div class="wrap">
-    <header class="sec-head">
-      <p class="eyebrow">Media</p>
-      <h2 class="h2 rv" id="md-h">Telewizja, prasa, podcasty.</h2>
-      <ul class="md-outlets rv" aria-label="Wybrane redakcje">
-        <li><img class="lg" src="assets/img/logos/tvp3-katowice.svg" alt="TVP3 Katowice" style="--h:32px" loading="lazy" width="227" height="135" decoding="async"></li>
-        <li><img class="lg" src="assets/img/logos/teleexpress.png" alt="Teleexpress" style="--h:18px" loading="lazy" srcset="assets/img/_v/logos__teleexpress-384.webp 384w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="384" height="63" decoding="async"></li>
-        <li><img class="lg" src="assets/img/logos/polsat.svg" alt="Polsat" style="--h:36px" loading="lazy" width="71" height="72" decoding="async"></li>
-        <li><img class="lg" src="assets/img/logos/canal-plus-sport.svg" alt="Canal+ Sport" style="--h:28px" loading="lazy" width="647" height="300" decoding="async"></li>
-        <li><img class="lg" src="assets/img/logos/rmf-maxx.png" alt="RMF Maxx" style="--h:28px" loading="lazy" srcset="assets/img/_v/logos__rmf-maxx-393.webp 393w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="393" height="180" decoding="async"></li>
-        <li><img class="lg" src="assets/img/logos/radio-357.svg" alt="Radio 357" style="--h:23px" loading="lazy" width="153" height="49" decoding="async"></li>
-        <li><img class="lg" src="assets/img/logos/radio-eska.svg" alt="Radio Eska" style="--h:24px" loading="lazy" width="868" height="288" decoding="async"></li>
-        <li><img class="lg" src="assets/img/logos/vox-fm.png" alt="Vox FM" style="--h:30px" loading="lazy" srcset="assets/img/_v/logos__vox-fm-338.webp 338w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="338" height="180" decoding="async"></li>
-        <li><img class="lg" src="assets/img/logos/wysokie-obcasy.svg" alt="Wysokie Obcasy" style="--h:17px" loading="lazy" width="423" height="53" decoding="async"></li>
-      </ul>
-      <p class="md-more rv"><a class="more" href="media.html">Pełne archiwum i materiały prasowe</a></p>
-    </header>
-
-    <div class="md-films">
-      <a class="md-film md-2hard rv" href="https://www.youtube.com/watch?v=hrpV-cw8S2o" target="_blank" rel="noopener">
-        <span class="md-img" data-broll="2hard" data-start="h-gran2" data-hover></span>
-        <span class="md-award"><span data-fx="medal">Nagroda Główna</span>, 16. Przegląd Filmów Górskich, Wadowice 2026</span>
-        <b class="md-title">2 Hard Road 2 Walk Alone</b>
-        <span class="md-desc">Zbyt trudna droga, by iść nią samemu. Film Jakuba Sowy o projekcie 2×Harda.</span>
-      </a>
-      <a class="md-film md-loop rv" style="--d:.1s" href="https://www.youtube.com/watch?v=oM6EwmRmXV8" target="_blank" rel="noopener">
-        <span class="md-img" data-broll="loop" data-start="l-bok" data-hover></span>
-        <span class="md-award">Nagroda, 16. Przegląd Filmów Górskich, Wadowice 2026</span>
-        <b class="md-title"><span class="md-ring" aria-hidden="true">Loop</span>The Loop — Wielka Pętla Beskidzka</b>
-        <span class="md-desc">235 kilometrów samotnego biegu po górach.</span>
-      </a>
-    </div>
-
-    <div class="md-mid">
-      <figure class="md-chart rv">
-        <figcaption class="h3">Publikacje w kolejnych latach</figcaption>
-        <div class="md-bars" id="mdBars" role="list"></div>
-        <p class="small md-pod" id="mdPod"></p>
-      </figure>
-      <div class="md-videos">
-        <a class="rv" href="https://www.youtube.com/watch?v=eunyGOLFPYM" target="_blank" rel="noopener"><img src="assets/img/yt-racepace.jpg" alt="" loading="lazy" srcset="assets/img/_v/yt-racepace-480.webp 480w, assets/img/_v/yt-racepace-640.webp 640w, assets/img/_v/yt-racepace-800.webp 800w, assets/img/_v/yt-racepace-960.webp 960w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="960" height="540" decoding="async"><span><b>Podwójna HardaSuka</b><span class="small">Race Pace, podcast o bieganiu</span></span></a>
-        <a class="rv" style="--d:.08s" href="https://www.youtube.com/watch?v=SZBxULIZ_qU" target="_blank" rel="noopener"><img src="assets/img/yt-tychy.jpg" alt="" loading="lazy" srcset="assets/img/_v/yt-tychy-480.webp 480w, assets/img/_v/yt-tychy-640.webp 640w, assets/img/_v/yt-tychy-800.webp 800w, assets/img/_v/yt-tychy-960.webp 960w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="960" height="540" decoding="async"><span><b>Warto zawalczyć o siebie</b><span class="small">Miasto Tychy</span></span></a>
-        <a class="rv" style="--d:.16s" href="assets/video/film/sponsoring-720.mp4" data-film="sponsoring" aria-haspopup="dialog"><span class="md-vthumb"><img src="assets/img/yt-sponsoring.jpg" alt="" loading="lazy" srcset="assets/img/_v/yt-sponsoring-480.webp 480w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="480" height="360" decoding="async"><span class="md-play" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8.5 5.8v12.4a.6.6 0 0 0 .9.5l9.6-6.2a.6.6 0 0 0 0-1L9.4 5.3a.6.6 0 0 0-.9.5z"/></svg></span></span><span><b>Sponsoring sportowy</b><span class="small">Współpraca z wartościami</span></span></a>
-      </div>
-    </div>
-
-    <div class="md-arch" id="mdArch">
-      <div class="md-arch-head">
-        <h3 class="h3">Archiwum</h3>
-        <label class="md-search"><span class="sr-only">Szukaj w archiwum</span><input type="search" id="mdQ" placeholder="Szukaj" autocomplete="off"></label>
-      </div>
-      <div class="md-filters">
-        <div class="chips" id="mdYears" role="group" aria-label="Rok"></div>
-        <div class="chips" id="mdKinds" role="group" aria-label="Rodzaj"></div>
-      </div>
-      <p class="small md-count" id="mdCount" aria-live="polite"></p>
-      <ul class="md-list" id="mdList"></ul>
-      <button class="btn btn-2" type="button" id="mdMore">Pokaż więcej</button>
-    </div>
-  </div>
-</section>
-
-<section class="sec so" id="na-biezaco" aria-labelledby="so-h">
-  <div class="wrap so-head">
-    <div>
-      <h2 class="h2 rv" id="so-h">Na bieżąco</h2>
-      <ul class="so-nets rv" aria-label="Profile">
-        <li><a href="https://www.instagram.com/ultraekstremalny/" target="_blank" rel="noopener"><svg class="so-ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="3.9"/><circle class="f" cx="17.2" cy="6.8" r="1.1"/></svg>@ultraekstremalny</a></li>
-        <li><a href="https://www.facebook.com/ultraekstremalny" target="_blank" rel="noopener"><svg class="so-ic" viewBox="0 0 24 24" aria-hidden="true"><path class="f" d="M13.4 21v-7.4h2.5l.4-2.9h-2.9V8.9c0-.8.2-1.4 1.4-1.4h1.6V4.9a21 21 0 0 0-2.3-.1c-2.3 0-3.8 1.4-3.8 3.9v2H7.7v2.9h2.6V21z"/></svg>Facebook</a></li>
-        <li><a href="https://www.youtube.com/@ultraekstremalny" target="_blank" rel="noopener"><svg class="so-ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="2.5" y="5.5" width="19" height="13" rx="4"/><path class="f" d="M10.2 9.2v5.6l4.8-2.8z"/></svg>YouTube</a></li>
-      </ul>
-    </div>
-    <div class="so-arrows" hidden>
-      <button class="so-btn" type="button" data-dir="-1" aria-label="Nowsze wpisy"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
-      <button class="so-btn" type="button" data-dir="1" aria-label="Starsze wpisy"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
-    </div>
-  </div>
-  <div class="so-rail" data-nopan>
-    <ul class="so-track">
-      <!-- social:strip -->
-      <li><a class="so-tile" href="https://www.instagram.com/p/Ddbo73uMb7V/" target="_blank" rel="noopener"><span class="so-img"><img src="assets/img/social/ig-Ddbo73uMb7V.jpg" alt="" width="1080" height="1270" sizes="(max-width: 600px) 47vw, 266px" loading="lazy" srcset="assets/img/_v/social__ig-Ddbo73uMb7V-480.webp 480w, assets/img/_v/social__ig-Ddbo73uMb7V-640.webp 640w, assets/img/_v/social__ig-Ddbo73uMb7V-800.webp 800w, assets/img/_v/social__ig-Ddbo73uMb7V-1080.webp 1080w" decoding="async"><span class="so-cap">It’s time to race. Sobota 8:00 • 80 km i 3866m+ deniwelacji • Słowenia • Julian Alps UTMB • Bled - Kranjska Gora.</span></span><span class="so-meta"><svg class="so-ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="3.9"/><circle class="f" cx="17.2" cy="6.8" r="1.1"/></svg><span class="sr-only">Instagram, </span><time datetime="2026-09-18">18 wrz</time></span></a></li>
-      <li><a class="so-tile" href="https://www.instagram.com/p/DdWt8Z9jJjZ/" target="_blank" rel="noopener"><span class="so-img"><img src="assets/img/social/ig-DdWt8Z9jJjZ.jpg" alt="" width="1080" height="1440" sizes="(max-width: 600px) 44vw, 250px" loading="lazy" srcset="assets/img/_v/social__ig-DdWt8Z9jJjZ-480.webp 480w, assets/img/_v/social__ig-DdWt8Z9jJjZ-640.webp 640w, assets/img/_v/social__ig-DdWt8Z9jJjZ-800.webp 800w, assets/img/_v/social__ig-DdWt8Z9jJjZ-1080.webp 1080w" decoding="async"><span class="so-cap">Pozdrawiam z jeszcze dziś słonecznej Słowenii, gdzie w sobotę biegnę na 80 km podczas Julian Alps UTMB.</span></span><span class="so-meta"><svg class="so-ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="3.9"/><circle class="f" cx="17.2" cy="6.8" r="1.1"/></svg><span class="sr-only">Instagram, </span><time datetime="2026-09-16">16 wrz</time></span></a></li>
-      <li><a class="so-tile" href="https://www.instagram.com/reel/DdO_mPCsFif/" target="_blank" rel="noopener"><span class="so-img"><img src="assets/img/social/ig-DdO_mPCsFif.jpg" alt="" width="720" height="1280" sizes="(max-width: 600px) 44vw, 250px" loading="lazy" srcset="assets/img/_v/social__ig-DdO_mPCsFif-480.webp 480w, assets/img/_v/social__ig-DdO_mPCsFif-640.webp 640w, assets/img/_v/social__ig-DdO_mPCsFif-720.webp 720w" decoding="async"><span class="so-play" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5.5v13l10.5-6.5z"/></svg></span><span class="so-cap">To jest chyba najpiękniejsza pasja jaką można kochać. Wszystko co potrzebne, dla ciała i ducha. Subiektywnie.</span></span><span class="so-meta"><svg class="so-ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="3.9"/><circle class="f" cx="17.2" cy="6.8" r="1.1"/></svg><span class="sr-only">Instagram, </span><time datetime="2026-09-13">13 wrz</time></span></a></li>
-      <li><a class="so-tile" href="https://www.instagram.com/p/DdGIuXFDG_o/" target="_blank" rel="noopener"><span class="so-img"><img src="assets/img/social/ig-DdGIuXFDG_o.jpg" alt="" width="1080" height="1357" sizes="(max-width: 600px) 44vw, 250px" loading="lazy" srcset="assets/img/_v/social__ig-DdGIuXFDG_o-480.webp 480w, assets/img/_v/social__ig-DdGIuXFDG_o-640.webp 640w, assets/img/_v/social__ig-DdGIuXFDG_o-800.webp 800w, assets/img/_v/social__ig-DdGIuXFDG_o-1080.webp 1080w" decoding="async"><span class="so-cap">Dziś 9 rocznica trzeźwości. Ogrom czasu, a nadal dużo krócej jestem w tym niż ówczesnym wymiarze.</span></span><span class="so-meta"><svg class="so-ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="3.9"/><circle class="f" cx="17.2" cy="6.8" r="1.1"/></svg><span class="sr-only">Instagram, </span><time datetime="2026-09-10">10 wrz</time></span></a></li>
-      <li><a class="so-tile" href="https://www.instagram.com/p/Dc8RR0eEZge/" target="_blank" rel="noopener"><span class="so-img"><img src="assets/img/social/ig-Dc8RR0eEZge.jpg" alt="" width="1080" height="719" sizes="(max-width: 600px) 83vw, 469px" loading="lazy" srcset="assets/img/_v/social__ig-Dc8RR0eEZge-480.webp 480w, assets/img/_v/social__ig-Dc8RR0eEZge-640.webp 640w, assets/img/_v/social__ig-Dc8RR0eEZge-800.webp 800w, assets/img/_v/social__ig-Dc8RR0eEZge-1080.webp 1080w" decoding="async"><span class="so-cap">Po dwóch latach przerwy od zajęcowania na Tyski Półmaraton z balonikiem dziś przyszedł czas powrotu. Razem z Michał Stopa poprowadziliśmy grupę biegaczy celujących w czas 1:25h na mecie.</span></span><span class="so-meta"><svg class="so-ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="3.9"/><circle class="f" cx="17.2" cy="6.8" r="1.1"/></svg><span class="sr-only">Instagram, </span><time datetime="2026-09-06">6 wrz</time></span></a></li>
-      <li><a class="so-tile" href="https://www.instagram.com/p/Dc6FO8rMSSm/" target="_blank" rel="noopener"><span class="so-img"><img src="assets/img/social/ig-Dc6FO8rMSSm.jpg" alt="" width="1080" height="1351" sizes="(max-width: 600px) 44vw, 250px" loading="lazy" srcset="assets/img/_v/social__ig-Dc6FO8rMSSm-480.webp 480w, assets/img/_v/social__ig-Dc6FO8rMSSm-640.webp 640w, assets/img/_v/social__ig-Dc6FO8rMSSm-800.webp 800w, assets/img/_v/social__ig-Dc6FO8rMSSm-1080.webp 1080w" decoding="async"><span class="so-cap">10 lat biegania. 10 projektów łączących sportowe wyzwania ze zbiórkami dla osób i miejsc potrzebujących pomocy bo to pozytywnie uzależniające.</span></span><span class="so-meta"><svg class="so-ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="3.9"/><circle class="f" cx="17.2" cy="6.8" r="1.1"/></svg><span class="sr-only">Instagram, </span><time datetime="2026-09-05">5 wrz</time></span></a></li>
-      <li><a class="so-tile" href="https://www.instagram.com/reel/DcyZvLFstXE/" target="_blank" rel="noopener"><span class="so-img"><img src="assets/img/social/ig-DcyZvLFstXE.jpg" alt="" width="720" height="1280" sizes="(max-width: 600px) 44vw, 250px" loading="lazy" srcset="assets/img/_v/social__ig-DcyZvLFstXE-480.webp 480w, assets/img/_v/social__ig-DcyZvLFstXE-640.webp 640w, assets/img/_v/social__ig-DcyZvLFstXE-720.webp 720w" decoding="async"><span class="so-play" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5.5v13l10.5-6.5z"/></svg></span><span class="so-cap">Blisko 500 km • 72h biegu wokół jeziora Paprocany. 1 października 2026 • live stream 24h • wspólny bieg.</span></span><span class="so-meta"><svg class="so-ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="3.9"/><circle class="f" cx="17.2" cy="6.8" r="1.1"/></svg><span class="sr-only">Instagram, </span><time datetime="2026-09-02">2 wrz</time></span></a></li>
-      <li><a class="so-tile" href="https://www.instagram.com/p/DcgvXYSjMvw/" target="_blank" rel="noopener"><span class="so-img"><img src="assets/img/social/ig-DcgvXYSjMvw.jpg" alt="" width="1080" height="1351" sizes="(max-width: 600px) 44vw, 250px" loading="lazy" srcset="assets/img/_v/social__ig-DcgvXYSjMvw-480.webp 480w, assets/img/_v/social__ig-DcgvXYSjMvw-640.webp 640w, assets/img/_v/social__ig-DcgvXYSjMvw-800.webp 800w, assets/img/_v/social__ig-DcgvXYSjMvw-1080.webp 1080w" decoding="async"><span class="so-cap">Oficjalnie witam się z elitą. Po siedmiu latach od pierwszego startu w górach.</span></span><span class="so-meta"><svg class="so-ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="3.9"/><circle class="f" cx="17.2" cy="6.8" r="1.1"/></svg><span class="sr-only">Instagram, </span><time datetime="2026-08-26">26 sie</time></span></a></li>
-      <li><a class="so-tile" href="https://www.instagram.com/p/Dcd8Hx9s9Pd/" target="_blank" rel="noopener"><span class="so-img"><img src="assets/img/social/ig-Dcd8Hx9s9Pd.jpg" alt="" width="1080" height="1351" sizes="(max-width: 600px) 44vw, 250px" loading="lazy" srcset="assets/img/_v/social__ig-Dcd8Hx9s9Pd-480.webp 480w, assets/img/_v/social__ig-Dcd8Hx9s9Pd-640.webp 640w, assets/img/_v/social__ig-Dcd8Hx9s9Pd-800.webp 800w, assets/img/_v/social__ig-Dcd8Hx9s9Pd-1080.webp 1080w" decoding="async"><span class="so-cap">Oficjalnie najbliższym startem będzie dla mnie wspomniany ostatnio Julian ale po drodze pojawi się jeszcze jeden bieg, do którego mam sentyment. Nie traktuję go jednak jako oficjalnego…</span></span><span class="so-meta"><svg class="so-ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="3.9"/><circle class="f" cx="17.2" cy="6.8" r="1.1"/></svg><span class="sr-only">Instagram, </span><time datetime="2026-08-25">25 sie</time></span></a></li>
-      <li><a class="so-tile" href="https://www.instagram.com/reel/DcbdUtYsnt2/" target="_blank" rel="noopener"><span class="so-img"><img src="assets/img/social/ig-DcbdUtYsnt2.jpg" alt="" width="720" height="1280" sizes="(max-width: 600px) 44vw, 250px" loading="lazy" srcset="assets/img/_v/social__ig-DcbdUtYsnt2-480.webp 480w, assets/img/_v/social__ig-DcbdUtYsnt2-640.webp 640w, assets/img/_v/social__ig-DcbdUtYsnt2-720.webp 720w" decoding="async"><span class="so-play" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5.5v13l10.5-6.5z"/></svg></span><span class="so-cap">Pamiętam jak w 2017 roku wybrałem się na 45 kilometrową wędrówkę pieszą, miesiąc przed pierwszym maratonem ulicznym. Chciałem zweryfikować, czy jestem w stanie w ogóle przejść taki dystans…</span></span><span class="so-meta"><svg class="so-ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="3.9"/><circle class="f" cx="17.2" cy="6.8" r="1.1"/></svg><span class="sr-only">Instagram, </span><time datetime="2026-08-24">24 sie</time></span></a></li>
-      <!-- /social:strip -->
+    <ul class="zs-posters" aria-label="Ostatnie zbiórki">
+      <li class="rv"><a href="https://www.siepomaga.pl/backyard-na-dziko" target="_blank" rel="noopener">
+        <span class="zs-poster zs-by"><span class="zs-by-t">Backyard<br>na Dziko</span><span class="zs-by-n tnum">72</span><span class="zs-by-s">pętle wokół Jeziora Paprocany<br>dla Hospicjum Świetlikowo</span></span>
+        <span class="zs-cap"><b>Backyard na Dziko</b> 2026</span></a></li>
+      <li class="rv" style="--d:.06s"><a href="https://www.siepomaga.pl/kwadrat" target="_blank" rel="noopener">
+        <img class="zs-poster" src="assets/img/pomaganie/plakat-kwadrat.jpg" alt="Plakat: W kółko dla Kwadratu" loading="lazy" srcset="assets/img/_v/pomaganie__plakat-kwadrat-480.webp 480w, assets/img/_v/pomaganie__plakat-kwadrat-640.webp 640w, assets/img/_v/pomaganie__plakat-kwadrat-800.webp 800w, assets/img/_v/pomaganie__plakat-kwadrat-900.webp 900w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="900" height="1273" decoding="async">
+        <span class="zs-cap"><b>W kółko dla Kwadratu</b> 2026</span></a></li>
+      <li class="rv" style="--d:.12s"><a href="https://www.siepomaga.pl/przebiec-gory-dla-nikusi" target="_blank" rel="noopener">
+        <img class="zs-poster" src="assets/img/pomaganie/plakat-nikusia.jpg" alt="Plakat: Przebiec góry dla Nikusi" loading="lazy" srcset="assets/img/_v/pomaganie__plakat-nikusia-480.webp 480w, assets/img/_v/pomaganie__plakat-nikusia-640.webp 640w, assets/img/_v/pomaganie__plakat-nikusia-800.webp 800w, assets/img/_v/pomaganie__plakat-nikusia-900.webp 900w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="900" height="1274" decoding="async">
+        <span class="zs-cap"><b>Przebiec góry dla Nikusi</b> 2025</span></a></li>
+      <li class="rv" style="--d:.18s"><a href="https://www.siepomaga.pl/2hard" target="_blank" rel="noopener">
+        <img class="zs-poster" src="assets/img/plakat-2hard.jpg" alt="Plakat projektu 2Hard" loading="lazy" srcset="assets/img/_v/plakat-2hard-480.webp 480w, assets/img/_v/plakat-2hard-640.webp 640w, assets/img/_v/plakat-2hard-800.webp 800w, assets/img/_v/plakat-2hard-1131.webp 1131w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="1131" height="1600" decoding="async">
+        <span class="zs-cap"><b>2Hard</b> 2025</span></a></li>
     </ul>
+
+    <div class="zs-row">
+      <p class="zs-h"><span class="num tnum" data-count="134">134</span><span>publikacje w mediach tradycyjnych w latach 2022–2025</span></p>
+      <ul class="zs-logos" aria-label="Wybrane redakcje">
+        <li><img class="lg" src="assets/img/logos/tvp3-katowice.svg" alt="TVP3 Katowice" style="--h:30px" loading="lazy" width="227" height="135" decoding="async"></li>
+        <li><img class="lg" src="assets/img/logos/teleexpress.png" alt="Teleexpress" style="--h:17px" loading="lazy" srcset="assets/img/_v/logos__teleexpress-384.webp 384w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="384" height="63" decoding="async"></li>
+        <li><img class="lg" src="assets/img/logos/polsat.svg" alt="Polsat" style="--h:34px" loading="lazy" width="71" height="72" decoding="async"></li>
+        <li><img class="lg" src="assets/img/logos/canal-plus-sport.svg" alt="Canal+ Sport" style="--h:26px" loading="lazy" width="647" height="300" decoding="async"></li>
+        <li><img class="lg" src="assets/img/logos/antyradio.svg" alt="Antyradio" style="--h:30px" loading="lazy" width="194" height="88" decoding="async"></li>
+        <li><img class="lg" src="assets/img/logos/rmf-maxx.png" alt="RMF Maxx" style="--h:26px" loading="lazy" srcset="assets/img/_v/logos__rmf-maxx-393.webp 393w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="393" height="180" decoding="async"></li>
+        <li><img class="lg" src="assets/img/logos/radio-357.svg" alt="Radio 357" style="--h:22px" loading="lazy" width="153" height="49" decoding="async"></li>
+        <li><img class="lg" src="assets/img/logos/radio-eska.svg" alt="Radio Eska" style="--h:22px" loading="lazy" width="868" height="288" decoding="async"></li>
+        <li><img class="lg" src="assets/img/logos/vox-fm.png" alt="Vox FM" style="--h:28px" loading="lazy" srcset="assets/img/_v/logos__vox-fm-338.webp 338w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="338" height="180" decoding="async"></li>
+        <li><img class="lg" src="assets/img/logos/wysokie-obcasy.svg" alt="Wysokie Obcasy" style="--h:16px" loading="lazy" width="423" height="53" decoding="async"></li>
+      </ul>
+      <p class="zs-link"><a class="more" href="media.html">Pełne archiwum i materiały prasowe</a></p>
+    </div>
+
+    <div class="zs-row">
+      <p class="zs-h"><span>Wspierają mnie</span></p>
+      <ul class="zs-logos">
+        <li><a href="https://www.pec.tychy.pl" target="_blank" rel="noopener"><img class="lg" src="assets/img/logos/pec-tychy.png" alt="PEC Tychy" style="--h:42px" loading="lazy" srcset="assets/img/_v/logos__pec-tychy-390.webp 390w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="390" height="180" decoding="async"></a></li>
+        <li><a href="https://szromek.pl" target="_blank" rel="noopener"><img class="lg" src="assets/img/logos/szromek.png" alt="Szromek — budownictwo przemysłowe" style="--h:31px" loading="lazy" srcset="assets/img/_v/logos__szromek-480.webp 480w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="480" height="117" decoding="async"></a></li>
+        <li><a href="https://www.pracownicy24.pl" target="_blank" rel="noopener"><img class="lg" src="assets/img/logos/pracownicy24.png" alt="Pracownicy24" style="--h:13px" loading="lazy" srcset="assets/img/_v/logos__pracownicy24-480.webp 480w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="480" height="34" decoding="async"></a></li>
+        <li><a href="https://www.mb24-teleradiologia.pl" target="_blank" rel="noopener"><img class="lg" src="assets/img/logos/mb24.png" alt="MB24 Teleradiologia" style="--h:56px" loading="lazy" srcset="assets/img/_v/logos__mb24-115.webp 115w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="115" height="180" decoding="async"></a></li>
+        <li><a href="https://www.atriontychy.pl" target="_blank" rel="noopener"><img class="lg" src="assets/img/logos/atrion.png" alt="Atrion Centrum Biznesowe" style="--h:36px" loading="lazy" srcset="assets/img/_v/logos__atrion-480.webp 480w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="480" height="159" decoding="async"></a></li>
+        <li><a href="https://www.vimexmeble.pl" target="_blank" rel="noopener"><img class="lg" src="assets/img/logos/vimex.png" alt="Vimex design" style="--h:34px" loading="lazy" srcset="assets/img/_v/logos__vimex-480.webp 480w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="480" height="145" decoding="async"></a></li>
+        <li><a href="https://www.kulanskanieruchomosci.pl" target="_blank" rel="noopener"><img class="lg" src="assets/img/logos/kulanska.png" alt="Kulańska Nieruchomości" style="--h:36px" loading="lazy" srcset="assets/img/_v/logos__kulanska-480.webp 480w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="480" height="160" decoding="async"></a></li>
+        <li><a href="https://www.wszystkojestwglowie.pl" target="_blank" rel="noopener"><img class="lg" src="assets/img/logos/wszystko-jest-w-glowie.png" alt="Wszystko Jest w Głowie" style="--h:28px" loading="lazy" srcset="assets/img/_v/logos__wszystko-jest-w-glowie-480.webp 480w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="480" height="90" decoding="async"></a></li>
+      </ul>
+    </div>
   </div>
 </section>
 
-<section class="sec alt" id="kontakt" aria-labelledby="kt-h">
-  <div class="wrap kt-grid">
-    <div>
-      <p class="eyebrow">Kontakt</p>
-      <h2 class="h2 rv" id="kt-h">Napisz do mnie.</h2>
-      <p class="lede rv">Prelekcja, szkolenie, sponsoring, wywiad albo dobre słowo przed startem.</p>
-      <ul class="kt-list rv">
-        <li><span>Telefon</span><a href="tel:+48536251284">+48 536 251 284</a></li>
-        <li><span>Facebook</span><a href="https://www.facebook.com/ultraekstremalny" target="_blank" rel="noopener">/ultraekstremalny</a></li>
-        <li><span>Instagram</span><a href="https://www.instagram.com/ultraekstremalny" target="_blank" rel="noopener">@ultraekstremalny</a></li>
-        <li><span>YouTube</span><a href="https://www.youtube.com/@ultraekstremalny" target="_blank" rel="noopener">@ultraekstremalny</a></li>
-        <li><span>LinkedIn</span><a href="https://www.linkedin.com/in/andrzej-kowalczyk-556965226" target="_blank" rel="noopener">Andrzej Kowalczyk</a></li>
-        <li><span>Patronite</span><a href="https://patronite.pl/ultraekstremalny" target="_blank" rel="noopener">patronite.pl/ultraekstremalny</a></li>
-      </ul>
+<section class="sec" id="wspolpraca" aria-labelledby="mk-h">
+  <div class="wrap">
+    <header class="sec-head">
+      <h2 class="h2 rv" id="mk-h">Współpraca, która daje marce historię.</h2>
+      <p class="lede rv">Odważne wyzwania przyciągają uwagę. Wspólne działania pozwalają zamienić ją w rozpoznawalność marki, zaangażowanie ludzi i realną pomoc. Na swoich Partnerów przenoszę wizerunek odwagi, ambicji, zaangażowania, autentyczności, skuteczności, determinacji i odpowiedzialności społecznej.</p>
+    </header>
+    <dl class="mk-ben">
+      <div class="rv"><dt>Widoczność marki</dt><dd>Obecność między innymi w mediach społecznościowych, na odzieży sportowej, w transmisjach na żywo, filmach z projektów czy podczas nagrań i wystąpień.</dd></div>
+      <div class="rv" style="--d:.06s"><dt>Autentyczne treści</dt><dd>Wspólne zdjęcia, filmy i kampanie oparte na prawdziwych przygotowaniach, emocjach i osiągnięciach.</dd></div>
+      <div class="rv"><dt>Zaangażowanie zespołu</dt><dd>Prelekcje, szkolenia, wspólne aktywności i wyjazdy integracyjne dla pracowników oraz klientów.</dd></div>
+      <div class="rv" style="--d:.06s"><dt>Wspólny cel społeczny</dt><dd>Udział w projektach, które mobilizują społeczność do pomagania.</dd></div>
+    </dl>
+    <p class="mk-note rv">Zakres współpracy dopasujemy indywidualnie do celów Twojej firmy.</p>
+    <div class="cta-row rv">
+      <a class="btn" href="mailto:kontakt@sportowaperspektywa.pl?subject=Wsp%C3%B3%C5%82praca">Porozmawiajmy o współpracy</a>
+      <a class="btn btn-2" href="assets/docs/Wspolpraca-z-wartosciami-Ultraekstremalny.pdf" download>Pobierz ofertę sponsorską PDF</a>
     </div>
-    <form class="kt-form rv" id="ktForm" novalidate>
-      <div class="kt-row">
-        <label for="ktName">Imię i nazwisko</label>
-        <input id="ktName" name="name" autocomplete="name" required aria-describedby="ktNameErr">
-        <p class="kt-err" id="ktNameErr" hidden>Podaj imię i nazwisko.</p>
-      </div>
-      <div class="kt-row">
-        <label for="ktMail">E-mail</label>
-        <input id="ktMail" name="email" type="email" autocomplete="email" required aria-describedby="ktMailErr">
-        <p class="kt-err" id="ktMailErr" hidden>Podaj poprawny adres e-mail.</p>
-      </div>
-      <div class="kt-row">
-        <label for="ktMsg">Wiadomość</label>
-        <textarea id="ktMsg" name="message" rows="5"></textarea>
-      </div>
-      <div class="kt-send">
-        <button class="btn" type="submit">Wyślij</button>
-        <p class="kt-ok" id="ktOk" role="status" aria-live="polite"></p>
-      </div>
-    </form>
+  </div>
+</section>
+
+<section class="sec alt" id="prelekcje" aria-labelledby="mw-h">
+  <div class="wrap">
+    <header class="sec-head">
+      <h2 class="h2 rv" id="mw-h">Zaproś historię, za którą stoją doświadczenia.</h2>
+      <p class="lede rv">Opowiadam o drodze od uzależnień do sportu zawodowego, o podejmowaniu zmian i konsekwencji wtedy, gdy początkowy zapał już mija. Prowadzę spotkania dla firm, szkół, instytucji i uczestników festiwali.</p>
+    </header>
+
+    <div class="mw-talks">
+      <article class="mw-talk rv">
+        <figure class="mw-pair">
+          <img src="assets/img/przeszlosc.jpg" alt="Andrzej przed zmianą" loading="lazy" data-nopan srcset="assets/img/_v/przeszlosc-480.webp 480w, assets/img/_v/przeszlosc-640.webp 640w, assets/img/_v/przeszlosc-800.webp 800w, assets/img/_v/przeszlosc-1200.webp 1200w, assets/img/_v/przeszlosc-1600.webp 1600w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="1600" height="592" decoding="async">
+          <img src="assets/img/teraz.jpg" alt="Andrzej dziś, jako sportowiec" loading="lazy" data-nopan srcset="assets/img/_v/teraz-480.webp 480w, assets/img/_v/teraz-640.webp 640w, assets/img/_v/teraz-800.webp 800w, assets/img/_v/teraz-1200.webp 1200w, assets/img/_v/teraz-1600.webp 1600w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="1600" height="800" decoding="async">
+        </figure>
+        <h3 class="h3">Potęga Pasji</h3>
+        <p class="mw-sub">O zmianie, odwadze i odzyskiwaniu wiary w siebie.</p>
+        <p>Osobista opowieść o wychodzeniu z uzależnień i budowaniu nowego życia poprzez pasję. O sukcesach, porażkach i pracy, która dzieje się między nimi.</p>
+        <p class="mw-for">Dla organizatorów wydarzeń, firm i szkół, z przekazem dopasowanym do odbiorców.</p>
+      </article>
+      <article class="mw-talk rv" style="--d:.08s">
+        <figure class="mw-one"><img src="assets/img/warsztat.jpg" alt="Andrzej prowadzi szkolenie na sali" loading="lazy" data-nopan srcset="assets/img/_v/warsztat-480.webp 480w, assets/img/_v/warsztat-640.webp 640w, assets/img/_v/warsztat-800.webp 800w, assets/img/_v/warsztat-1200.webp 1200w, assets/img/_v/warsztat-1600.webp 1600w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="1600" height="1068" decoding="async"></figure>
+        <h3 class="h3">Dźwignia aktywności i odżywiania</h3>
+        <p class="mw-sub">Praktyczne szkolenie dla zespołów.</p>
+        <p>Jak zadbać o sen, ruch, odżywianie i regenerację w codziennym życiu? Przystępna wiedza, rozmowa i warsztaty pomagające zaplanować konkretne zmiany.</p>
+        <p class="mw-for">Dla firm, które chcą wspierać zdrowe nawyki pracowników.</p>
+      </article>
+    </div>
+    <div class="cta-row rv">
+      <a class="btn" href="mailto:kontakt@sportowaperspektywa.pl?subject=Prelekcja">Zapytaj o termin</a>
+      <a class="btn btn-2" href="prelekcje.html#referencje">Poznaj referencje</a>
+    </div>
+
+    <div class="mw-films">
+      <a class="mw-film rv" href="https://www.youtube.com/watch?v=hrpV-cw8S2o" target="_blank" rel="noopener">
+        <span class="mw-img" data-broll="2hard" data-start="h-gran2" data-hover></span>
+        <b class="mw-ft">2 Hard Road 2 Walk Alone</b>
+        <span class="mw-aw">Nagroda Główna, 16. Przegląd Filmów Górskich, Wadowice 2026</span>
+      </a>
+      <a class="mw-film rv" style="--d:.08s" href="https://www.youtube.com/watch?v=oM6EwmRmXV8" target="_blank" rel="noopener">
+        <span class="mw-img" data-broll="loop" data-start="l-bok" data-hover></span>
+        <b class="mw-ft">The Loop — Wielka Pętla Beskidzka</b>
+        <span class="mw-aw">Nagroda, 16. Przegląd Filmów Górskich, Wadowice 2026</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="sec dark" id="kontakt" aria-labelledby="kt-h">
+  <div class="wrap">
+    <h2 class="h2 rv" id="kt-h">Porozmawiajmy o tym, co możemy zrobić razem.</h2>
+    <p class="lede rv">Szukasz partnera dla swojej marki lub prelegenta na wydarzenie? Napisz kilka słów o swoim pomyśle. Dopasujemy formę współpracy do Twoich potrzeb.</p>
+    <p class="kt-mail rv"><a href="mailto:kontakt@sportowaperspektywa.pl">kontakt@sportowaperspektywa.pl</a></p>
+    <div class="cta-row rv">
+      <a class="btn" href="mailto:kontakt@sportowaperspektywa.pl?subject=Wsp%C3%B3%C5%82praca">Zapytaj o współpracę</a>
+      <a class="btn btn-2" href="mailto:kontakt@sportowaperspektywa.pl?subject=Prelekcja">Zapytaj o prelekcję</a>
+    </div>
   </div>
 </section>
 
@@ -980,29 +250,13 @@
   </div>
 </footer>
 
-<script defer src="assets/js/base.js?v=1789826147"></script>
-<script defer src="assets/js/data.js?v=1789826147"></script>
-<script defer src="assets/js/sections/00-header.js?v=1789826147"></script>
-<script defer src="assets/js/sections/03-fx.js?v=1789826147"></script>
-<script defer src="assets/js/sections/04-foto.js?v=1789826147"></script>
-<script defer src="assets/js/sections/06-broll-data.js?v=1789826147"></script>
-<script defer src="assets/js/sections/06-broll.js?v=1789826147"></script>
-<script defer src="assets/js/sections/07-cutout.js?v=1789826147"></script>
-<script defer src="assets/js/sections/08-lightbox.js?v=1789826147"></script>
-<script defer src="assets/js/sections/09-film.js?v=1789826147"></script>
-<script defer src="assets/js/sections/10-hero.js?v=1789826147"></script>
-<script defer src="assets/js/sections/11-cytaty-data.js?v=1789826147"></script>
-<script defer src="assets/js/sections/12-glos.js?v=1789826147"></script>
-<script defer src="assets/js/sections/20-kim.js?v=1789826147"></script>
-<script defer src="assets/js/sections/30-historia.js?v=1789826147"></script>
-<script defer src="assets/js/sections/55-mapa-data.js?v=1789826147"></script>
-<script defer src="assets/js/sections/55-mapa.js?v=1789826147"></script>
-<script defer src="assets/js/sections/56-trasy-data.js?v=1789826147"></script>
-<script defer src="assets/js/sections/57-trasy.js?v=1789826147"></script>
-<script defer src="assets/js/sections/65-medale.js?v=1789826147"></script>
-<script defer src="assets/js/sections/75-backyard.js?v=1789826147"></script>
-<script defer src="assets/js/sections/80-prelekcje.js?v=1789826147"></script>
-<script defer src="assets/js/sections/85-wspolpraca.js?v=1789826147"></script>
-<script defer src="assets/js/sections/90-media.js?v=1789826147"></script>
-<script defer src="assets/js/sections/92-social.js?v=1789826147"></script>
-<script defer src="assets/js/sections/95-kontakt.js?v=1789826147"></script>
+<script defer src="assets/js/base.js?v=1793197964"></script>
+<script defer src="assets/js/sections/00-header.js?v=1793197964"></script>
+<script defer src="assets/js/sections/03-fx.js?v=1793197964"></script>
+<script defer src="assets/js/sections/04-foto.js?v=1793197964"></script>
+<script defer src="assets/js/sections/06-broll-data.js?v=1793197964"></script>
+<script defer src="assets/js/sections/06-broll.js?v=1793197964"></script>
+<script defer src="assets/js/sections/07-cutout.js?v=1793197964"></script>
+<script defer src="assets/js/sections/08-lightbox.js?v=1793197964"></script>
+<script defer src="assets/js/sections/10-hero.js?v=1793197964"></script>
+<script defer src="assets/js/sections/95-kontakt.js?v=1793197964"></script>
