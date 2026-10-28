@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,100..125,300..600;1,100,400..600&family=Barlow+Condensed:wght@500;600&family=Oswald:wght@600&family=Newsreader:ital,wght@1,300;1,400&display=swap">
 <link rel="preload" as="image" imagesrcset="assets/img/_v/hero-noc-480.webp 480w, assets/img/_v/hero-noc-640.webp 640w, assets/img/_v/hero-noc-800.webp 800w, assets/img/_v/hero-noc-1200.webp 1200w, assets/img/_v/hero-noc-1600.webp 1600w" imagesizes="(max-aspect-ratio: 1600/1066) calc(100svh * 1.501), 100vw" fetchpriority="high">
-<link rel="stylesheet" href="assets/css/style.css?v=1793197964">
+<link rel="stylesheet" href="assets/css/style.css?v=1793200000">
 <a class="skip" href="#main">Przejdź do treści</a>
 
 <header class="hdr m-over" id="hdr">
@@ -80,23 +80,87 @@
     <h2 class="h2 rv" id="ul-h">Ma być albo ultra, albo ekstremalnie.</h2>
     <ol class="ul-list">
       <li class="rv">
+        <p class="ul-y tnum">2025</p>
         <p class="ul-n tnum">65 h <span>600 km</span></p>
         <p class="ul-t">Pierwszy w historii pokonałem podwójną wersję najtrudniejszego triathlonu w Europie.</p>
       </li>
       <li class="rv" style="--d:.06s">
+        <p class="ul-y tnum">2025</p>
         <p class="ul-n tnum">86 h <span>450 km</span></p>
         <p class="ul-t">Przebiegłem Główny Szlak Sudecki z trzecim najlepszym czasem w historii.</p>
       </li>
       <li class="rv" style="--d:.12s">
+        <p class="ul-y tnum">2026</p>
         <p class="ul-n tnum">72 h <span>482 km</span></p>
         <p class="ul-t">72 pętle biegiem wokół jeziora, w ramach Backyard Challenge dla hospicjum.</p>
       </li>
     </ol>
-    <p class="ul-more rv">Sześciokrotny medalista Mistrzostw Świata w ekstremalnym lodowym pływaniu. Członek kadry narodowej. Zwycięzca dwunasto- i dwudziestoczterogodzinnych maratonów pływackich. Medalista etapowych górskich biegów. Rekordzista górskich szlaków długodystansowych. Elitarny biegacz górski.</p>
+    <p class="ul-more rv">Sześciokrotny medalista Mistrzostw Świata w <span data-fx="mroz">ekstremalnym lodowym pływaniu</span>. Członek kadry narodowej. Zwycięzca dwunasto- i dwudziestoczterogodzinnych maratonów pływackich. Medalista etapowych górskich biegów. Rekordzista górskich szlaków długodystansowych. Elitarny biegacz górski.</p>
+    <div class="ul-now">
+    <p class="ul-season rv"><span class="tnum"><span data-count="5099">5099</span> km</span> przebiegniętych w sezonie 2025/2026</p>
+    <a class="ul-itra rv" href="https://www.instagram.com/p/DcgvXYSjMvw/" target="_blank" rel="noopener" aria-label="ITRA Performance Index 844, Elite 4">
+      <span class="ul-itra-l">ITRA Performance Index</span>
+      <span class="ul-itra-bar" aria-hidden="true"><i style="--v:.844"></i></span>
+      <span class="ul-itra-v tnum"><span data-count="844">844</span> <b>Elite 4</b></span>
+    </a>
+    </div>
   </div>
 </section>
 
-<section class="sec alt" id="zasieg" aria-label="Zasięg i pomaganie">
+<!-- ============ TRASY: teren 3D (three.js ładowany leniwie w 57-trasy.js) ============ -->
+<section class="ts" id="trasy" aria-labelledby="ts-h">
+  <div class="wrap ts-head">
+    <header class="sec-head rv">
+      <h2 class="h2" id="ts-h"><span data-fx="gory">Góry</span> z bliska.</h2>
+    </header>
+  </div>
+  <div class="ts-stage" id="tsStage">
+    <div class="ts-view" id="tsView">
+      <img class="ts-fallback" id="tsFallback" src="assets/img/trasy/gss-poster.webp" width="1600" height="900" alt="" aria-hidden="true" loading="lazy" decoding="async">
+      <div class="ts-labels" id="tsLabels" aria-hidden="true"></div>
+      <p class="ts-credit">© OpenStreetMap · Mapzen Terrain</p>
+    </div>
+    <div class="wrap ts-ui">
+      <div class="chips ts-chips" id="tsChips" role="group" aria-label="Trasy">
+        <button class="chip" type="button" data-k="gss" aria-pressed="true">GSS</button>
+        <button class="chip" type="button" data-k="gsb" aria-pressed="false">GSB</button>
+        <button class="chip" type="button" data-k="loop" aria-pressed="false">The Loop</button>
+        <button class="chip" type="button" data-k="msb" aria-pressed="false">MSB</button>
+        <button class="chip" type="button" data-k="tatry" aria-pressed="false">2×Harda</button>
+      </div>
+      <div class="ts-info" id="tsInfo" aria-live="polite"></div>
+      <figure class="ts-prof" id="tsProf">
+        <svg class="ts-svg" id="tsSvg" role="img" aria-label="Profil wysokości trasy"></svg>
+        <div class="ts-axis" id="tsAxis" aria-hidden="true"></div>
+        <div class="ts-tip tnum" id="tsTip" aria-hidden="true"></div>
+        <div class="ts-split" id="tsSplit" hidden>
+          <span class="sw" style="--w:10"><i>pływanie 10 km</i></span>
+          <span class="bk" style="--w:480"><i>rower 480 km</i></span>
+          <span class="rn" style="--w:110"><i>bieg 110 km</i></span>
+        </div>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MAPA ============ -->
+<section class="sec alt" id="mapa">
+  <div class="wrap">
+    <header class="sec-head rv">
+      <h2 class="h2">Całe pasma gór, od Świeradowa po Wołosate.</h2>
+    </header>
+    <div class="chips mp-chips" id="mpChips" role="group" aria-label="Warstwy mapy"></div>
+    <div class="mp-grid rv">
+      <div class="mp-wrap" tabindex="0" role="group" aria-label="Mapa wyzwań">
+        <svg id="mpSvg" viewBox="0 0 1000 940.9" role="img" aria-label="Mapa Polski: Główny Szlak Sudecki, Główny Szlak Beskidzki, Mały Szlak Beskidzki, The Loop i 28 szczytów Korony Gór Polski"></svg>
+        <p class="mp-credit">© OpenStreetMap · Natural Earth</p>
+      </div>
+      <aside class="mp-info" id="mpInfo" aria-live="polite"></aside>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="zasieg" aria-label="Zasięg i pomaganie">
   <div class="wrap">
     <dl class="zs-stats">
       <div class="rv"><dt>wyświetleń treści rocznie w mediach społecznościowych</dt><dd class="num tnum"><span data-count="6.7" data-dec="1">6,7</span> mln+</dd></div>
@@ -106,17 +170,17 @@
 
     <ul class="zs-posters" aria-label="Ostatnie zbiórki">
       <li class="rv"><a href="https://www.siepomaga.pl/backyard-na-dziko" target="_blank" rel="noopener">
-        <span class="zs-poster zs-by"><span class="zs-by-t">Backyard<br>na Dziko</span><span class="zs-by-n tnum">72</span><span class="zs-by-s">pętle wokół Jeziora Paprocany<br>dla Hospicjum Świetlikowo</span></span>
-        <span class="zs-cap"><b>Backyard na Dziko</b> 2026</span></a></li>
+        <img class="zs-poster" src="assets/img/pomaganie/plakat-backyard.jpg" alt="Plakat: Backyard na Dziko, 1 października 2026, Jezioro Paprocany" loading="lazy" srcset="assets/img/_v/pomaganie__plakat-backyard-480.webp 480w, assets/img/_v/pomaganie__plakat-backyard-640.webp 640w, assets/img/_v/pomaganie__plakat-backyard-800.webp 800w, assets/img/_v/pomaganie__plakat-backyard-1080.webp 1080w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="1080" height="1351" decoding="async">
+        <span class="zs-cap"><b>Backyard na Dziko</b> 2026 <span class="zs-amt tnum">270 235 zł</span></span></a></li>
       <li class="rv" style="--d:.06s"><a href="https://www.siepomaga.pl/kwadrat" target="_blank" rel="noopener">
         <img class="zs-poster" src="assets/img/pomaganie/plakat-kwadrat.jpg" alt="Plakat: W kółko dla Kwadratu" loading="lazy" srcset="assets/img/_v/pomaganie__plakat-kwadrat-480.webp 480w, assets/img/_v/pomaganie__plakat-kwadrat-640.webp 640w, assets/img/_v/pomaganie__plakat-kwadrat-800.webp 800w, assets/img/_v/pomaganie__plakat-kwadrat-900.webp 900w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="900" height="1273" decoding="async">
-        <span class="zs-cap"><b>W kółko dla Kwadratu</b> 2026</span></a></li>
+        <span class="zs-cap"><b>W kółko dla Kwadratu</b> 2026 <span class="zs-amt tnum">80 985 zł</span></span></a></li>
       <li class="rv" style="--d:.12s"><a href="https://www.siepomaga.pl/przebiec-gory-dla-nikusi" target="_blank" rel="noopener">
         <img class="zs-poster" src="assets/img/pomaganie/plakat-nikusia.jpg" alt="Plakat: Przebiec góry dla Nikusi" loading="lazy" srcset="assets/img/_v/pomaganie__plakat-nikusia-480.webp 480w, assets/img/_v/pomaganie__plakat-nikusia-640.webp 640w, assets/img/_v/pomaganie__plakat-nikusia-800.webp 800w, assets/img/_v/pomaganie__plakat-nikusia-900.webp 900w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="900" height="1274" decoding="async">
-        <span class="zs-cap"><b>Przebiec góry dla Nikusi</b> 2025</span></a></li>
+        <span class="zs-cap"><b>Przebiec góry dla Nikusi</b> 2025 <span class="zs-amt tnum">35 231 zł</span></span></a></li>
       <li class="rv" style="--d:.18s"><a href="https://www.siepomaga.pl/2hard" target="_blank" rel="noopener">
         <img class="zs-poster" src="assets/img/plakat-2hard.jpg" alt="Plakat projektu 2Hard" loading="lazy" srcset="assets/img/_v/plakat-2hard-480.webp 480w, assets/img/_v/plakat-2hard-640.webp 640w, assets/img/_v/plakat-2hard-800.webp 800w, assets/img/_v/plakat-2hard-1131.webp 1131w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="1131" height="1600" decoding="async">
-        <span class="zs-cap"><b>2Hard</b> 2025</span></a></li>
+        <span class="zs-cap"><b>2Hard</b> 2025 <span class="zs-amt tnum">93 160 zł</span></span></a></li>
     </ul>
 
     <div class="zs-row">
@@ -152,7 +216,7 @@
   </div>
 </section>
 
-<section class="sec" id="wspolpraca" aria-labelledby="mk-h">
+<section class="sec alt" id="wspolpraca" aria-labelledby="mk-h">
   <div class="wrap">
     <header class="sec-head">
       <h2 class="h2 rv" id="mk-h">Współpraca, która daje marce historię.</h2>
@@ -172,7 +236,7 @@
   </div>
 </section>
 
-<section class="sec alt" id="prelekcje" aria-labelledby="mw-h">
+<section class="sec" id="prelekcje" aria-labelledby="mw-h">
   <div class="wrap">
     <header class="sec-head">
       <h2 class="h2 rv" id="mw-h">Zaproś historię, za którą stoją doświadczenia.</h2>
@@ -181,13 +245,14 @@
 
     <div class="mw-talks">
       <article class="mw-talk rv">
-        <figure class="mw-pair">
-          <img src="assets/img/przeszlosc.jpg" alt="Andrzej przed zmianą" loading="lazy" data-nopan srcset="assets/img/_v/przeszlosc-480.webp 480w, assets/img/_v/przeszlosc-640.webp 640w, assets/img/_v/przeszlosc-800.webp 800w, assets/img/_v/przeszlosc-1200.webp 1200w, assets/img/_v/przeszlosc-1600.webp 1600w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="1600" height="592" decoding="async">
-          <img src="assets/img/teraz.jpg" alt="Andrzej dziś, jako sportowiec" loading="lazy" data-nopan srcset="assets/img/_v/teraz-480.webp 480w, assets/img/_v/teraz-640.webp 640w, assets/img/_v/teraz-800.webp 800w, assets/img/_v/teraz-1200.webp 1200w, assets/img/_v/teraz-1600.webp 1600w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="1600" height="800" decoding="async">
+        <figure class="mw-bench">
+          <img src="assets/img/lawka.jpg" alt="Andrzej na jednej ławce z samym sobą sprzed lat" loading="lazy" data-nopan srcset="assets/img/_v/lawka-480.webp 480w, assets/img/_v/lawka-640.webp 640w, assets/img/_v/lawka-800.webp 800w, assets/img/_v/lawka-1080.webp 1080w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="1080" height="1357" decoding="async">
+          <img class="mw-then" src="assets/img/lawka.jpg" alt="" aria-hidden="true" loading="lazy" data-nopan srcset="assets/img/_v/lawka-480.webp 480w, assets/img/_v/lawka-640.webp 640w, assets/img/_v/lawka-800.webp 800w, assets/img/_v/lawka-1080.webp 1080w" sizes="(max-width: 700px) 100vw, (max-width: 1240px) 80vw, 1100px" width="1080" height="1357" decoding="async">
+          <figcaption class="tnum"><span data-count="9">9</span> lat trzeźwości</figcaption>
         </figure>
         <h3 class="h3">Potęga Pasji</h3>
         <p class="mw-sub">O zmianie, odwadze i odzyskiwaniu wiary w siebie.</p>
-        <p>Osobista opowieść o wychodzeniu z uzależnień i budowaniu nowego życia poprzez pasję. O sukcesach, porażkach i pracy, która dzieje się między nimi.</p>
+        <p>Osobista opowieść o wyjściu z uzależnień i nowym życiu zbudowanym na pasji.</p>
         <p class="mw-for">Dla organizatorów wydarzeń, firm i szkół, z przekazem dopasowanym do odbiorców.</p>
       </article>
       <article class="mw-talk rv" style="--d:.08s">
@@ -207,7 +272,8 @@
       <a class="mw-film rv" href="https://www.youtube.com/watch?v=hrpV-cw8S2o" target="_blank" rel="noopener">
         <span class="mw-img" data-broll="2hard" data-start="h-gran2" data-hover></span>
         <b class="mw-ft">2 Hard Road 2 Walk Alone</b>
-        <span class="mw-aw">Nagroda Główna, 16. Przegląd Filmów Górskich, Wadowice 2026</span>
+        <span class="mw-aw"><span data-fx="medal">Nagroda Główna</span>, 16. Przegląd Filmów Górskich, Wadowice 2026</span>
+        <span class="mw-aw">III nagroda, Festiwal Górski Adrenalinium, Żywiec 2026</span>
       </a>
       <a class="mw-film rv" style="--d:.08s" href="https://www.youtube.com/watch?v=oM6EwmRmXV8" target="_blank" rel="noopener">
         <span class="mw-img" data-broll="loop" data-start="l-bok" data-hover></span>
@@ -215,6 +281,39 @@
         <span class="mw-aw">Nagroda, 16. Przegląd Filmów Górskich, Wadowice 2026</span>
       </a>
     </div>
+  </div>
+</section>
+
+<section class="sec alt so" id="na-biezaco" aria-labelledby="so-h">
+  <div class="wrap so-head">
+    <div>
+      <h2 class="h2 rv" id="so-h">Na bieżąco</h2>
+      <ul class="so-nets rv" aria-label="Profile">
+        <li><a href="https://www.instagram.com/ultraekstremalny/" target="_blank" rel="noopener"><svg class="so-ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="3.9"/><circle class="f" cx="17.2" cy="6.8" r="1.1"/></svg>@ultraekstremalny</a></li>
+        <li><a href="https://www.facebook.com/ultraekstremalny" target="_blank" rel="noopener"><svg class="so-ic" viewBox="0 0 24 24" aria-hidden="true"><path class="f" d="M13.4 21v-7.4h2.5l.4-2.9h-2.9V8.9c0-.8.2-1.4 1.4-1.4h1.6V4.9a21 21 0 0 0-2.3-.1c-2.3 0-3.8 1.4-3.8 3.9v2H7.7v2.9h2.6V21z"/></svg>Facebook</a></li>
+        <li><a href="https://www.youtube.com/@ultraekstremalny" target="_blank" rel="noopener"><svg class="so-ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="2.5" y="5.5" width="19" height="13" rx="4"/><path class="f" d="M10.2 9.2v5.6l4.8-2.8z"/></svg>YouTube</a></li>
+      </ul>
+    </div>
+    <div class="so-arrows" hidden>
+      <button class="so-btn" type="button" data-dir="-1" aria-label="Nowsze wpisy"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+      <button class="so-btn" type="button" data-dir="1" aria-label="Starsze wpisy"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+    </div>
+  </div>
+  <div class="so-rail" data-nopan>
+    <ul class="so-track">
+      <!-- social:strip -->
+      <li><a class="so-tile" href="https://www.instagram.com/p/DfAd442kaOF/" target="_blank" rel="noopener"><span class="so-img"><img src="assets/img/social/ig-DfAd442kaOF.jpg" alt="" width="1080" height="1357" sizes="(max-width: 600px) 44vw, 250px" loading="lazy" srcset="assets/img/_v/social__ig-DfAd442kaOF-480.webp 480w, assets/img/_v/social__ig-DfAd442kaOF-640.webp 640w, assets/img/_v/social__ig-DfAd442kaOF-800.webp 800w, assets/img/_v/social__ig-DfAd442kaOF-1080.webp 1080w" decoding="async"><span class="so-cap">Przed 72 godzinnym biegiem nad jeziorem Paprocany, skontaktowała się ze mną ekipa Badania Tychy z propozycją, która brzmiała.</span></span><span class="so-meta"><svg class="so-ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="3.9"/><circle class="f" cx="17.2" cy="6.8" r="1.1"/></svg><span class="sr-only">Instagram, </span><time datetime="2026-10-27">27 paź</time></span></a></li>
+      <li><a class="so-tile" href="https://www.instagram.com/reel/De9j7jbsKn0/" target="_blank" rel="noopener"><span class="so-img"><img src="assets/img/social/ig-De9j7jbsKn0.jpg" alt="" width="720" height="1280" sizes="(max-width: 600px) 44vw, 250px" loading="lazy" srcset="assets/img/_v/social__ig-De9j7jbsKn0-480.webp 480w, assets/img/_v/social__ig-De9j7jbsKn0-640.webp 640w, assets/img/_v/social__ig-De9j7jbsKn0-720.webp 720w" decoding="async"><span class="so-play" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5.5v13l10.5-6.5z"/></svg></span><span class="so-cap">Wczoraj podczas XIX edycji festiwal_adrenalinium w Żywcu, film 2 Hard Road 2 Walk Alone, znalazł się w gronie laureatów, otrzymując III nagrodę - brązową kozice - w konkursie filmów…</span></span><span class="so-meta"><svg class="so-ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="3.9"/><circle class="f" cx="17.2" cy="6.8" r="1.1"/></svg><span class="sr-only">Instagram, </span><time datetime="2026-10-26">26 paź</time></span></a></li>
+      <li><a class="so-tile" href="https://www.instagram.com/p/De4gP21DL5G/" target="_blank" rel="noopener"><span class="so-img"><img src="assets/img/social/ig-De4gP21DL5G.jpg" alt="" width="1080" height="1352" sizes="(max-width: 600px) 44vw, 250px" loading="lazy" srcset="assets/img/_v/social__ig-De4gP21DL5G-480.webp 480w, assets/img/_v/social__ig-De4gP21DL5G-640.webp 640w, assets/img/_v/social__ig-De4gP21DL5G-800.webp 800w, assets/img/_v/social__ig-De4gP21DL5G-1080.webp 1080w" decoding="async"><span class="so-cap">Przedstawiam plany na 2027 rok i miejmy to z głowy Mimo doświadczenia, które zgromadziłem, gdy patrzę na to wszystko - ogarnia mnie maleńkość.</span></span><span class="so-meta"><svg class="so-ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="3.9"/><circle class="f" cx="17.2" cy="6.8" r="1.1"/></svg><span class="sr-only">Instagram, </span><time datetime="2026-10-24">24 paź</time></span></a></li>
+      <li><a class="so-tile" href="https://www.instagram.com/p/Dezhxl2EdwX/" target="_blank" rel="noopener"><span class="so-img"><img src="assets/img/social/ig-Dezhxl2EdwX.jpg" alt="" width="1080" height="1352" sizes="(max-width: 600px) 44vw, 250px" loading="lazy" srcset="assets/img/_v/social__ig-Dezhxl2EdwX-480.webp 480w, assets/img/_v/social__ig-Dezhxl2EdwX-640.webp 640w, assets/img/_v/social__ig-Dezhxl2EdwX-800.webp 800w, assets/img/_v/social__ig-Dezhxl2EdwX-1080.webp 1080w" decoding="async"><span class="so-cap">Zanim rozpocznie się nowy sezon i przyjdzie ogłosić nowe cele, trzeba podsumować ten świeżo zakończony. Tym bardziej, że był wspaniały. Wręcz wyjątkowy.</span></span><span class="so-meta"><svg class="so-ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="3.9"/><circle class="f" cx="17.2" cy="6.8" r="1.1"/></svg><span class="sr-only">Instagram, </span><time datetime="2026-10-22">22 paź</time></span></a></li>
+      <li><a class="so-tile" href="https://www.instagram.com/p/Dew81Zox_LR/" target="_blank" rel="noopener"><span class="so-img"><img src="assets/img/social/ig-Dew81Zox_LR.jpg" alt="" width="1080" height="721" sizes="(max-width: 600px) 82vw, 468px" loading="lazy" srcset="assets/img/_v/social__ig-Dew81Zox_LR-480.webp 480w, assets/img/_v/social__ig-Dew81Zox_LR-640.webp 640w, assets/img/_v/social__ig-Dew81Zox_LR-800.webp 800w, assets/img/_v/social__ig-Dew81Zox_LR-1080.webp 1080w" decoding="async"><span class="so-cap">5099 km przebiegniętych w sezonie 2025/2026. W analogicznym okresie poprzedniego sezonu było ich 4393 km i wtedy był to absolutny rekord - pierwszy raz wybiegałem wówczas ponad 4000 km w…</span></span><span class="so-meta"><svg class="so-ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="3.9"/><circle class="f" cx="17.2" cy="6.8" r="1.1"/></svg><span class="sr-only">Instagram, </span><time datetime="2026-10-21">21 paź</time></span></a></li>
+      <li><a class="so-tile" href="https://www.instagram.com/p/DeoLr1PsZlf/" target="_blank" rel="noopener"><span class="so-img"><img src="assets/img/social/ig-DeoLr1PsZlf.jpg" alt="" width="912" height="1200" sizes="(max-width: 600px) 44vw, 250px" loading="lazy" srcset="assets/img/_v/social__ig-DeoLr1PsZlf-480.webp 480w, assets/img/_v/social__ig-DeoLr1PsZlf-640.webp 640w, assets/img/_v/social__ig-DeoLr1PsZlf-800.webp 800w, assets/img/_v/social__ig-DeoLr1PsZlf-912.webp 912w" decoding="async"><span class="so-cap">Dwa tygodnie roztrenowania za mną, a tydzień z kawałkiem przede mną. Starzeje się.</span></span><span class="so-meta"><svg class="so-ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="3.9"/><circle class="f" cx="17.2" cy="6.8" r="1.1"/></svg><span class="sr-only">Instagram, </span><time datetime="2026-10-18">18 paź</time></span></a></li>
+      <li><a class="so-tile" href="https://www.instagram.com/p/DecMyrIsh_A/" target="_blank" rel="noopener"><span class="so-img"><img src="assets/img/social/ig-DecMyrIsh_A.jpg" alt="" width="1080" height="1351" sizes="(max-width: 600px) 44vw, 250px" loading="lazy" srcset="assets/img/_v/social__ig-DecMyrIsh_A-480.webp 480w, assets/img/_v/social__ig-DecMyrIsh_A-640.webp 640w, assets/img/_v/social__ig-DecMyrIsh_A-800.webp 800w, assets/img/_v/social__ig-DecMyrIsh_A-1080.webp 1080w" decoding="async"><span class="so-cap">Film 2 Hard Road 2 Walk Alone, został zakwalifikowany do konkursu filmów krótkometrażowych, w ramach XIX edycji Festiwalu Górskiego Adrenalinium w Żywcu.</span></span><span class="so-meta"><svg class="so-ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="3.9"/><circle class="f" cx="17.2" cy="6.8" r="1.1"/></svg><span class="sr-only">Instagram, </span><time datetime="2026-10-13">13 paź</time></span></a></li>
+      <li><a class="so-tile" href="https://www.instagram.com/p/DeWMd1Pxroo/" target="_blank" rel="noopener"><span class="so-img"><img src="assets/img/social/ig-DeWMd1Pxroo.jpg" alt="" width="1080" height="1351" sizes="(max-width: 600px) 44vw, 250px" loading="lazy" srcset="assets/img/_v/social__ig-DeWMd1Pxroo-480.webp 480w, assets/img/_v/social__ig-DeWMd1Pxroo-640.webp 640w, assets/img/_v/social__ig-DeWMd1Pxroo-800.webp 800w, assets/img/_v/social__ig-DeWMd1Pxroo-1080.webp 1080w" decoding="async"><span class="so-cap">Tydzień temu o tej godzinie, pokonaliśmy ostatnią pętlę wokół jeziora Paprocany, dobijając do brzegu wyzwania i zaplanowanej liczby 72 pętli, 482 kilometrów biegu.</span></span><span class="so-meta"><svg class="so-ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="3.9"/><circle class="f" cx="17.2" cy="6.8" r="1.1"/></svg><span class="sr-only">Instagram, </span><time datetime="2026-10-11">11 paź</time></span></a></li>
+      <li><a class="so-tile" href="https://www.instagram.com/p/DeIJ0cpiAeU/" target="_blank" rel="noopener"><span class="so-img"><img src="assets/img/social/ig-DeIJ0cpiAeU.jpg" alt="" width="1080" height="721" sizes="(max-width: 600px) 82vw, 468px" loading="lazy" srcset="assets/img/_v/social__ig-DeIJ0cpiAeU-480.webp 480w, assets/img/_v/social__ig-DeIJ0cpiAeU-640.webp 640w, assets/img/_v/social__ig-DeIJ0cpiAeU-800.webp 800w, assets/img/_v/social__ig-DeIJ0cpiAeU-1080.webp 1080w" decoding="async"><span class="so-cap">To było NIESAMOWITE! Te ponad 3 dni zlały się w jedno. Tona emocji, wzruszeń, zmęczenia. To był serial który pisało samo życie. Kilka momentów zostanie na zawsze w moim sercu i tak się…</span></span><span class="so-meta"><svg class="so-ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="3.9"/><circle class="f" cx="17.2" cy="6.8" r="1.1"/></svg><span class="sr-only">Instagram, </span><time datetime="2026-10-05">5 paź</time></span></a></li>
+      <li><a class="so-tile" href="https://www.instagram.com/reel/DeEP-kfxhx_/" target="_blank" rel="noopener"><span class="so-img"><img src="assets/img/social/ig-DeEP-kfxhx_.jpg" alt="" width="720" height="1280" sizes="(max-width: 600px) 44vw, 250px" loading="lazy" srcset="assets/img/_v/social__ig-DeEP-kfxhx_-480.webp 480w, assets/img/_v/social__ig-DeEP-kfxhx_-640.webp 640w, assets/img/_v/social__ig-DeEP-kfxhx_-720.webp 720w" decoding="async"><span class="so-play" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5.5v13l10.5-6.5z"/></svg></span><span class="so-cap">KONIEC. I chyba nadal nie do końca dociera do nas, co właśnie się wydarzyło.</span></span><span class="so-meta"><svg class="so-ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="3.9"/><circle class="f" cx="17.2" cy="6.8" r="1.1"/></svg><span class="sr-only">Instagram, </span><time datetime="2026-10-04">4 paź</time></span></a></li>
+      <!-- /social:strip -->
+    </ul>
   </div>
 </section>
 
@@ -250,13 +349,18 @@
   </div>
 </footer>
 
-<script defer src="assets/js/base.js?v=1793197964"></script>
-<script defer src="assets/js/sections/00-header.js?v=1793197964"></script>
-<script defer src="assets/js/sections/03-fx.js?v=1793197964"></script>
-<script defer src="assets/js/sections/04-foto.js?v=1793197964"></script>
-<script defer src="assets/js/sections/06-broll-data.js?v=1793197964"></script>
-<script defer src="assets/js/sections/06-broll.js?v=1793197964"></script>
-<script defer src="assets/js/sections/07-cutout.js?v=1793197964"></script>
-<script defer src="assets/js/sections/08-lightbox.js?v=1793197964"></script>
-<script defer src="assets/js/sections/10-hero.js?v=1793197964"></script>
-<script defer src="assets/js/sections/95-kontakt.js?v=1793197964"></script>
+<script defer src="assets/js/base.js?v=1793200000"></script>
+<script defer src="assets/js/sections/00-header.js?v=1793200000"></script>
+<script defer src="assets/js/sections/03-fx.js?v=1793200000"></script>
+<script defer src="assets/js/sections/04-foto.js?v=1793200000"></script>
+<script defer src="assets/js/sections/06-broll-data.js?v=1793200000"></script>
+<script defer src="assets/js/sections/06-broll.js?v=1793200000"></script>
+<script defer src="assets/js/sections/07-cutout.js?v=1793200000"></script>
+<script defer src="assets/js/sections/08-lightbox.js?v=1793200000"></script>
+<script defer src="assets/js/sections/10-hero.js?v=1793200000"></script>
+<script defer src="assets/js/sections/55-mapa-data.js?v=1793200000"></script>
+<script defer src="assets/js/sections/55-mapa.js?v=1793200000"></script>
+<script defer src="assets/js/sections/56-trasy-data.js?v=1793200000"></script>
+<script defer src="assets/js/sections/57-trasy.js?v=1793200000"></script>
+<script defer src="assets/js/sections/92-social.js?v=1793200000"></script>
+<script defer src="assets/js/sections/95-kontakt.js?v=1793200000"></script>

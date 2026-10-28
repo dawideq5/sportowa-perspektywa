@@ -754,6 +754,30 @@ html.lb-open, html.lb-open body { overflow: hidden; }
 #ultra .ul-t { margin: 0; font-size: clamp(1.06rem, 1.5vw, 1.25rem); line-height: 1.45; max-width: 44ch; }
 #ultra .ul-more { margin: clamp(36px, 5vw, 56px) 0 0; max-width: 72ch; color: var(--ink-2); font-size: 1.06rem; line-height: 1.65; text-wrap: pretty; }
 @media (max-width: 700px) { #ultra .ul-list li { grid-template-columns: 1fr; } }
+#ultra .ul-list li { grid-template-columns: 64px minmax(0, 5fr) minmax(0, 7fr); }
+#ultra .ul-y { margin: 0; font-size: .85rem; color: var(--ink-2); }
+#ultra .ul-ring { display: inline-block; }
+/* ITRA: wskaźnik wypełnia się do 844 przy wejściu w widok */
+#ultra .ul-itra { display: grid; grid-template-columns: auto minmax(120px, 280px) auto; align-items: center; gap: 10px 18px; margin-top: 28px; text-decoration: none; width: fit-content; max-width: 100%; }
+#ultra .ul-itra-l { font-size: .85rem; color: var(--ink-2); }
+#ultra .ul-itra-bar { position: relative; height: 4px; border-radius: 4px; background: linear-gradient(90deg, #E4E4E1, #C9C9C4 55%, #D9A54A 80%, var(--accent)); }
+#ultra .ul-itra-bar i { position: absolute; top: 50%; left: 0; width: 12px; height: 12px; margin: -6px 0 0 -6px; border-radius: 50%; background: var(--bg); border: 2px solid var(--ink); transition: left 1.6s var(--ease) .2s; }
+#ultra .ul-itra.in .ul-itra-bar i { left: calc(var(--v) * 100%); }
+#ultra .ul-itra-v { font-weight: 500; }
+#ultra .ul-itra-v b { margin-left: 6px; font-size: .75rem; font-weight: 600; padding: 3px 8px; border-radius: 999px; background: var(--ink); color: #fff; vertical-align: 2px; }
+@media (max-width: 700px) {
+  #ultra .ul-list li { grid-template-columns: 1fr; gap: 6px; }
+  #ultra .ul-itra { grid-template-columns: 1fr auto; }
+  #ultra .ul-itra-l { grid-column: 1 / -1; }
+}
+#ultra .ul-now { display: flex; flex-wrap: wrap; align-items: center; gap: 20px 56px; margin-top: 40px; padding-top: 28px; border-top: 1px solid var(--line); }
+#ultra .ul-now .ul-itra { margin-top: 0; }
+#ultra .ul-season { margin: 0; font-size: .85rem; color: var(--ink-2); }
+#ultra .ul-season > span { margin-right: 8px; font-size: 1.5rem; font-weight: 500; color: var(--ink); letter-spacing: -.01em; vertical-align: -2px; }
+@media (max-width: 700px) {
+  #ultra .ul-itra { width: 100%; grid-template-columns: minmax(0, 1fr) auto; }
+  #ultra .ul-itra-bar { min-width: 140px; }
+}
 
 
 /* ---------- 30 historia: noc → świt ---------- */
@@ -841,6 +865,7 @@ html:not(.js) .story-ages li, html:not(.js) .story-grid i { opacity: 1; }
   #zasieg .zs-stats { grid-template-columns: 1fr; gap: 28px; }
   #zasieg .zs-posters { grid-auto-columns: 68%; }
 }
+#zasieg .zs-amt { display: block; margin-top: 2px; color: var(--ink); font-weight: 500; }
 
 
 /* ---------- 40 Współpraca ---------- */
@@ -870,6 +895,15 @@ html:not(.js) .story-ages li, html:not(.js) .story-grid i { opacity: 1; }
 #prelekcje .mw-ft { font-weight: 600; font-size: 1.15rem; }
 #prelekcje .mw-aw { font-size: .85rem; color: var(--ink-2); }
 @media (max-width: 800px) { #prelekcje .mw-talks, #prelekcje .mw-films { grid-template-columns: 1fr; } }
+/* ławka: chłopak sprzed lat najpierw wyblakły, potem przechodzi w kolor */
+#prelekcje .mw-bench { position: relative; aspect-ratio: 4 / 5 !important; }
+#prelekcje .mw-bench img { position: absolute; inset: 0; object-position: 50% 60%; }
+#prelekcje .mw-then { filter: grayscale(1) sepia(.35) contrast(.92) brightness(1.04); clip-path: inset(0 52% 0 0); transition: opacity 2.4s ease .9s; }
+#prelekcje .mw-talk.in .mw-then { opacity: 0; }
+#prelekcje .mw-bench figcaption { position: absolute; left: 16px; bottom: 16px; padding: 6px 12px; border-radius: 999px; background: rgba(255, 255, 255, .86); -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px); font-size: .82rem; font-weight: 500; }
+#prelekcje .mw-talks { align-items: start; }
+@media (min-width: 801px) { #prelekcje .mw-talk:nth-child(2) figure { aspect-ratio: 4 / 5; } }
+#prelekcje .mw-film { align-content: start; }
 
 
 /* ---------- Rekordy ---------- */
@@ -1624,6 +1658,7 @@ html.mp-lb-lock { overflow: hidden; }
 @media (prefers-reduced-motion: reduce) {
   .so-img img, .so-cap { transition: none; }
 }
+#na-biezaco.sec { padding-block: var(--sec); }
 
 
 /* ---------- 95 Kontakt ---------- */
