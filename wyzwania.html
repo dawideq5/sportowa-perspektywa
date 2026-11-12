@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,100..125,300..600;1,100,400..600&family=Barlow+Condensed:wght@500;600&family=Oswald:wght@600&family=Newsreader:ital,wght@1,300;1,400&display=swap">
-<link rel="stylesheet" href="assets/css/style.css?v=1793200858">
+<link rel="stylesheet" href="assets/css/style.css?v=1794474591">
 <a class="skip" href="#main">Przejdź do treści</a>
 
 <header class="hdr m-light" id="hdr">
@@ -19,11 +19,10 @@
       <span class="hdr-name"><span>Sportowa</span> <span>Perspektywa</span></span>
     </a>
     <ul class="hdr-links">
-      <li><a href="wyzwania.html" aria-current="page">Wyzwania</a></li>
-      <li><a href="pomaganie.html">Pomaganie</a></li>
-      <li><a href="prelekcje.html">Prelekcje</a></li>
-      <li><a href="wspolpraca.html">Współpraca</a></li>
       <li><a href="media.html">Media</a></li>
+      <li><a href="wyzwania.html" aria-current="page">Wyzwania</a></li>
+      <li><a href="wspolpraca.html">Współpraca</a></li>
+      <li><a href="prelekcje.html">Prelekcje</a></li>
     </ul>
     <ul class="hdr-soc" aria-label="Media społecznościowe">
       <li><a href="https://www.linkedin.com/in/andrzej-kowalczyk-556965226" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="-1.4 -1.4 26.8 26.8" width="20" height="20" fill="currentColor" aria-hidden="true" focusable="false"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45ZM22.23 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0h.01Z"/></svg></a></li>
@@ -38,12 +37,10 @@
 <div class="hdr-menu" id="hdrMenu" hidden>
   <ul>
     <li><a href="index.html">Start</a></li>
-    <li><a href="wyzwania.html" aria-current="page">Wyzwania</a></li>
-    <li><a href="backyard.html">Backyard na Dziko</a></li>
-    <li><a href="pomaganie.html">Pomaganie</a></li>
-    <li><a href="prelekcje.html">Prelekcje</a></li>
-    <li><a href="wspolpraca.html">Współpraca</a></li>
     <li><a href="media.html">Media</a></li>
+    <li><a href="wyzwania.html" aria-current="page">Wyzwania</a></li>
+    <li><a href="wspolpraca.html">Współpraca</a></li>
+    <li><a href="prelekcje.html">Prelekcje</a></li>
     <li><a href="#kontakt">Kontakt</a></li>
   </ul>
   <ul class="hdr-msoc" aria-label="Media społecznościowe">
@@ -153,6 +150,43 @@
   </section>
 </div>
 
+<!-- ============ TRASY: teren 3D (three.js ładowany leniwie w 57-trasy.js) ============ -->
+<section class="ts" id="trasy" aria-labelledby="ts-h">
+  <div class="wrap ts-head">
+    <header class="sec-head rv">
+      <h2 class="h2" id="ts-h"><span data-fx="gory">Góry</span> z bliska.</h2>
+    </header>
+  </div>
+  <div class="ts-stage" id="tsStage">
+    <div class="ts-view" id="tsView">
+      <img class="ts-fallback" id="tsFallback" src="assets/img/trasy/gss-poster.webp" width="1600" height="900" alt="" aria-hidden="true" loading="lazy" decoding="async">
+      <div class="ts-labels" id="tsLabels" aria-hidden="true"></div>
+      <p class="ts-credit">© OpenStreetMap · Mapzen Terrain</p>
+    </div>
+    <div class="wrap ts-ui">
+      <div class="chips ts-chips" id="tsChips" role="group" aria-label="Trasy">
+        <button class="chip" type="button" data-k="gss" aria-pressed="true">GSS</button>
+        <button class="chip" type="button" data-k="gsb" aria-pressed="false">GSB</button>
+        <button class="chip" type="button" data-k="loop" aria-pressed="false">The Loop</button>
+        <button class="chip" type="button" data-k="msb" aria-pressed="false">MSB</button>
+        <button class="chip" type="button" data-k="tatry" aria-pressed="false">2×Harda</button>
+      </div>
+      <div class="ts-info" id="tsInfo" aria-live="polite"></div>
+      <figure class="ts-prof" id="tsProf">
+        <svg class="ts-svg" id="tsSvg" role="img" aria-label="Profil wysokości trasy"></svg>
+        <div class="ts-axis" id="tsAxis" aria-hidden="true"></div>
+        <div class="ts-tip tnum" id="tsTip" aria-hidden="true"></div>
+        <div class="ts-split" id="tsSplit" hidden>
+          <span class="sw" style="--w:10"><i>pływanie 10 km</i></span>
+          <span class="bk" style="--w:480"><i>rower 480 km</i></span>
+          <span class="rn" style="--w:110"><i>bieg 110 km</i></span>
+        </div>
+      </figure>
+    </div>
+  </div>
+</section>
+
+
 <!-- ============ MAPA ============ -->
 <section class="sec alt" id="mapa">
   <div class="wrap">
@@ -204,18 +238,19 @@
   </div>
 </footer>
 
-<script defer src="assets/js/base.js?v=1793200858"></script>
-<script defer src="assets/js/data.js?v=1793200858"></script>
-<script defer src="assets/js/sections/00-header.js?v=1793200858"></script>
-<script defer src="assets/js/sections/03-fx.js?v=1793200858"></script>
-<script defer src="assets/js/sections/04-foto.js?v=1793200858"></script>
-<script defer src="assets/js/sections/06-broll-data.js?v=1793200858"></script>
-<script defer src="assets/js/sections/06-broll.js?v=1793200858"></script>
-<script defer src="assets/js/sections/07-cutout.js?v=1793200858"></script>
-<script defer src="assets/js/sections/08-lightbox.js?v=1793200858"></script>
-<script defer src="assets/js/sections/11-cytaty-data.js?v=1793200858"></script>
-<script defer src="assets/js/sections/55-mapa-data.js?v=1793200858"></script>
-<script defer src="assets/js/sections/55-mapa.js?v=1793200858"></script>
-<script defer src="assets/js/sections/56-trasy-data.js?v=1793200858"></script>
-<script defer src="assets/js/sections/95-kontakt.js?v=1793200858"></script>
-<script defer src="assets/js/pages/wyzwania.js?v=1793200858"></script>
+<script defer src="assets/js/base.js?v=1794474591"></script>
+<script defer src="assets/js/data.js?v=1794474591"></script>
+<script defer src="assets/js/sections/00-header.js?v=1794474591"></script>
+<script defer src="assets/js/sections/03-fx.js?v=1794474591"></script>
+<script defer src="assets/js/sections/04-foto.js?v=1794474591"></script>
+<script defer src="assets/js/sections/06-broll-data.js?v=1794474591"></script>
+<script defer src="assets/js/sections/06-broll.js?v=1794474591"></script>
+<script defer src="assets/js/sections/07-cutout.js?v=1794474591"></script>
+<script defer src="assets/js/sections/08-lightbox.js?v=1794474591"></script>
+<script defer src="assets/js/sections/11-cytaty-data.js?v=1794474591"></script>
+<script defer src="assets/js/sections/55-mapa-data.js?v=1794474591"></script>
+<script defer src="assets/js/sections/55-mapa.js?v=1794474591"></script>
+<script defer src="assets/js/sections/56-trasy-data.js?v=1794474591"></script>
+<script defer src="assets/js/sections/57-trasy.js?v=1794474591"></script>
+<script defer src="assets/js/sections/95-kontakt.js?v=1794474591"></script>
+<script defer src="assets/js/pages/wyzwania.js?v=1794474591"></script>
